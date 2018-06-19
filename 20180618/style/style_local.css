@@ -1,0 +1,11 @@
+body {width: 80%;margin: 0 auto;line-height:180%;}
+*, h1, h2, h3 {font-family: 'Hiragino Kaku Gothic ProN', meiryo, 'IPAPGothic', sans-serif;}
+h1 {font-size: 160%;}
+h2 {font-size: 140%;}
+h3 {font-size: 120%;padding-left:10px;}
+li li{padding-bottom:0.8em;}
+td, th {font-size: 80%;}
+img {display: block;margin: auto;}
+table{max-width: 90%;margin: 0 auto;}
+.eq{text-align:center;padding-bottom:2em;}
+.display{display:inline-block;text-align:center;width:100%;}
