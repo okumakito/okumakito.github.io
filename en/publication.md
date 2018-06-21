@@ -62,6 +62,8 @@ Conference papers
 Others
 ------
 
+* M. Oku: Branching embedding: A heuristic dimensionality reduction algorithm based on hierarchical clustering, arXiv, 1805.02161 (2018). https://arxiv.org/abs/1805.02161
+
 * K. Aihara, T. Yamada, and M. Oku: Chaotic Neural Networks and Beyond, A. Adamatzky and G. Chen (eds.), 'Chaos, CNN, Memristors and Beyond,' World Scientific, pp. 259-270 (2013). http://dx.doi.org/10.1142/9789814434805_0021
 
 

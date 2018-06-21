@@ -7,5 +7,3 @@
 
   * [日本語](../jp)
   * [English](../en)
-
-[gimmick:math]()
