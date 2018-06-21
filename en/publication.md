@@ -1,6 +1,8 @@
 Publications
 ============
 
+Note: Japanese publications are listed [**here**](../jp/#!publication.md)
+
 Journal papers
 --------------
 
