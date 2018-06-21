@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>document</title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+<link type="text/css" rel="stylesheet" href="style/bootstrap.min_mod.css">
+<link type="text/css" rel="stylesheet" href="style/style_local.css">
+</head>
+<body>
+<h1 id="高次元データの点間距離の分布-20161027">高次元データの点間距離の分布 (2016/10/27)</h1>
+<h2 id="説明">説明</h2>
+<ul>
+<li><p>球面集中現象について調べていたところ、「高次元空間にデータ点が分布しているとき、ある点に注目すると、その点から他の点までの距離はどれもほぼ同じような値になる」という主張を見かけた。詳細は <a href="../20161025/memo.html">別ページ</a>を参照。</p></li>
+<li><p>球面集中現象との関係はさておき、そもそもこの主張自体が本当に正しいのかどうか、数値計算により調べてみた。</p></li>
+<li><p>参照点を \((1,0,...,0)\) とし、そこから他の10000点までの距離の分布がデータの次元によりどう変化するかを調べた。</p></li>
+<li><p>結論としては、距離のスケールが \(n\) によらず一定となるような状況では、上記の主張は正しいようだ。</p></li>
+</ul>
+<h2 id="球面上一様分布ユークリッド距離の場合">球面上、一様分布、ユークリッド距離の場合</h2>
+<ul>
+<li>これは Lévy family (次元が大きくなると集中率 \(\alpha\)が0に近付くもの) なので、参照点からの距離は次元が大きくなるほど中央値付近に集中することが分かっている。実際にそうなっていることが数値計算により確認出来た。</li>
+</ul>
+<img src="figs/fig_sphere_euclidean.png" width=60%>
+<h2 id="球面上一様分布測地距離の場合">球面上、一様分布、測地距離の場合</h2>
+<ul>
+<li>距離の測り方を変えて球面上の最短弧長で計算した場合も、Lévy family になることが知られている。やはり次元が大きくなるほど分布の幅が狭くなっている。</li>
+</ul>
+<img src="figs/fig_sphere_geodesic.png" width=60%>
+<h2 id="rn上ガウス分布ユークリッド距離の場合">\(R^n\)上、ガウス分布、ユークリッド距離の場合</h2>
+<ul>
+<li><p>これは集中率 \(\alpha\)が \(n\) に依存しないケースで、実際に数値計算をしてみると距離の分布の形は \(n\) によらずほぼ一定で、中心の位置だけが横にずれていく様子が観察された。</p></li>
+<li><p>高次元になるほど近傍点が見つかりにくくなるのは間違いないが、距離がある一定値に集中する、という言い方がこの場合果たして適切と言えるかどうかは分からない。</p></li>
+</ul>
+<img src="figs/fig_gaussian_euclidean.png" width=60%>
+<h2 id="n上一様分布ユークリッド距離の場合">\([0,1]^n\)上、一様分布、ユークリッド距離の場合</h2>
+<ul>
+<li>上とよく似た例としてハイパーキューブ内の一様分布も調べた。傾向は同じで、距離の分布の形は \(n\) によらずにほぼ一定で、平均値だけが変化していた。</li>
+</ul>
+<img src="figs/fig_cube_euclidean.png" width=60%>
+<h2 id="n上一様分布ハミング距離の場合">\(\{0,1\}^n\)上、一様分布、ハミング距離の場合</h2>
+<ul>
+<li>二値変数の場合も調べた。ハミング距離の分布は \(n\) が大きくなるほど広がり、平均も大きくなっている。</li>
+</ul>
+<img src="figs/fig_binary_hamming.png" width=60%>
+<h2 id="n上一様分布正規化ハミング距離の場合">\(\{0,1\}^n\)上、一様分布、正規化ハミング距離の場合</h2>
+<ul>
+<li><p>ハミング距離の最大値が1となるよう正規化すると Lévy family になるという記述を見かけたので試してみた。\(n\) が大きくなるにつれ距離の分布が0.5に集中していく様子が見られる。</p></li>
+<li><p>これは具体的に状況をイメージしやすく、長いバイナリ列同士を比較すれば、大体半分程度が一致し、残り約半分が反転している、という状況が起こりやすいのは直感と合っている。</p></li>
+</ul>
+<img src="figs/fig_binary_normalized_hamming.png" width=60%>
+<h2 id="rn上ガウス分布正規化ユークリッド距離の場合と-01n上一様分布正規化ユークリッド距離の場合">\(R^n\)上、ガウス分布、正規化ユークリッド距離の場合と \([0,1]^n\)上、一様分布、正規化ユークリッド距離の場合</h2>
+<ul>
+<li><p>距離を正規化すると良いと分かったので、ガウシアンとハイパーキューブの場合についても正規化距離に変えてみた。\(n\) が大きくなるにつれ距離の分布が狭まっているのが分かる。</p></li>
+<li><p>なお、ガウシアンの方は距離の最大値というものが存在しないので、ハイパーキューブと同様に \(\sqrt{n}\) で割ったが、どうやらこれで良かったようだ。</p></li>
+<li><p>また、参照点の位置を変えると分布の変化の様子が変わるものの、分布の幅が狭くなっていくという意味では同じだった。</p></li>
+</ul>
+<img src="figs/fig_gaussian_normalized_euclidean.png" width=60%>
+<img src="figs/fig_cube_normalized_euclidean.png" width=60%>
+<h2 id="計算に用いたプログラムのソースコード">計算に用いたプログラムのソースコード</h2>
+<ul>
+<li>参考までにソースコードを載せる。Python3で書いた。</li>
+</ul>
+<pre><code>import sys
+import numpy as np
+import matplotlib.pyplot as plt
+
+def generate_data(n_dim, n_samples, data_type):
+
+  if data_type == &#39;sphere&#39;:
+    data_arr = 2 * np.random.randn(n_samples, n_dim) - 1
+    norm_arr = np.linalg.norm(data_arr, axis=1)
+    data_arr /= norm_arr[:, np.newaxis]
+  elif data_type == &#39;gaussian&#39;:
+    data_arr = np.random.randn(n_samples, n_dim)
+  elif data_type == &#39;cube&#39;:
+    data_arr = np.random.rand(n_samples, n_dim)
+  elif data_type == &#39;binary&#39;:
+    data_arr = np.random.randint(2, size=(n_samples, n_dim))
+  else:
+    raise ValueError(&quot;data_type must be &#39;sphere&#39;, &#39;gaussian&#39;, &#39;cube&#39;, or &#39;binary&#39;.&quot;)
+  return data_arr
+
+def calculate_distances(data_arr, ref_pos, dist_type):
+  if dist_type == &#39;euclidean&#39;:
+    dist_arr = np.linalg.norm(data_arr - ref_pos, axis=1)
+  elif dist_type == &#39;normalized-euclidean&#39;:
+    dist_arr = np.linalg.norm(data_arr - ref_pos, axis=1) / np.sqrt(len(ref_pos))
+  elif dist_type == &#39;hamming&#39;:
+    dist_arr = np.abs(data_arr - ref_pos).sum(axis=1)
+  elif dist_type == &#39;normalized-hamming&#39;:
+    dist_arr = np.abs(data_arr - ref_pos).sum(axis=1) / len(ref_pos)
+  elif dist_type == &#39;geodesic&#39;:
+    dist_arr = np.arccos(np.dot(data_arr, ref_pos))
+  else:
+    raise ValueError(&quot;dist_type must be &#39;euclidean&#39;, &#39;normalized-euclidean&#39;, &#39;hamming&#39;, &#39;normalized-hamming&#39;, or &#39;geodesic&#39;.&quot;)
+  return dist_arr
+
+
+def test_concentration_of_measure(data_type, dist_type):
+
+  # simulation parameters
+  n_dim_list   = [2, 10, 100, 500]
+  n_samples    = 10000
+
+  # plot options
+  bins         = 100
+  alpha        = 0.5
+  fontsize     = 20
+
+
+  ### calculate distribution of distances  ###
+  dist_arr_list = []
+  for n_dim in n_dim_list:
+
+    # generate data points
+    data_arr = generate_data(n_dim, n_samples, data_type)
+
+    # set the reference position to (1,0,0,...,0)
+    ref_pos = np.zeros(n_dim)
+    ref_pos[0] = 1.0
+
+    # calculate distances to the reference
+    dist_arr = calculate_distances(data_arr, ref_pos, dist_type)
+
+    dist_arr_list.append(dist_arr)
+
+  # range of the distribution
+  d_min = np.min(dist_arr_list)
+  d_max = np.max(dist_arr_list)
+
+
+  ### plot histogram  ###
+  fig, ax = plt.subplots(figsize=(8,6), facecolor=&#39;white&#39;)
+
+  for n_dim, dist_arr in zip(n_dim_list, dist_arr_list):
+    label = &#39;n={}&#39;.format(n_dim)
+    ax.hist(dist_arr, bins=bins, histtype=&#39;stepfilled&#39;, range=(d_min, d_max),
+            lw=0, alpha=alpha, normed=True, label=label)
+
+  # plot settings
+  ax.set_title(data_type.title() + &#39;, &#39; + dist_type.title(), 
+               fontsize=fontsize)
+  ax.set_xlabel(&#39;Distance to (1,0,...,0)&#39;, fontsize=fontsize)
+  ax.set_ylabel(&#39;Density&#39;, fontsize=fontsize)
+  ax.spines[&#39;top&#39;].set_visible(False)
+  ax.spines[&#39;right&#39;].set_visible(False)
+  ax.xaxis.tick_bottom()
+  ax.yaxis.tick_left()
+  ax.tick_params(direction=&#39;out&#39;, pad=5)
+  ax.tick_params(labelsize=fontsize)
+  plt.legend(frameon=False)
+  fig.tight_layout()
+  plt.show()
+  plt.savefig(&#39;fig.png&#39;)
+
+
+if __name__ == &#39;__main__&#39;:
+  data_type = sys.argv[1] # &#39;sphere&#39;, &#39;gaussian&#39;, &#39;cube&#39;, or &#39;binary&#39;
+  dist_type = sys.argv[2] # &#39;euclidean&#39;, &#39;normalized-euclidean&#39;, &#39;hamming&#39;, &#39;normalized-hamming&#39;, or &#39;geodesic&#39;
+  test_concentration_of_measure(data_type, dist_type)</code></pre>
+</body>
+</html>

@@ -1,0 +1,69 @@
+p, ul li, ol li, td, tr, h1, .small {
+  font-family: 'Hiragino Kaku Gothic ProN', meiryo, 'IPAPGothic', sans-serif;
+}
+
+p, ul li, ol li{
+  font-size: 120%;
+}
+
+td, tr { 
+  font-size: 90%;
+}
+
+.remark-slide-content h1{ 
+  font-size: 250%; 
+}
+
+strong {
+  color: #ff0066;
+}
+
+h1 {
+    padding: 15px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #339933;
+    -webkit-border-radius: 10px;
+}
+
+.footnote {
+    position: absolute;
+    bottom: 3em;
+}
+
+.space {
+    margin-top: -2em;
+}
+
+code {
+    color: inherit;
+    background-color: transparent;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+li { font-size: 150%; }
+li p{ font-size: 100%; }
+ul ul { font-size: 83%; }
+ul ol { font-size: 83%; }
+ol ul { font-size: 83%; }
+ol ol { font-size: 83%; }
+
+/* .table-bordered
+.table-bordered table{border:1px solid #ddd}
+.table-bordered table>thead>tr>th,.table-bordered table>tbody>tr>th,.table-bordered table>tfoot>tr>th,.table-bordered table>thead>tr>td,.table-bordered table>tbody>tr>td,.table-bordered table>tfoot>tr>td{border:1px solid #ddd}
+.table-bordered table>thead>tr>th,.table-bordered table>thead>tr>td{border-bottom-width:2px}
+*/
+
+/* .table */
+.table-bordered table{max-width:100%;background-color:transparent}
+th{text-align:left}
+.table-bordered table{width:100%;margin-bottom:20px}
+.table-bordered table>thead>tr>th,.table-bordered table>tbody>tr>th,.table-bordered table>tfoot>tr>th,.table-bordered table>thead>tr>td,.table-bordered table>tbody>tr>td,.table-bordered table>tfoot>tr>td{padding:8px;line-height:1.428571429;vertical-align:top;border-top:1px solid #ddd}
+.table-bordered table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd}
+.table-bordered table>caption+thead>tr:first-child>th,.table-bordered table>colgroup+thead>tr:first-child>th,.table-bordered table>thead:first-child>tr:first-child>th,.table-bordered table>caption+thead>tr:first-child>td,.table-bordered table>colgroup+thead>tr:first-child>td,.table-bordered table>thead:first-child>tr:first-child>td{border-top:0}
+.table-bordered table>tbody+tbody{border-top:2px solid #ddd}
+.table-bordered table table{background-color:#fff}

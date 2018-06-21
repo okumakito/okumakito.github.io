@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>poster</title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="wrapper">
+<div id="header">
+<h1>動的ネットワークバイオマーカーとは?</h1>
+奥 牧人<br>
+東京大学 生産技術研究所
+</div> <!-- header -->
+
+<div id="left">
+
+<div class="block">
+<h1>動的ネットワークバイオマーカーとは?</h1>
+動的ネットワークバイオマーカー (Dynamical Network Biomarker, DNB) 法とは、数学のアイデアから生まれた新しい解析手法です。<br>
+　この手法を使うと、病気になる前の段階でその<strong>予兆を検出</strong>したり、沢山の遺伝子やタンパク質の中から、病気の発症メカニズムに関係する<strong>重要な因子を発見</strong>したりするのに役立つと期待されています。
+</div>
+
+<div class="block">
+<h1>基本的なアイデア</h1>
+生態系や金融市場などの複雑システムでは、何か大きな変化が起こる直前に<strong>揺らぎが増える</strong>ことがよくあります。これは、システムを正常な状態に保つ力（<strong>回復力</strong>）が低下し、外乱に対し弱くなっているのが一因です。<br>
+　同じことが病気の発症前にも当てはまるのではないかと考え、作り出された解析手法がDNB法です。
+<img src="figs/fig03.png" width=70%>
+通常の解析法と異なり、DNB法では平均値ではなく分散・標準偏差の変化に着目します。
+<img src="figs/fig04.png" width=60%>
+さらに、複数のバイオマーカー候補がある場合、注目している期間で動きのパターンが似たもの (相関が強いもの) のみを取り出す点にも特徴があります。
+</div>
+
+
+<div class="block">
+<h1>理論的な背景</h1>
+システムの時間発展が以下の式で表されるケースを考えます:
+\[
+ x_{t+1} = f(x_t) + \xi_t.
+\]
+ここで $x_t\in\mathbb{R}^n$ は時刻 $t$ の状態変数、$f:\mathbb{R}^n\to\mathbb{R}^n$ は非線形関数、$\xi_t\in\mathbb{R}^n$ は $\mathcal{N}(0,\sigma^2I_n)$ に従う微小なノイズです。ノイズが無い場合の安定固定点を $a$ で表し、その点におけるヤコビ行列を $J\in\mathbb{R}^{n\times n}$ で表します。$J$ が正規行列の場合、その固有値 $\lambda_1,\ldots,\lambda_n$ および固有ベクトル $s_1,\ldots,s_n$ を用いて、$x$ の定常分布の共分散行列は以下で表されます:
+\[
+ \mathrm{Cov}(x) = \sigma^2\sum_{k=1}^n\frac{s_k s_k^*}{1-|\lambda_k|^2}.
+\]
+ある固有値 $\lambda_k$ の絶対値が1に近いとき、対応する固有ベクトル $s_k$ の特に絶対値が大きな成分が共分散行列に強い影響を与えることが分かります。
+</div>
+
+</div> <!-- left -->
+<div id="right">
+
+<div class="block">
+<h1>解析の手順</h1>
+大きく2つの方法があります。<br>
+1つ目の方法では、(1) 全遺伝子の中から標準偏差の大きなものを取り出し、(2) 残ったものを相関係数を使ってクラスタリングして、候補遺伝子を取り出します。
+<img src="figs/fig06.png" width=80%>
+もう一つの方法では、データ行列を主成分分析にかけ、第一主成分への寄与度が高かったものを候補遺伝子として取り出します。
+<img src="figs/fig07.png" width=80%>
+</div>
+
+<div class="block">
+<h1>適用例</h1>
+以下の例は、公開データ (GSE2565) を解析した結果です。通常の発現変動遺伝子解析 (上) では、異なる条件間で系統的に発現量が変化する遺伝子を取り出すのに対し、DNB法 (下、発現変動遺伝子は除外) では、同じ条件内でサンプル毎に発現量が異なる遺伝子を取り出します。
+<img src="figs/fig08.png" width=85%> <!-- convert -crop 770x370+15+15 -->
+<img src="figs/fig09.png" width=85%> <!-- convert -crop 770x370+15+15 -->
+</div>
+
+<div class="block">
+<h1>参考文献</h1>
+<ul>
+<li>L. Chen, R. Liu, Z.-P. Liu, M. Li, K. Aihara, "Detecting early-warning
+ signals for sudden deterioration of complex diseases by dynamical
+ network biomarkers," Scientific Reports, 2:342 (2012). </li>
+</ul>
+</div>
+
+</div> <!-- right -->
+</div> <!-- wrapper -->
+</body>
+</html>

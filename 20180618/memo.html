@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="pandoc">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>memo</title>
+<link type="text/css" rel="stylesheet" href="style/bootstrap.min_mod.css">
+<link type="text/css" rel="stylesheet" href="style/style_local.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css" /><script type="text/javascript">window.onload = function(){var mathElements = document.getElementsByClassName("math");
+  for (var i=0; i < mathElements.length; i++)
+  {
+   var texText = mathElements[i].firstChild
+   katex.render(texText.data, mathElements[i])
+  }}
+</script>
+</head>
+<body>
+<h1 id="a-brief-proof-of-the-holms-method-20180618">A brief proof of the Holm's method (2018/06/18)</h1>
+<h2 id="the-holms-method">The Holm's method</h2>
+<ul>
+<li><p>The Holm's method (also known as the Holm-Bonferroni method) is a method for controlling the familywise error rate (FWER) in multiple comparisons.</p></li>
+<li><p>It is less conservative than the Bonferroni's method; that is, more comparisons are judged as significant in the Holm's method than in the Bonferroni's method.</p></li>
+<li><p>The reason for this discrepancy comes from the fact that the Holm's method implicitly considers the number of comparisons where the alternative hypothesis is true, whereas the Bonferroni's method does not.</p></li>
+<li>Procedure:
+<ul>
+<li>For sorted p-values <span class="math inline">p_1\leq p_2\leq\cdots\leq p_n</span> and a given significance level <span class="math inline">\alpha</span>, select p-values iteratively from the smallest one as long as the criterion <span class="math inline">p_i\leq \alpha/(n-i+1)</span> is met.</li>
+<li>Stop the iteration at the first violation of the criterion.</li>
+<li>Reject the hypotheses corresponding to the selected p-values.</li>
+</ul></li>
+<li><p>I here give a brief proof why the Holm's method is able to control the FWER.</p></li>
+</ul>
+<h2 id="a-brief-proof">A brief proof</h2>
+<ul>
+<li><p>Assume that the null hypothesis is true for <span class="math inline">n_0</span> comparisons and the alternative hypothesis is true for the remaining <span class="math inline">n-n_0</span> comparisons.</p></li>
+<li><p>Let <span class="math inline">I_0</span> denote the index set corresponding to the comparisons where the null hypothesis is true. We then write:</p>
+<p><span class="math display">\displaystyle i^*=\arg\min_{i\in I_0}p_i.</span></p></li>
+<li><p>An upper bound of the FWER for the Holm's method is derived as follows (explanations are given after the equations):</p>
+<p><span class="math display">\displaystyle \begin{array}{ccl}
+\mathrm{FWER} &amp;=&amp; \mathbb{P}(\mathrm{FP}\geq 1),\\
+&amp;\leq&amp; \mathbb{P}(p_{i^*}\leq\frac{\alpha}{n-i^*+1}),\\
+&amp;\leq&amp; \mathbb{P}(p_{i^*}\leq\frac{\alpha}{n_0}),\\
+&amp;=&amp; \mathbb{P}\left(\bigcup_{i\in I_0}(p_i\leq\frac{\alpha}{n_0})\right),\\
+&amp;\leq&amp; \sum_{i\in I_0}\mathbb{P}(p_i\leq\frac{\alpha}{n_0}),\\
+&amp;=&amp; n_0\times\frac{\alpha}{n_0},\\
+&amp;=&amp; \alpha.
+\end{array}</span></p>
+<ul>
+<li>Line 1: The FWER is, by definition, the probability that at least one false positive (FP) occurs.</li>
+<li>Line 2: The occurrence of FP(s) implies that <span class="math inline">p_{i^*}</span> meets the criterion. This can be seen from its contraposition that if <span class="math inline">p_{i^*}</span> does not satisfy the criterion, the iteration must stop there according to the Holm's method, and thus no other comparisons where the null hypothesis is true are evaluated.</li>
+<li>Line 3: Since all p-values less than or equal to <span class="math inline">p_{i^*}</span> (excluding itself) are corresponding to the alternative hypothesis, whose number is at most <span class="math inline">n-n_0</span>, we obtain <span class="math inline">i^*-1\leq n-n_0</span>. This gives <span class="math inline">\alpha/(n-i^*+1)\leq\alpha/n_0</span>.</li>
+<li><p>Line 4: The condition that the <em>minimum</em> p-value is less than or equal to <span class="math inline">\alpha/n_0</span> is equivalent to the condition that <em>at least one</em> p-value is less than or equal to <span class="math inline">\alpha/n_0</span>.</p></li>
+<li><p>Line 5: We here used the Boole's inequality.</p></li>
+<li><p>Line 6: The cardinality of <span class="math inline">I_0</span> is <span class="math inline">n_0</span>.</p></li>
+</ul></li>
+</ul>
+</body>
+</html>

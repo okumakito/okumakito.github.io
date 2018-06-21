@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>document</title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+<link type="text/css" rel="stylesheet" href="style/bootstrap.min_mod.css">
+<link type="text/css" rel="stylesheet" href="style/style_local.css">
+</head>
+<body>
+<h1 id="多次元のランダムな相関ノイズの生成方法-20160115">多次元のランダムな相関ノイズの生成方法 (2016/01/15)</h1>
+<h2 id="説明">説明</h2>
+<ul>
+<li><p>多次元の相関ノイズは、共分散行列または相関行列が与えられていればコレスキー分解を用いて生成出来る。</p></li>
+<li><p>一方、共分散行列または相関行列をランダムに生成する場合は、行列が半正定値かつ対称となるよう注意が必要である。</p></li>
+<li><p>ランダムな半正定値対称行列の生成法は多数あるが、その多くは次元が増加するにつれ非対角項の絶対値が小さくなるという問題を抱えている。</p></li>
+<li><p>このページでは、次元が大きい場合でも十分な強度の相関を持つノイズを生成するための2つの方法を紹介する。前者は<a href="http://stats.stackexchange.com/questions/2746/how-to-efficiently-generate-random-positive-semidefinite-correlation-matrices">こちらのHP</a>で紹介されているものを改めて説明したものである。</p></li>
+<li><p>(2016/12/01追記) これらに加えて、正定値カーネルを用いる方法もあることに気付いたので、方法3として書き加えた。</p></li>
+</ul>
+<h1 id="方法1">方法1</h1>
+<ul>
+<li><p>変数の次元を\(n\)とし、\(n\times k\, (k&lt;n)\)のランダム行列\(A\)を用意し、以下の式でノイズを生成する。</p>
+<p>\[\begin{align} 
+r = \alpha A r_1 + \beta r_2.
+\end{align}\]</p></li>
+<li><p>ここで、\(\alpha,\,\beta\geq 0\)はパラメータ、\(r_1\in\mathrm{R}^k\), \(r_2\in\mathrm{R}^n\)はそれぞれ独立ノイズである。</p></li>
+<li><p>この方法で生成されたノイズ\(r\in\mathrm{R}^n\)の共分散行列は以下のようになる。</p>
+<p>\[\begin{align} 
+C = \alpha^2 A A^\mathrm{T} + \beta^2 I.
+\end{align}\]</p></li>
+<li><p>共分散行列でなく相関行列を使いたい場合は、Aの各行を正規化して二乗和が1となるようにしておき、また\(\alpha^2+\beta^2=1\)となるように設定すれば良い。</p></li>
+<li><p>注意として、\(k\)を大きくし過ぎると非対角項の絶対値が小さくなってしまうため、\(k\)は比較的小さい値に設定する必要がある。</p></li>
+<li><p>この方法は極めて簡単だが、少数の独立ノイズの線形変換で作っているため、相関構造がやや不自然という問題がある。</p></li>
+</ul>
+<h1 id="方法2">方法2</h1>
+<ul>
+<li><p>変数の次元を\(n\)とし、\(n\times n\)のランダム行列\(A\)を用意し、以下の式で共分散行列を生成する。</p>
+<p>\[\begin{align} 
+C = (A A^\mathrm{T} + \alpha I)^{-1}.
+\end{align}\]</p></li>
+<li><p>ここで\(\alpha\geq 0\)はパラメータである。\(\alpha\)が大きいと相関が弱くなり、小さいと強くなる。</p></li>
+<li><p>後は、コレスキー分解をしてノイズを生成すれば良い。共分散行列でなく相関行列を使いたい場合は、変換してから使えば良い (\(C&#39; = \mathrm{diag}(C)^{-1/2}C\,\mathrm{diag}(C)^{-1/2}\)).</p></li>
+</ul>
+<h1 id="方法3">方法3</h1>
+<ul>
+<li><p>変数の次元を \(n\) とし、ランダムなデータ \(\{x_1,x_2,\ldots,x_n\}\) および正定値カーネル \(K\) を用意し、それらで定まるグラム行列を共分散行列として用いる。</p>
+<p>\[\begin{align} 
+C_{ij} = K(x_i,x_j).
+\end{align}\]</p></li>
+<li><p>例えば、データを2次元平面の座標値とし、ガウスカーネルを用いるなどの使い方が考えられる。</p></li>
+<li><p>なお、線形カーネルの場合は、方法1で \(\beta=0\) の場合と一致する。</p></li>
+</ul>
+</body>
+</html>
