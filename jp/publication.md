@@ -44,8 +44,7 @@ M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, and K. Aihara: Parallel Simulation of 
 * 奥 牧人: 遺伝子発現量データ解析の基礎, 和漢研年報, 44:2-11 (2018). to appear.
 
 * 合原 一幸, 平田 祥人, 奥 牧人: 複雑生命系とビッグデータ解析, 実験医学, 34(5):728-732 (2016). http://mol.medicalonline.jp/library/journal/abstract?GoodsID=ai4jigkb/2016/003405/012
-
-* K. Aihara, Y. Hirata, and M. Oku: Complex Life Systems and Big Data Analysis, JIKKEN IGAKU, 34(5):728-732 (2016).
+K. Aihara, Y. Hirata, and M. Oku: Complex Life Systems and Big Data Analysis, JIKKEN IGAKU, 34(5):728-732 (2016).
 
 * 奥 牧人: FIRST合原最先端数理モデルプロジェクトの紹介, JSIAM Online Magazine, Article: D1401A (2014). http://jom.jsiam.org/11370
 
@@ -57,7 +56,7 @@ M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, and K. Aihara: Parallel Simulation of 
 予稿なし発表
 ------------
 
-* 奥 牧人, 小泉 桂一, 林 周作, 門脇 真, 合原 一幸: 数理科学と和漢薬研究からの挑戦：｢未病｣状態の検出から新たな治療戦略の構築へ (口頭発表), 日本薬学会第136年会, 2016/03/29, 横浜.
+* 奥 牧人, 小泉 桂一, 林 周作, 門脇 真, 合原 一幸: 数理科学と和漢薬研究からの挑戦：｢未病｣状態の検出から新たな治療戦略の構築へ (口頭発表), 日本薬学会第136年会, 2016/03/29, 横浜. http://nenkai.pharm.or.jp/136/pc/spdfview.asp?i=463
 
 * 奥 牧人: 画像情報を用いた連想記憶ダイナミクス (口頭発表), 情報とダイナミクスIV研究集会「符号と力学系IV〜重合せ・揺らぎ・独立」, 2012/03/16, 佐賀.
 
