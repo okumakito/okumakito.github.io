@@ -6,16 +6,16 @@ Note: 英文の発表リストは[**こちら**](../en/#!publication.md)
 学術雑誌論文 (和文)
 -------------------
 
-* 中丸 智貴, 合原 一幸, 奥 牧人: 多層ニューラルネットワークのパラメータ初期化手法の修正, 生産研究, 68(3):261-264 (2016). http://dx.doi.org/10.11188/seisankenkyu.68.261 
+* 中丸 智貴, 合原 一幸, 奥 牧人: 多層ニューラルネットワークのパラメータ初期化手法の修正, 生産研究, 68(3):261-264 (2016). https://doi.org/10.11188/seisankenkyu.68.261 
 T. Nakamaru, K. Aihara, and M. Oku: Modification of Initialization Technique for Multilayer Neural Network, SEISAN KENKYU, 68(3):261-264 (2016).
 
-* 中川 拓麻, 奥 牧人, 合原 一幸: 動的ネットワークマーカーによるシステムの転移の予兆検出, 生産研究, 68(3):271-274 (2016). http://dx.doi.org/10.11188/seisankenkyu.68.271
+* 中川 拓麻, 奥 牧人, 合原 一幸: 動的ネットワークマーカーによるシステムの転移の予兆検出, 生産研究, 68(3):271-274 (2016). https://doi.org/10.11188/seisankenkyu.68.271
 T. Nakagawa, M. Oku, and K. Aihara: Early Warning Signals by Dynamical Network Markers, SEISAN KENKYU, 68(3):271-274 (2016).
 
-* 奥 牧人, 合原 一幸: 入力および出力に関する脳情報処理のベイズ的解釈と数理モデル化, 生産研究, 65(3):319-323 (2013). http://dx.doi.org/10.11188/seisankenkyu.65.319
+* 奥 牧人, 合原 一幸: 入力および出力に関する脳情報処理のベイズ的解釈と数理モデル化, 生産研究, 65(3):319-323 (2013). https://doi.org/10.11188/seisankenkyu.65.319
 M. Oku and K. Aihara: Bayesian Interpretation and Mathematical Modeling of Input- and Output-related Information Processing in the Brain, SEISAN KENKYU, 65(3):319-323 (2013).
 
-* 田中 剛平, 奥 牧人, 合原 一幸: 複数系数理モデル学とシミュレーション, シミュレーション, 30(4):236-241 (2011). http://ci.nii.ac.jp/naid/110009327922
+* 田中 剛平, 奥 牧人, 合原 一幸: 複数系数理モデル学とシミュレーション, シミュレーション, 30(4):236-241 (2011). https://ci.nii.ac.jp/naid/110009327922
 G. Tanaka, M. Oku, and K. Aihara: Mathematical Modelling of Complex Systems and Simulation, J. Jpn. Soc. Sim. Tech., 30(4):236-241 (2011).
 
 
@@ -24,7 +24,7 @@ G. Tanaka, M. Oku, and K. Aihara: Mathematical Modelling of Complex Systems and 
 
 * 石川 善一郎, 奥 牧人, 河野 崇: Webリスティング広告における基本広告データを用いたコンバージョン観測と予測, DEIM Forum 2017 論文集, P5-5 (2017). http://db-event.jpn.org/deim2017/papers/93.pdf
 
-* 奥 牧人, 岩山 幸治, 徳田 慶太, 鈴木 秀幸, 合原 一幸: 大規模カオスニューラルネットワークの並列シミュレーション, 信学技報, 109(269):55-59 (2009). http://ci.nii.ac.jp/naid/110007504849
+* 奥 牧人, 岩山 幸治, 徳田 慶太, 鈴木 秀幸, 合原 一幸: 大規模カオスニューラルネットワークの並列シミュレーション, 信学技報, 109(269):55-59 (2009). https://ci.nii.ac.jp/naid/110007504849
 M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, and K. Aihara: Parallel Simulation of a Large-Scale Chaotic Neural Network, IEICE Tech. Rep., 109(269):55-59 (2009).
 
 
@@ -62,7 +62,7 @@ K. Aihara, Y. Hirata, and M. Oku: Complex Life Systems and Big Data Analysis, JI
 
 * 奥 牧人, 合原 一幸: 動的ベイジアンネットワークとしての脳：感覚入力の解釈と運動出力の計画 (ポスター発表), 脳と心のメカニズム 第12回夏のワークショップ, 2011/08/21, 神戸.
 
-* 奥 牧人, 合原 一幸: ホップフィールドモデルと多層パーセプトロンを結合したモジュールの配列によるチューリング完全なセルオートマトンモデルのノイズ耐性を有する実現法 (ポスター発表), Neuro2010, 2010/09/03, 神戸. http://dx.doi.org/10.1016/j.neures.2010.07.1433
+* 奥 牧人, 合原 一幸: ホップフィールドモデルと多層パーセプトロンを結合したモジュールの配列によるチューリング完全なセルオートマトンモデルのノイズ耐性を有する実現法 (ポスター発表), Neuro2010, 2010/09/03, 神戸. https://doi.org/10.1016/j.neures.2010.07.1433
 M. Oku and K. Aihara: Noise-robust realization of Turing-complete cellular automata by using an array of Hopfield models combined with multilayered perceptrons (poster), Neuro2010, 2010/09/03, Kobe, Japan.
 
 * 奥 牧人, 合原 一幸: 能動的な相関除去は多層神経回路における発火率符号の伝送を促進するか? (ポスター発表), 脳と心のメカニズム 第11回夏のワークショップ, 2010/07/29, 札幌.
