@@ -27,14 +27,16 @@ Academic membership
 * Medical and Pharmaceutical Society for WAKAN-YAKU
 * The Institute of Electronics, Information and Communication Engineers (IEICE)
 
-
-
 Award
 -----
 
 * 2013/09/10 NOLTA Best Paper Award for [this paper](http://dx.doi.org/10.1587/nolta.2.508)
 * 2009/10/21 NOLTA 2009 Student Paper Award Silver Prize
 
+IDs
+---
+
+* ORCID ID: [0000-0002-0282-2361](https://orcid.org/0000-0002-0282-2361)
 
 Contact
 -------

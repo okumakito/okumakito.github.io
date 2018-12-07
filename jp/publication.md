@@ -22,6 +22,9 @@ G. Tanaka, M. Oku, and K. Aihara: Mathematical Modelling of Complex Systems and 
 会議予稿、紀要等 (和文)
 -----------------------
 
+* 奥 牧人, 同期性揺らぎ遺伝子の二つの新規抽出法, 情処研報, 2018-BIO-56(1):1-6 (2018). http://id.nii.ac.jp/1001/00192709/
+M. Oku: Two novel methods for extracting synchronously fluctuated genes, IPSJ SIG Tech. Rep., 2018-BIO-56(1):1-6 (2018).
+
 * 石川 善一郎, 奥 牧人, 河野 崇: Webリスティング広告における基本広告データを用いたコンバージョン観測と予測, DEIM Forum 2017 論文集, P5-5 (2017). http://db-event.jpn.org/deim2017/papers/93.pdf
 
 * 奥 牧人, 岩山 幸治, 徳田 慶太, 鈴木 秀幸, 合原 一幸: 大規模カオスニューラルネットワークの並列シミュレーション, 信学技報, 109(269):55-59 (2009). https://ci.nii.ac.jp/naid/110007504849

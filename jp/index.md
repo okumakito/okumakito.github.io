@@ -35,6 +35,10 @@ Home
 * 2012/03/22 平成23年度 東京大学大学院情報理工学系研究科研究科長賞
 * 2009/10/21 NOLTA 2009 Student Paper Award Silver Prize
 
+IDs
+---
+
+* ORCID ID: [0000-0002-0282-2361](https://orcid.org/0000-0002-0282-2361)
 
 連絡先
 ------
