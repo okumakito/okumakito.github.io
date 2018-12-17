@@ -6,6 +6,8 @@ Note: Japanese publications are listed [**here**](../jp/#!publication.md)
 Journal papers
 --------------
 
+* M. Oku: Two novel methods for extracting synchronously fluctuated genes, TBIO, to appear.
+
 * M. Oku and K. Aihara: On the Covariance Matrix of the Stationary Distribution of a Noisy Dynamical System, NOLTA, 9(2):166-184 (2018). https://doi.org/10.1587/nolta.9.166
 
 * Y. Li, M. Oku, G. He, and K. Aihara: Elimination of Spiral Waves in a Locally Connected Chaotic Neural Network by a Dynamic Phase Space Constraint, Neural Netw., 88:9-21 (2017). https://doi.org/10.1016/j.neunet.2017.01.002
