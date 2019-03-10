@@ -31,6 +31,7 @@ Home
 受賞
 ----
 
+* 2019/01/08 SIGBIO優秀プレゼンテーション賞
 * 2013/09/10 NOLTA Best Paper Award for [this paper](http://dx.doi.org/10.1587/nolta.2.508)
 * 2012/03/22 平成23年度 東京大学大学院情報理工学系研究科研究科長賞
 * 2009/10/21 NOLTA 2009 Student Paper Award Silver Prize
