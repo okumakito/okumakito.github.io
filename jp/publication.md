@@ -22,10 +22,8 @@ G. Tanaka, M. Oku, and K. Aihara: Mathematical Modelling of Complex Systems and 
 会議予稿、紀要等 (和文)
 -----------------------
 
-<!--
-* 奥 牧人, 二次多項式近似による臨界遷移確率の推定, 信学技報, 118(?):57-62 (2019).
-M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation, IEICE. Tech. Rep., 118(?):57-62 (2019).
--->
+* 奥 牧人, 二次多項式近似による臨界遷移確率の推定, 信学技報, 118(498):57-62 (2019).
+M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation, IEICE. Tech. Rep., 118(498):57-62 (2019).
 
 * 奥 牧人, もう一つの主成分分析に基づく同期性揺らぎ遺伝子抽出法, 情処研報, 2019-BIO-57(2):1-6 (2019). http://id.nii.ac.jp/1001/00194900/
 M. Oku: An alternative method for extracting synchronously fluctuated genes based on principal component analysis, IPSJ SIG Tech. Rep., 2019-BIO-57(2):1-6 (2019).
