@@ -6,7 +6,7 @@ Note: Japanese publications are listed [**here**](../jp/#!publication.md)
 Journal papers
 --------------
 
-* M. Oku: Two novel methods for extracting synchronously fluctuated genes, TBIO, to appear.
+* M. Oku: Two novel methods for extracting synchronously fluctuated genes, TBIO, 12:9-16 (2010). https://doi.org/10.2197/ipsjtbio.12.9
 
 * M. Oku and K. Aihara: On the Covariance Matrix of the Stationary Distribution of a Noisy Dynamical System, NOLTA, 9(2):166-184 (2018). https://doi.org/10.1587/nolta.9.166
 
