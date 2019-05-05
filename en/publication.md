@@ -34,6 +34,8 @@ Journal papers
 Conference papers
 -----------------
 
+* M. Oku: Bubbloid Algorithm: A Simple Method for Generating Bubble-like Line Drawings, accepted for the presentation at IDDC 2019.
+
 * T. Matsumori, M. Oku, and K. Aihara: Relations Between Early-Warning Signals Based on Dynamical Network Markers and Network Structures, Proc. NOLTA'17, pp. 229-232 (2017). http://www.ieice.org/nolta/symposium/archive/2017/articles/5140.pdf
 
 * M. Oku: Approximated Probabilistic Inference on a Dynamic Bayesian Network Using a Multistate Neural Network, Proc. NOLTA'13, pp. 374-377 (2013). (erratum: ancestral sampling -> logic sampling) https://doi.org/10.15248/proc.2.374
