@@ -23,13 +23,13 @@ G. Tanaka, M. Oku, and K. Aihara: Mathematical Modelling of Complex Systems and 
 -----------------------
 
 * 奥 牧人, 二次多項式近似による臨界遷移確率の推定, 信学技報, 118(498):57-62 (2019). https://ci.nii.ac.jp/naid/40021865765
-M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation, IEICE Tech. Rep., 118(498):57-62 (2019).
+M. Oku: Estimation of the Critical Transition Probability Using Quadratic Polynomial Approximation, IEICE Tech. Rep., 118(498):57-62 (2019).
 
 * 奥 牧人, もう一つの主成分分析に基づく同期性揺らぎ遺伝子抽出法, 情処研報, 2019-BIO-57(2):1-6 (2019). http://id.nii.ac.jp/1001/00194900/
-M. Oku: An alternative method for extracting synchronously fluctuated genes based on principal component analysis, IPSJ SIG Tech. Rep., 2019-BIO-57(2):1-6 (2019).
+M. Oku: An Alternative Method for Extracting Synchronously Fluctuated Genes Based on Principal Component Analysis, IPSJ SIG Tech. Rep., 2019-BIO-57(2):1-6 (2019).
 
 * 奥 牧人, 同期性揺らぎ遺伝子の二つの新規抽出法, 情処研報, 2018-BIO-56(1):1-6 (2018). http://id.nii.ac.jp/1001/00192709/
-M. Oku: Two novel methods for extracting synchronously fluctuated genes, IPSJ SIG Tech. Rep., 2018-BIO-56(1):1-6 (2018).
+M. Oku: Two Novel Methods for Extracting Synchronously Fluctuated Genes, IPSJ SIG Tech. Rep., 2018-BIO-56(1):1-6 (2018).
 
 * 石川 善一郎, 奥 牧人, 河野 崇: Webリスティング広告における基本広告データを用いたコンバージョン観測と予測, DEIM Forum 2017 論文集, P5-5 (2017). http://db-event.jpn.org/deim2017/papers/93.pdf
 

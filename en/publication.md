@@ -6,7 +6,7 @@ Note: Japanese publications are listed [**here**](../jp/#!publication.md)
 Journal papers
 --------------
 
-* M. Oku: Two novel methods for extracting synchronously fluctuated genes, TBIO, 12:9-16 (2019). https://doi.org/10.2197/ipsjtbio.12.9
+* M. Oku: Two Novel Methods for Extracting Synchronously Fluctuated Genes, TBIO, 12:9-16 (2019). https://doi.org/10.2197/ipsjtbio.12.9
 
 * M. Oku and K. Aihara: On the Covariance Matrix of the Stationary Distribution of a Noisy Dynamical System, NOLTA, 9(2):166-184 (2018). https://doi.org/10.1587/nolta.9.166
 
@@ -66,7 +66,7 @@ Conference papers
 Others
 ------
 
-* M. Oku: Branching embedding: A heuristic dimensionality reduction algorithm based on hierarchical clustering, arXiv, 1805.02161 (2018). https://arxiv.org/abs/1805.02161
+* M. Oku: Branching Embedding: A Heuristic Dimensionality Reduction Algorithm Based on Hierarchical Clustering, arXiv, 1805.02161 (2018). https://arxiv.org/abs/1805.02161
 
 * K. Aihara, T. Yamada, and M. Oku: Chaotic Neural Networks and Beyond, A. Adamatzky and G. Chen (eds.), 'Chaos, CNN, Memristors and Beyond,' World Scientific, pp. 259-270 (2013). https://doi.org/10.1142/9789814434805_0021
 
