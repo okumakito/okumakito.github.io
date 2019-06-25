@@ -6,9 +6,7 @@ Note: Japanese publications are listed [**here**](../jp/#!publication.md)
 Journal papers
 --------------
 
-<!--
-* K. Koizumi, M. Oku, S. Hayashi, A. Inujima, N. Shibahara, L. Chen, Y. Igarashi, K. Tobe, S. Saito, M. Kadowaki, and K. Aihara: Identifying Pre-disease Signals Before Metabolic Syndrome in Mice by Dynamical Network Biomarkers, Sci. Rep., accepted.
--->
+* K. Koizumi, M. Oku, S. Hayashi, A. Inujima, N. Shibahara, L. Chen, Y. Igarashi, K. Tobe, S. Saito, M. Kadowaki, and K. Aihara: Identifying Pre-disease Signals Before Metabolic Syndrome in Mice by Dynamical Network Biomarkers, Sci. Rep., 9:8767 (2019). https://doi.org/10.1038/s41598-019-45119-w
 
 * M. Oku: Two Novel Methods for Extracting Synchronously Fluctuated Genes, TBIO, 12:9-16 (2019). https://doi.org/10.2197/ipsjtbio.12.9
 
