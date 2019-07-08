@@ -36,7 +36,9 @@ Journal papers
 Conference papers
 -----------------
 
-* M. Oku: Bubbloid Algorithm: A Simple Method for Generating Bubble-like Line Drawings, accepted for the presentation at IDDC 2019.
+* M. Oku: Bubbloid Algorithm: A Simple Method for Generating Bubble-like Line Drawings, Proc. IIAI-AAI'19, pp. 954-959 (2019).
+
+<!-- https://doi.org/10.1109/IIAI-AAI.2019.00191 -->
 
 * T. Matsumori, M. Oku, and K. Aihara: Relations Between Early-Warning Signals Based on Dynamical Network Markers and Network Structures, Proc. NOLTA'17, pp. 229-232 (2017). http://www.ieice.org/nolta/symposium/archive/2017/articles/5140.pdf
 
