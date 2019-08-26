@@ -7,34 +7,34 @@ Note: 英文の発表リストは[**こちら**](../en/#!publication.md)
 -------------------
 
 * 中丸 智貴, 合原 一幸, 奥 牧人: 多層ニューラルネットワークのパラメータ初期化手法の修正, 生産研究, 68(3):261-264 (2016). https://doi.org/10.11188/seisankenkyu.68.261 
-T. Nakamaru, K. Aihara, and M. Oku: Modification of Initialization Technique for Multilayer Neural Network, SEISAN KENKYU, 68(3):261-264 (2016).
+T. Nakamaru, K. Aihara, and M. Oku: Modification of initialization technique for multilayer neural network, SEISAN KENKYU, 68(3):261-264 (2016).
 
 * 中川 拓麻, 奥 牧人, 合原 一幸: 動的ネットワークマーカーによるシステムの転移の予兆検出, 生産研究, 68(3):271-274 (2016). https://doi.org/10.11188/seisankenkyu.68.271
-T. Nakagawa, M. Oku, and K. Aihara: Early Warning Signals by Dynamical Network Markers, SEISAN KENKYU, 68(3):271-274 (2016).
+T. Nakagawa, M. Oku, and K. Aihara: Early warning signals by dynamical network markers, SEISAN KENKYU, 68(3):271-274 (2016).
 
 * 奥 牧人, 合原 一幸: 入力および出力に関する脳情報処理のベイズ的解釈と数理モデル化, 生産研究, 65(3):319-323 (2013). https://doi.org/10.11188/seisankenkyu.65.319
-M. Oku and K. Aihara: Bayesian Interpretation and Mathematical Modeling of Input- and Output-related Information Processing in the Brain, SEISAN KENKYU, 65(3):319-323 (2013).
+M. Oku and K. Aihara: Bayesian interpretation and mathematical modeling of input- and output-related information processing in the brain, SEISAN KENKYU, 65(3):319-323 (2013).
 
 * 田中 剛平, 奥 牧人, 合原 一幸: 複数系数理モデル学とシミュレーション, シミュレーション, 30(4):236-241 (2011). https://ci.nii.ac.jp/naid/110009327922
-G. Tanaka, M. Oku, and K. Aihara: Mathematical Modelling of Complex Systems and Simulation, J. Jpn. Soc. Sim. Tech., 30(4):236-241 (2011).
+G. Tanaka, M. Oku, and K. Aihara: Mathematical modelling of complex systems and simulation, J. Jpn. Soc. Sim. Tech., 30(4):236-241 (2011).
 
 
 会議予稿、紀要等 (和文)
 -----------------------
 
 * 奥 牧人, 二次多項式近似による臨界遷移確率の推定, 信学技報, 118(498):57-62 (2019). https://ci.nii.ac.jp/naid/40021865765
-M. Oku: Estimation of the Critical Transition Probability Using Quadratic Polynomial Approximation, IEICE Tech. Rep., 118(498):57-62 (2019).
+M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation, IEICE Tech. Rep., 118(498):57-62 (2019).
 
 * 奥 牧人, もう一つの主成分分析に基づく同期性揺らぎ遺伝子抽出法, 情処研報, 2019-BIO-57(2):1-6 (2019). http://id.nii.ac.jp/1001/00194900/
-M. Oku: An Alternative Method for Extracting Synchronously Fluctuated Genes Based on Principal Component Analysis, IPSJ SIG Tech. Rep., 2019-BIO-57(2):1-6 (2019).
+M. Oku: An alternative method for extracting synchronously fluctuated genes based on principal component analysis, IPSJ SIG Tech. Rep., 2019-BIO-57(2):1-6 (2019).
 
 * 奥 牧人, 同期性揺らぎ遺伝子の二つの新規抽出法, 情処研報, 2018-BIO-56(1):1-6 (2018). http://id.nii.ac.jp/1001/00192709/
-M. Oku: Two Novel Methods for Extracting Synchronously Fluctuated Genes, IPSJ SIG Tech. Rep., 2018-BIO-56(1):1-6 (2018).
+M. Oku: Two novel methods for extracting synchronously fluctuated genes, IPSJ SIG Tech. Rep., 2018-BIO-56(1):1-6 (2018).
 
 * 石川 善一郎, 奥 牧人, 河野 崇: Webリスティング広告における基本広告データを用いたコンバージョン観測と予測, DEIM Forum 2017 論文集, P5-5 (2017). http://db-event.jpn.org/deim2017/papers/93.pdf
 
 * 奥 牧人, 岩山 幸治, 徳田 慶太, 鈴木 秀幸, 合原 一幸: 大規模カオスニューラルネットワークの並列シミュレーション, 信学技報, 109(269):55-59 (2009). https://ci.nii.ac.jp/naid/110007504849
-M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, and K. Aihara: Parallel Simulation of a Large-Scale Chaotic Neural Network, IEICE Tech. Rep., 109(269):55-59 (2009).
+M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, and K. Aihara: Parallel simulation of a large-scale chaotic neural network, IEICE Tech. Rep., 109(269):55-59 (2009).
 
 
 特許出願
@@ -53,7 +53,7 @@ M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, and K. Aihara: Parallel Simulation of 
 * 奥 牧人: 遺伝子発現量データ解析の基礎, 和漢研年報, 44:2-11 (2018). http://hdl.handle.net/10110/00019294
 
 * 合原 一幸, 平田 祥人, 奥 牧人: 複雑生命系とビッグデータ解析, 実験医学, 34(5):728-732 (2016). http://mol.medicalonline.jp/library/journal/abstract?GoodsID=ai4jigkb/2016/003405/012
-K. Aihara, Y. Hirata, and M. Oku: Complex Life Systems and Big Data Analysis, JIKKEN IGAKU, 34(5):728-732 (2016).
+K. Aihara, Y. Hirata, and M. Oku: Complex life systems and big data analysis, JIKKEN IGAKU, 34(5):728-732 (2016).
 
 * 奥 牧人: FIRST合原最先端数理モデルプロジェクトの紹介, JSIAM Online Magazine, Article: D1401A (2014). http://jom.jsiam.org/11370
 
