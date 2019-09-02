@@ -8,6 +8,8 @@ Journal papers
 
 * M. Oku: Network analysis of Kampo formulas based on their crude drug compositions and indications, Trad. Kampo Med., accepted.
 
+<!-- https://doi.org/10.1002/tkm2.1229 -->
+
 * K. Koizumi, M. Oku, S. Hayashi, A. Inujima, N. Shibahara, L. Chen, Y. Igarashi, K. Tobe, S. Saito, M. Kadowaki, and K. Aihara: Identifying pre-disease signals before metabolic syndrome in mice by dynamical network biomarkers, Sci. Rep., 9:8767 (2019). https://doi.org/10.1038/s41598-019-45119-w
 
 * M. Oku: Two novel methods for extracting synchronously fluctuated genes, TBIO, 12:9-16 (2019). https://doi.org/10.2197/ipsjtbio.12.9
