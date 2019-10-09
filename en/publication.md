@@ -6,7 +6,7 @@ Note: Japanese publications are listed [**here**](../jp/#!publication.md)
 Journal papers
 --------------
 
-* M. Oku: Network analysis of Kampo formulas based on their crude drug compositions and indications, Trad. Kampo Med., accepted.
+* M. Oku: Network analysis of kampo formulas based on crude drug composition and indications, Trad. Kampo Med., accepted.
 
 <!-- https://doi.org/10.1002/tkm2.1229 -->
 
