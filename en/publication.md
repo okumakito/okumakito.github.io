@@ -6,9 +6,7 @@ Note: Japanese publications are listed [**here**](../jp/#!publication.md)
 Journal papers
 --------------
 
-* M. Oku: Network analysis of kampo formulas based on crude drug composition and indications, Trad. Kampo Med., accepted.
-
-<!-- https://doi.org/10.1002/tkm2.1229 -->
+* M. Oku: Network analysis of kampo formulas based on crude drug composition and indications, Trad. Kampo Med. (2019). https://doi.org/10.1002/tkm2.1229
 
 * K. Koizumi, M. Oku, S. Hayashi, A. Inujima, N. Shibahara, L. Chen, Y. Igarashi, K. Tobe, S. Saito, M. Kadowaki, and K. Aihara: Identifying pre-disease signals before metabolic syndrome in mice by dynamical network biomarkers, Sci. Rep., 9:8767 (2019). https://doi.org/10.1038/s41598-019-45119-w
 
