@@ -4,13 +4,6 @@ Home
 This is a personal page written by Makito Oku.
 
 
-Education
----------
-
-* 2011 Ph.D. in Information Science and Technology, The University of Tokyo
-* 2008 Master of Information Science and Technology, The University of Tokyo
-* 2005 Bachelor of Engineering, The University of Tokyo
-
 Professional appointments
 -------------------------
 
@@ -18,6 +11,13 @@ Professional appointments
 * 2012/11-2017/09 Research Associate, Institute of Industrial Science, The University of Tokyo
 * 2012/04-2012/10 Project Research Associate, Institute of Industrial Science, The University of Tokyo
 * 2011/10-2012/03 JSPS Research Fellow (PD), Institute of Industrial Science, The University of Tokyo
+
+Education
+---------
+
+* 2011 Ph.D. in Information Science and Technology, The University of Tokyo
+* 2008 Master of Information Science and Technology, The University of Tokyo
+* 2005 Bachelor of Engineering, The University of Tokyo
 
 Academic membership
 -------------------
