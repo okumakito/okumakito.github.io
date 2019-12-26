@@ -70,7 +70,7 @@ x
 変数は1つの数値だけでなく、複数の数値のグループをまとめて1つの変数で表すこともできます。以下のコマンドを実行し、ちゃんと覚えているかその次のセルで確認してみて下さい。
 
 ```python
-x=[10, 20, 30]
+x=[10,20,30]
 ```
 
 ```python
@@ -294,19 +294,6 @@ x=pd.read_csv('test.csv')
 x
 ```
 
-<div>
-<style scoped>
-
-
-</style>
-<table border="1" class="dataframe">
-  <thead>
-  </thead>
-  <tbody>
-  </tbody>
-</table>
-</div>
-
 この表形式のデータのある1列だけを取り出すには2つの方法があります。一つ目は以下にドットの後に列名を繋げる書き方です。この方法は列名が英数字のみの場合に使えます。
 
 ```python
@@ -331,7 +318,7 @@ plt.plot(x.a)
 ![png](output_72_1.png)
 
 ```python
-plt.scatter(x.a, x.b)
+plt.scatter(x.a,x.b)
 ```
 
 
