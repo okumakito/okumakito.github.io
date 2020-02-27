@@ -40,9 +40,7 @@ Journal papers
 Conference papers
 -----------------
 
-* M. Oku: Bubbloid algorithm: A simple method for generating bubble-like line drawings, Proc. IIAI-AAI'19, pp. 954-959 (2019).
-
-<!-- https://doi.org/10.1109/IIAI-AAI.2019.00191 -->
+* M. Oku: Bubbloid algorithm: A simple method for generating bubble-like line drawings, Proc. IIAI-AAI'19, pp. 954-959 (2019). https://doi.org/10.1109/IIAI-AAI.2019.00191
 
 * T. Matsumori, M. Oku, and K. Aihara: Relations between early-warning signals based on dynamical network markers and network structures, Proc. NOLTA'17, pp. 229-232 (2017). http://www.ieice.org/nolta/symposium/archive/2017/articles/5140.pdf
 
