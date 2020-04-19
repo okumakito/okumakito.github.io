@@ -36,3 +36,5 @@ Notes
 * [A javascript implementation of mouse pointer for presentations (2018/09/28)](../20180928/demo.html)
 
 * [Python入門 (2019/12/25)](../20191225/)
+
+* [初めてZoomミーティングのホストをするとき知っておくと便利なこと (2020/04/19)](../20200419/)
