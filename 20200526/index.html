@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手書き入力デモ</title>
+  </head>
+  <body>
+    <h1>手書き入力デモ</h1>
+    <p>HTML5のCanvasを使ったデモです。</p>
+    <p>どうぞご自由に改変や再利用をして下さい。</p>
+    <p>これを埋め込んだMoodleの小テスト用ひな形は<a href="https://gist.github.com/okumakito/751b1f8a2e09d0485803b11ca8cc0fd6" target="_blank">こちら</a>にあります。</p>
+
+
+    
+    <canvas id="canvas" width="500" height="300" style="border: solid 1px #000;box-sizing: border-box;"></canvas>
+    <br>
+    <input type="button" value="細い線" id="style1">
+    <input type="button" value="太い線" id="style2">
+    <input type="button" value="消しゴム" id="style3">
+    <input type="button" value="消去" id="clear">
+    <input type="button" value="画像をダウロードする" id="save">
+    <a id="save_link"></a> <!-- hidden link -->
+    <div id="result"><img src=""></div>
+
+    <script>
+     
+     // events --------------------------------------------------------
+     
+     window.onload=function(){
+	 document.addEventListener('mousedown', onMouseDown);
+	 document.addEventListener('mouseup', onMouseUp);
+	 document.addEventListener('mousemove', onMouseMove);
+	 document.addEventListener('touchstart', onTouchStart);
+	 document.addEventListener('touchmove', onTouchMove,{passive:false});
+	 document.getElementById("style1").addEventListener('click', style1);
+	 document.getElementById("style2").addEventListener('click', style2);
+	 document.getElementById("style3").addEventListener('click', style3);
+	 document.getElementById("clear").addEventListener('click', clear);
+	 document.getElementById("save").addEventListener('click', save);
+     };
+
+     // init ----------------------------------------------------------
+     
+     const canvas = document.getElementById("canvas");
+     const ctx = canvas.getContext('2d');
+     const saveLink = document.getElementById("save_link");
+     let coord = {x:0 , y:0};
+     let paint = false;
+     ctx.lineCap = "round";
+     style1();
+     setBackgroundColor();
+
+     // functions ------------------------------------------------------
+     
+     function getMousePosition(event){
+	 coord.x = event.offsetX;
+	 coord.y = event.offsetY;
+     }
+     function onMouseDown(event){
+	 paint = true;
+	 getMousePosition(event);
+     }
+     function onMouseUp(){
+	 paint = false;
+     }
+     function onMouseMove(event){
+	 if (!paint) return;
+	 ctx.beginPath();
+	 ctx.moveTo(coord.x, coord.y);
+	 getMousePosition(event);
+	 ctx.lineTo(coord.x , coord.y);
+	 ctx.stroke();
+     }
+     function getTouchPosition(event){
+	 var touch = event.targetTouches[0];
+	 var rect = event.target.getBoundingClientRect();
+	 coord.x = touch.clientX - rect.left;
+	 coord.y = touch.clientY - rect.top;
+     }
+     function onTouchStart(event){
+	 getTouchPosition(event);
+     }
+     function onTouchMove(){
+	 ctx.beginPath();
+	 ctx.moveTo(coord.x, coord.y);
+	 getTouchPosition(event);
+	 ctx.lineTo(coord.x, coord.y);
+	 ctx.stroke();
+	 event.preventDefault();
+     }
+     function style1(){
+	 ctx.lineWidth = 2;
+	 ctx.strokeStyle = "black";
+     }
+     function style2(){
+	 ctx.lineWidth = 5;
+	 ctx.strokeStyle = "black";
+     }
+     function style3(){
+	 ctx.lineWidth = 30;
+	 ctx.strokeStyle = "white";
+     }
+     function clear(){
+	 ctx.clearRect(0,0,ctx.canvas.width,ctx.canvas.height);
+	 setBackgroundColor();
+     }
+     function save(){
+	 var filename = "image.png";
+	 if (canvas.msToBlob) {
+	     var blob = canvas.msToBlob();
+	     window.navigator.msSaveBlob(blob, filename);
+	 } else {
+	     saveLink.href = canvas.toDataURL('image/png');
+	     saveLink.download = filename;
+	     saveLink.click();
+	 }
+     }
+     function setBackgroundColor(){
+	 ctx.fillStyle = "white";
+	 ctx.fillRect(0,0,canvas.width,ctx.canvas.height);
+     }
+    </script>
+
+    
+  </body>
+</html>
