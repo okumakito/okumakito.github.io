@@ -31,6 +31,7 @@
 	 const canvas = document.getElementById("canvas");
 	 document.addEventListener('mousedown', onMouseDown);
 	 document.addEventListener('mouseup', onMouseUp);
+	 document.addEventListener('dragend', onMouseUp);
 	 document.addEventListener('mousemove', onMouseMove);
 	 canvas.addEventListener('touchstart', onTouchStart);
 	 canvas.addEventListener('touchmove', onTouchMove,{passive:false});
