@@ -28,11 +28,12 @@
      // events --------------------------------------------------------
      
      window.onload=function(){
+	 const canvas = document.getElementById("canvas");
 	 document.addEventListener('mousedown', onMouseDown);
 	 document.addEventListener('mouseup', onMouseUp);
 	 document.addEventListener('mousemove', onMouseMove);
-	 document.addEventListener('touchstart', onTouchStart);
-	 document.addEventListener('touchmove', onTouchMove,{passive:false});
+	 canvas.addEventListener('touchstart', onTouchStart);
+	 canvas.addEventListener('touchmove', onTouchMove,{passive:false});
 	 document.getElementById("style1").addEventListener('click', style1);
 	 document.getElementById("style2").addEventListener('click', style2);
 	 document.getElementById("style3").addEventListener('click', style3);
@@ -42,7 +43,6 @@
 
      // init ----------------------------------------------------------
      
-     const canvas = document.getElementById("canvas");
      const ctx = canvas.getContext('2d');
      const saveLink = document.getElementById("save_link");
      let coord = {x:0 , y:0};
@@ -54,8 +54,9 @@
      // functions ------------------------------------------------------
      
      function getMousePosition(event){
-	 coord.x = event.offsetX;
-	 coord.y = event.offsetY;
+	 var rect = canvas.getBoundingClientRect();
+	 coord.x = event.clientX - rect.left;
+	 coord.y = event.clientY - rect.top;
      }
      function onMouseDown(event){
 	 paint = true;
@@ -74,7 +75,7 @@
      }
      function getTouchPosition(event){
 	 var touch = event.targetTouches[0];
-	 var rect = event.target.getBoundingClientRect();
+	 var rect = canvas.getBoundingClientRect();
 	 coord.x = touch.clientX - rect.left;
 	 coord.y = touch.clientY - rect.top;
      }
@@ -121,7 +122,6 @@
 	 ctx.fillRect(0,0,canvas.width,ctx.canvas.height);
      }
     </script>
-
     
   </body>
 </html>
