@@ -52,6 +52,7 @@
 
 ## 方法2: Google Colabを使う
 
+
 ** 手順**
 
 1. Google Cloudに登録します。Text-to-Speechの画面の上の方の「無料で開始」または「無料トライアル」ボタンを押して下さい。
@@ -59,7 +60,9 @@
 2. Text-to-Speechの「ドキュメントを見る」から「クイックスタート」を開き (実際は全然クイックじゃないです)、始める前にやることの1番から4番までをやります。確認していませんが、Google Colabを使うなら5番と6番は多分やらなくて良いと思います。
 https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries
 
-3. Google Colabで新規ファイルを作ります。内容は以下をコピペして、先ほど入手したキーファイル名を変更して下さい (###キーファイル名に変更###と書いてある箇所)。読み原稿の入力ファイル名 (speech.txt), 出力ファイル名 (output.mp3), 声のタイプ (ja-JP-Wavenet-B) も適宜変更して下さい。
+3. Google Colabで新規ファイルを作ります。以下のコードをコピペして、声のタイプ (ja-JP-Wavenet-B) などを適宜変更して下さい。
+
+  [2020/06/09追記] コードを修正しました。アップロードしたファイル名を自動で所得し、同名ファイルを複数回アップロードした場合は最新版を使うようにしました。
 
   ```
   # Install TTS and google-auth
@@ -67,27 +70,31 @@ https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries
   ```
 
   ```
-  # upload file to google
+  # upload a json key file to google
   from google.colab import files
   uploaded = files.upload()
+  key_file_name = list(uploaded.keys())[0]
   ```
 
   ```
   # Create credential object and test access
   from google.oauth2 import service_account
   from google.cloud import texttospeech
-  credentials = service_account.Credentials.from_service_account_file('###キーファイル名に変更###.json')
+  credentials = service_account.Credentials.from_service_account_file(key_file_name)
   texttospeech.TextToSpeechClient(credentials=credentials)
   ```
 
   ```
-  # Load text file
-  input_file_name = 'speech.txt'
-  output_file_name = 'output.mp3'
+  # upload a txt file to google
+  uploaded = files.upload()
+  input_file_name = !ls -t *.txt|head -n 1
+  input_file_name = input_file_name[0]
+  ```
+
+  ```
+  # Load the txt file
   with open(input_file_name, 'r') as file:
       speech_str = file.read().replace('\n', ' ')
-
-  # Convert text to speech
 
   # Instantiates a client
   client = texttospeech.TextToSpeechClient(credentials=credentials)
@@ -112,6 +119,7 @@ https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries
       audio_config=audio_config)
 
   # The response's audio_content is binary.
+  output_file_name = 'output.mp3'
   with open(output_file_name, 'wb') as file:
       file.write(response.audio_content)
       print('Audio content written ' + output_file_name)
@@ -121,11 +129,23 @@ https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries
   このソースコードは以下のページを参考にしました。ここ半年で色々と書き方が変わったようですので、適宜修正しました。
   https://www.youtube.com/watch?v=hQGZHwyQOTg
 
-4. 初回は最初のセルを実行して下さい。Google Colabの再起動が必要と言われたら従って下さい。再度実行して特にエラーが出なければOKです。以降は最初のセルは実行しなくて良いです。
+4. 使い方
 
-5. 読み原稿の入力ファイルを用意し、ソースコード中で指定したのと同じ名前にして下さい (上の例ではspeech.txt)。メモ帳で良いです。文字コードはUTF-8にして下さい。
+  * まず最初のセルを実行して下さい。runtimeの再起動が必要と言われたら従って下さい。再度実行して特にエラーが出なければOKです。
 
-6. 2番目以降のセルを順に実行します。2番目の実行時にはキーファイルと入力ファイルの2つを選択してアップロードして下さい。入力ファイルの4番目のセルを実行するとmp3ファイルがダウンロード出来ます。
+  * 2番目のセルを実行し、先ほど入手した認証キーの書かれたjsonファイルをアップロードして下さい。
+
+  * 3番目のセルを実行して下さい。
+
+  * 読み原稿の入力ファイルを用意して下さい。メモ帳で良いです。文字コードはUTF-8にして下さい。
+
+  * 4番目のセルを実行して入力ファイルをアップロードして下さい。
+
+  * 最後のセルを実行して下さい。mp3ファイルがダウンロード出来ます。
+
+  * 以降は4番目と5番目を交互に繰り返せば良いです。
+
+  * Google Colabを閉じて再度開いた場合は最初のセルからやり直して下さい。
 
 **補足など**
 
@@ -145,9 +165,11 @@ https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries
 
 * そのままだとスライドショー中もアイコンが画面に表示され、クリックすると音が出る状態です。
 
-* アイコンを消すには、スライドの枠外に移動すれば良いです。上の「オーディオツール」 > 「再生」タブより「スライドショーを実行中にサウンドのアイコンを隠す」にチェックしても良いです。
+* アイコンを消すには、スライドの枠外に移動すれば良いです。あるいは、上の「オーディオツール」 > 「再生」タブより「スライドショーを実行中にサウンドのアイコンを隠す」にチェックしても良いです。
 
 * スライドの切り替わりと同時に再生を開始させるには、上の「アニメーション」タブを開いて、開始を「クリック時」から「直前の動作の後」に変更すれば良いです。また、遅延を0以上にすると少し間をおいてから再生が開始されます。
+
+* 読み終わった後も少し間をおきたければ、スライド枠外に四角形でも作ってアニメーションのアピールでも付けて、音声の後に遅延付きで開始するようにしておけば良いです。
 
 * 方法1でデータを取得した場合は前後に無音部分が含まれますが、上の「オーディオツール」 > 「再生」タブより「オーディオのトリミング」を選んでカットすることが出来ます。
 
