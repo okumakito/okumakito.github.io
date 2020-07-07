@@ -6,6 +6,8 @@ Note: Japanese publications are listed [**here**](../jp/#!publication.md)
 Journal papers
 --------------
 
+* K. Koizumi, M. Oku, S. Hayashi, A. Inujima, N. Shibahara, L. Chen, Y. Igarashi, K. Tobe, S. Saito, M. Kadowaki, and K. Aihara: Suppression of dynamical network biomarker signals at the pre-disease state (Mibyou) before metabolic syndrome in mice by a traditional Japanese medicine (Kampo formula) bofutsushosan, eCAM, accepted.
+
 * M.A.S. Kamal, M. Oku, T. Hayakawa, J. Imura, and K. Aihara: Early detection of a traffic flow breakdown in the freeway based on dynamical network markers, Int. J. ITS Res. (2019). https://doi.org/10.1007/s13177-019-00210-4
 
 * M. Oku: Network analysis of kampo formulas based on crude drug composition and indications, Trad. Kampo Med., 6(3):139-147 (2019). https://doi.org/10.1002/tkm2.1229
