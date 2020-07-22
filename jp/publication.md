@@ -6,7 +6,8 @@ Note: 英文の発表リストは[**こちら**](../en/#!publication.md)
 学術雑誌論文 (和文)
 -------------------
 
-* 三原 弘, 岸 裕幸, 足立 雄一, 清水 貴浩, 酒井 秀紀, 奥 牧人, 藤井 厚子: 地方大学医療系キャンパスでのオンライン授業導入報告, 医学教育, 51(3):255-257 (2020).
+* 三原 弘, 岸 裕幸, 足立 雄一, 清水 貴浩, 酒井 秀紀, 奥 牧人, 藤井 厚子: 地方大学医療系キャンパスでのオンライン授業導入報告, 医学教育, 51(3):255-257 (2020). https://doi.org/10.11307/mededjapan.51.3_255
+H. Mihara, H. Kishi, Y. Adachi, T. Shimizu, H. Sakai, M. Oku, and A. Fujii: How online classes were introduced to the medical school campus of a regional university, Igaku Kyoiku, 51(3):255-257 (2020).
 
 * 中丸 智貴, 合原 一幸, 奥 牧人: 多層ニューラルネットワークのパラメータ初期化手法の修正, 生産研究, 68(3):261-264 (2016). https://doi.org/10.11188/seisankenkyu.68.261 
 T. Nakamaru, K. Aihara, and M. Oku: Modification of initialization technique for multilayer neural network, SEISAN KENKYU, 68(3):261-264 (2016).
