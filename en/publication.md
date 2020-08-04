@@ -82,6 +82,8 @@ Others
 Presentations without proceedings
 ---------------------------------
 
+* M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation (oral), Workshop on Critical Transitions in Complex Systems 2020, 2020/07/31, online.
+
 * M. Oku, T. Makino, and K. Aihara: A simple retrieval method for auto-associative memory model with XNOR masking (poster), ISIMM'13, 2013/11/12, Tokyo, Japan.
 
 * M. Oku and K. Aihara: Control of chaotic neural networks by weak inputs (poster), ISIMM'12, 2012/05/15, Tokyo, Japan.
