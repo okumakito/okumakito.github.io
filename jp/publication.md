@@ -29,7 +29,7 @@ G. Tanaka, M. Oku, and K. Aihara: Mathematical modelling of complex systems and 
 M. Oku: An efficient method for calculating earth mover's distance with direction restriction for flow cytometry data analysis, IPSJ SIG Tech. Rep., 2020-BIO-61(8):1-6 (2020).
 
 * 村田 健哉, 春木 孝之, 吉田 泰彦, 奥 牧人, 小泉 桂一, 門脇 真: デング熱ウイルス感染経過データに対する動的ネットワークバイオマーカー解析の適用, 情処研報, 2020-BIO-61(2):1-6 (2020). http://id.nii.ac.jp/1001/00203775/
-Kenya Murata, Takayuki Haruki, Yasuhiko Yoshida, Makito Oku, Keiichi Koizumi, Makoto Kadowaki: Application of dynamical network biomarker analysis to dengue fever virus infection data, IPSJ SIG Tech. Rep., 2020-BIO-61(2):1-6 (2020).
+K. Murata, T. Haruki, Y. Yoshida, M. Oku, K. Koizumi, M. Kadowaki: Application of dynamical network biomarker analysis to dengue fever virus infection data, IPSJ SIG Tech. Rep., 2020-BIO-61(2):1-6 (2020).
 
 * 奥 牧人: KampoDBの結合シミュレーション結果の概説, 情処研報, 2019-BIO-59(1):1-6 (2019). http://id.nii.ac.jp/1001/00198992/
 M. Oku:  An overview of the docking simulation results in KampoDB, IPSJ SIG Tech. Rep., 2019-BIO-59(1):1-6 (2019).
