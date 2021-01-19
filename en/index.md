@@ -41,5 +41,5 @@ IDs
 Contact
 -------
 
-oku "at" inm.u-toyama.ac.jp
+oku&commat;inm.u-toyama.ac.jp
 
