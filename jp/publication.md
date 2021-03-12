@@ -25,6 +25,9 @@ G. Tanaka, M. Oku, and K. Aihara: Mathematical modelling of complex systems and 
 会議予稿、紀要等 (和文)
 -----------------------
 
+* 奥 牧人: 同期性揺らぎ遺伝子の二段階抽出におけるパラメータ調整法, 情処研報, 2021-BIO-65(5):1-6 (2021). http://id.nii.ac.jp/1001/00209859/
+M. Oku: Parameter adjustment method in two-step extraction of synchronously fluctuated genes, IPSJ SIG Tech. Rep., 2021-BIO-65(5):1-6 (2021).
+
 * 奥 牧人: フローサイトメトリーデータ解析ための方向制限付きアースムーバー距離の効率的な計算法, 情処研報, 2020-BIO-61(8):1-6 (2020). http://id.nii.ac.jp/1001/00203781/
 M. Oku: An efficient method for calculating earth mover's distance with direction restriction for flow cytometry data analysis, IPSJ SIG Tech. Rep., 2020-BIO-61(8):1-6 (2020).
 
