@@ -30,6 +30,7 @@ Home
 受賞
 ----
 
+* 2021/03/18 [山下記念研究賞](https://www.ipsj.or.jp/award/yamasita2020-detail.html#bio)
 * 2020/04/07 SIGBIO優秀プレゼンテーション賞
 * 2019/01/08 SIGBIO優秀プレゼンテーション賞
 * 2013/09/10 NOLTA Best Paper Award for [this paper](http://dx.doi.org/10.1587/nolta.2.508)
