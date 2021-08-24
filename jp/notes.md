@@ -44,3 +44,5 @@ Notes
 * [Google Cloud Text-to-Speechの合成音声のデータを取得する方法 (2020/06/08)](../20200608/)
 
 * [flaskとmod_wsgiの連携方法 (2021/06/11)](../20210611/)
+
+* [SFG calculator (2021/08/24)](../web_app/sfg.html)

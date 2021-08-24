@@ -8,3 +8,5 @@ Notes
 * [A brief proof of the Holm's method (2018/06/18)](../20180618/memo.html)
 
 * [A javascript implementation of mouse pointer for presentations (2018/09/28)](../20180928/demo.html)
+
+* [SFG calculator (2021/08/24)](../web_app/sfg.html)
