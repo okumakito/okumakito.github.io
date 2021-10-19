@@ -46,3 +46,5 @@ Notes
 * [flaskとmod_wsgiの連携方法 (2021/06/11)](../20210611/)
 
 * [SFG calculator (2021/08/24)](../web_app/sfg.html)
+
+* Teams会議メモ (2021/10/19)(../20211019/)
