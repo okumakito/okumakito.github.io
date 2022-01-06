@@ -1,0 +1,142 @@
+body, h1{
+    font-family: 'Hiragino Kaku Gothic ProN', meiryo, 'IPAPGothic', sans-serif;
+}
+
+p, li{
+    font-size: 120%;
+    line-height: 160%;
+    margin-top: 10px;
+}
+
+li p, ul ul li, ul ol li, ol ul li, ol ol li {
+    font-size: 100%;
+}
+
+
+
+strong {
+    color: #e31a1c;
+    border-bottom: solid;
+    border-color: #e31a1c;
+    border-width: 4px;
+}
+
+.remark-slide-content h1{ 
+  font-size: 200%; 
+}
+
+h1 {
+    font-weight: normal;
+    padding: 8px 15px;
+    margin-bottom: 2rem;
+    line-height: 140%;
+    color: #ffffff;
+    background-color: #33a02c;
+    -webkit-border-radius: 10px;
+}
+
+pre {
+    background-color: #eeeeee;
+    margin: 0 5rem;
+    padding: 1rem 2rem;
+    font-size: 120%;
+    line-height: 160%;
+}
+
+img,video {
+    display: block;
+    margin: auto;
+}
+img.inline {
+    display: inline;
+}
+img.right {
+    float: right;
+}
+
+img.corner {
+    position:absolute;
+    bottom:10%;
+    right:10%;
+}
+
+figure.left {
+    position:absolute;
+    top:35%;
+    left:10%;
+    width:35%;
+}
+
+figure.right {
+    position:absolute;
+    top:35%;
+    right:10%;
+    width:35%;
+    text-align:center;
+}
+
+figure.triple1 {
+    position:absolute;
+    top:35%;
+    left:10%;
+    width:27%;
+}
+figure.triple2 {
+    position:absolute;
+    top:35%;
+    left:37%;
+    width:27%;
+}
+figure.triple3 {
+    position:absolute;
+    top:35%;
+    left:64%;
+    width:27%;
+}
+
+figcaption {
+    font-size: 120%;
+    line-height: 160%;
+    margin-top: 10px;
+    text-align:center;
+}
+
+table {
+    margin: 3rem auto;
+    border: solid 3px #666;
+}
+
+th {
+    background-color: #eee;
+}
+
+div.point {
+    border: solid 3px #1f78b5;
+    border-radius: 0px;
+    color: #1F78B5;
+    background-color: #ffffff;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 120%;
+    line-height: 160%;
+}
+
+span.check {
+    font-weight: bold;
+    background-color: #33a02c;
+    color: #ffffff;
+    padding: 2px 7px;
+}
+
+span.times {
+    font-weight: bold;
+    background-color: #e31a1c;
+    color: #ffffff;
+    padding: 0px 12px;
+}
+
+td.mg {
+    background-color: #aaa;
+}
