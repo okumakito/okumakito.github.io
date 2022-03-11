@@ -25,10 +25,8 @@ G. Tanaka, M. Oku, and K. Aihara: Mathematical modelling of complex systems and 
 会議予稿、紀要等 (和文)
 -----------------------
 
-<!--
-* 奥 牧人: KampoDBをより使いやすくするための大幅更新, 情処研報, 2022-BIO-69(?):1-6 (2022). http://id.nii.ac.jp/1001/
-M. Oku: A major update of KampoDB for better usability, IPSJ SIG Tech. Rep., 2022-BIO-69(?):1-6 (2022).
--->
+* 奥 牧人: KampoDBをより使いやすくするための大幅更新, 情処研報, 2022-BIO-69(14):1-6 (2022). http://id.nii.ac.jp/1001/00216816/
+M. Oku: A major update of KampoDB for better usability, IPSJ SIG Tech. Rep., 2022-BIO-69(14):1-6 (2022).
 
 * 奥 牧人: 同期性揺らぎ遺伝子の二段階抽出におけるパラメータ調整法, 情処研報, 2021-BIO-65(5):1-6 (2021). http://id.nii.ac.jp/1001/00209859/
 M. Oku: Parameter adjustment method in two-step extraction of synchronously fluctuated genes, IPSJ SIG Tech. Rep., 2021-BIO-65(5):1-6 (2021).
