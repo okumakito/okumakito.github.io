@@ -58,47 +58,47 @@ Lectures
 数理統計学特論I
 ---------------
 
-社会DSプログラム基礎科目、T1水曜2限予定、2022年度 担当予定
+社会DSプログラム基礎科目、T1水曜2限、2022年度 担当予定
 
-講義資料 (暫定版)
+講義資料
 
-* [第1回 基本用語](../stat1/slide1.html)
+* [第1回 基本用語](https://speakerdeck.com/okumakito/oku-slide-stat1-1)
 
-* [第2回 確率と1次元の確率変数](../stat1/slide2.html)
+* [第2回 確率と1次元の確率変数](https://speakerdeck.com/okumakito/oku-slide-stat1-2)
 
-* [第3回 多次元の確率変数](../stat1/slide3.html)
+* [第3回 多次元の確率変数](https://speakerdeck.com/okumakito/oku-slide-stat1-3)
 
-* [第4回 統計量と標本分布](../stat1/slide4.html)
+* [第4回 統計量と標本分布](https://speakerdeck.com/okumakito/oku-slide-stat1-4)
 
-* [第5回 統計的決定理論の枠組み](../stat1/slide5.html)
+* [第5回 統計的決定理論の枠組み](https://speakerdeck.com/okumakito/oku-slide-stat1-5)
 
-* [第6回 十分統計量](../stat1/slide6.html)
+* [第6回 十分統計量](https://speakerdeck.com/okumakito/oku-slide-stat1-6)
 
-* [第7回 推定論](../stat1/slide7.html)
+* [第7回 推定論](https://speakerdeck.com/okumakito/oku-slide-stat1-7)
 
 
 数理統計学特論II
 ----------------
 
-社会DSプログラム基礎科目、T2水曜2限予定、2022年度 担当予定
+社会DSプログラム基礎科目、T2水曜2限、2022年度 担当予定
 
-講義資料 (暫定版)
+講義資料
 
-* [第1回 基本用語](../stat2/slide1.html)
+* [第1回 基本用語](https://speakerdeck.com/okumakito/oku-slide-stat2-1)
 
-* [第2回 検定論](../stat2/slide2.html)
+* [第2回 検定論](https://speakerdeck.com/okumakito/oku-slide-stat2-2)
 
-* [第3回 区間推定](../stat2/slide3.html)
+* [第3回 区間推定](https://speakerdeck.com/okumakito/oku-slide-stat2-3)
 
-* [第4回 正規分布と二項分布に関する推測](../stat2/slide4.html)
+* [第4回 正規分布と二項分布に関する推測](https://speakerdeck.com/okumakito/oku-slide-stat2-4)
 
-* [第5回 線形モデル](../stat2/slide5.html)
+* [第5回 線形モデル](https://speakerdeck.com/okumakito/oku-slide-stat2-5)
 
-* [第6回 ノンパラメトリック法](../stat2/slide6.html)
+* [第6回 ノンパラメトリック法](https://speakerdeck.com/okumakito/oku-slide-stat2-6)
 
-* [第7回 漸近理論](../stat2/slide7.html)
+* [第7回 漸近理論](https://speakerdeck.com/okumakito/oku-slide-stat2-7)
 
-* [おまけ ベイズ法](../stat2/slide8.html)
+* [おまけ ベイズ法](https://speakerdeck.com/okumakito/oku-slide-stat2-8)
 
 
 
