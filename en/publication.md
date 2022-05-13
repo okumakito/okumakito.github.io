@@ -51,19 +51,19 @@ Conference papers
 
 * T. Termsaithong, M. Oku, and K. Aihara: Coherence patterns in neural fields at criticality, Proc. AROB'12, pp. 557-560 (2012).
 
-* M. Oku and K. Aihara: Associative dynamics with structured relations among memories in a chaotic neural network, Proc. NOLTA'11, pp. 366-369 (2011). http://www.ieice.org/proceedings/NOLTA2011/articles/B1L-D2-8051.pdf
+* M. Oku and K. Aihara: Associative dynamics with structured relations among memories in a chaotic neural network, Proc. NOLTA'11, pp. 366-369 (2011). https://doi.org/10.34385/proc.45.B1L-D2
 
 * M. Oku and K. Aihara: Traveling waves in locally connected chaotic neural networks and their phenomenological modeling, Proc. ICCN'11, pp. 213-219 (2011). https://doi.org/10.1007/978-94-007-4792-0_29
 
 * W. Kobayashi, M. Oku, and K. Aihara: Signal transmission in multilayer asynchronous neural networks, Proc. AROB'11, pp. 334-337 (2011).
 
-* M. Oku and K. Aihara: Associative dynamics of color images in a chaotic neural network, Proc. NOLTA'10, pp. 465-468 (2010). http://www.ieice.org/proceedings/NOLTA2010/articles/C1L-B1-6012.pdf
+* M. Oku and K. Aihara: Associative dynamics of color images in a chaotic neural network, Proc. NOLTA'10, pp. 465-468 (2010). https://doi.org/10.34385/proc.44.C1L-B1
 
-* M. Oku and K. Aihara: A meso-scopic model of the binding formation in the brain, Proc. NOLTA'09, pp. 604-607 (2009). http://www.ieice.org/proceedings/NOLTA2009/articles/C2L-A5-Oku-4102.pdf
+* M. Oku and K. Aihara: A meso-scopic model of the binding formation in the brain, Proc. NOLTA'09, pp. 604-607 (2009). https://doi.org/10.34385/proc.43.C2L-A5
 
 * M. Oku and K. Aihara: Multiple cell assemblies and multi-step computation in neural networks, Proc. AROB'09, pp. 506-509 (2009).
 
-* M. Oku and K. Aihara: Mathematical model of memory consolidation using alternate sampling between neocortex and hippocampus, Proc. NOLTA'08, pp. 269-272 (2008). http://www.ieice.org/proceedings/NOLTA2008/articles/B2L-C3-Oku-2016.pdf
+* M. Oku and K. Aihara: Mathematical model of memory consolidation using alternate sampling between neocortex and hippocampus, Proc. NOLTA'08, pp. 269-272 (2008). https://doi.org/10.34385/proc.42.B2L-C3
 
 * M. Oku and K. Aihara: Networked reinforcement learning, Proc. AROB'08, pp. 469-472 (2008).
 
