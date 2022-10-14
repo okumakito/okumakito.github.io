@@ -91,7 +91,7 @@ Others
 Presentations without proceedings
 ---------------------------------
 
-* S. Ohno, H. Metoki, M. Oku, N. Iwama, A. Shiozaki, A. Nakashima, S. Saito: Prediction of hypertensive disorders of pregnancy based on home blood pressure monitoring (oral), ISSHP'21, 2021/09/15-28, online.
+* S. Ohno, H. Metoki, M. Oku, N. Iwama, A. Shiozaki, A. Nakashima, S. Saito: Prediction of hypertensive disorders of pregnancy based on home blood pressure monitoring (oral), ISSHP'21, 2021/09/15-28, online. https://doi.org/10.1016/j.preghy.2021.07.015
 
 * M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation (oral), Workshop on Critical Transitions in Complex Systems 2020, 2020/07/31, online.
 
