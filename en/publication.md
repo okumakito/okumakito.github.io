@@ -49,7 +49,7 @@ Conference papers
 
 -->
 
-* X. Shen, M. Morishita, J. Imura, M. Oku, and K. Aihara: Low-sample-size data-driven re-stabilization of gene network systems, Proc. ROCOND'22 (2022).
+* X. Shen, M. Morishita, J. Imura, M. Oku, and K. Aihara: Low-sample-size data-driven re-stabilization of gene network systems, Proc. ROCOND'22, pp. 241-246 (2022). https://doi.org/10.1016/j.ifacol.2022.09.353
 
 * M. Oku: Bubbloid algorithm: A simple method for generating bubble-like line drawings, Proc. IIAI-AAI'19, pp. 954-959 (2019). https://doi.org/10.1109/IIAI-AAI.2019.00191
 
