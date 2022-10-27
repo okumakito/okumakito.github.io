@@ -25,6 +25,13 @@ G. Tanaka, M. Oku, and K. Aihara: Mathematical modelling of complex systems and 
 会議予稿、紀要等 (和文)
 -----------------------
 
+<!--
+
+* 奥 牧人: 対照群を用いない同期性揺らぎ遺伝子の抽出法, 情処研報, 2022-BIO-72(?):1-6 (2022).
+M. Oku: Extraction method of synchronously fluctuated genes without using a control group, IPSJ SIG Tech. Rep., 2022-BIO-72(?):1-6 (2022).
+
+-->
+
 * 奥 牧人: KampoDBをより使いやすくするための大幅更新, 情処研報, 2022-BIO-69(14):1-6 (2022). http://id.nii.ac.jp/1001/00216816/
 M. Oku: A major update of KampoDB for better usability, IPSJ SIG Tech. Rep., 2022-BIO-69(14):1-6 (2022).
 
@@ -85,6 +92,12 @@ K. Aihara, Y. Hirata, and M. Oku: Complex life systems and big data analysis, JI
 
 予稿なし発表
 ------------
+
+<!--
+
+* 福原 志音, 伊藤 遼, 戸邉 一之, 奥 牧人, 四方 雅隆, 春木 孝之, 木村 巌, 永田 義毅, 山上 孝司, 上田 肇一: 機械学習による糖尿病発症予測の試み &ndash;BMIによるサブグループ化と予測精度&ndash; (ポスター発表), 第25回 情報論的学習理論ワークショップ (IBIS2022), 2022/11/21, つくば.
+
+-->
 
 * 奥 牧人: 家庭血圧測定による妊娠高血圧/妊娠高血圧腎症の発症予測 (口頭発表), 第62回 日本臨床化学会年次学術集会, 2022/10/01, 富山.
 

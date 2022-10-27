@@ -6,6 +6,8 @@ Note: Japanese publications are listed [**here**](../jp/#!publication.md)
 Journal papers
 --------------
 
+* S. Hayashi, C.K. Muraleedharan, M. Oku, S. Tomar, S.P. Hogan, M. Quiros, C.A. Parkos, and A. Nusrat: Intestinal epithelial BLT1 promotes mucosal repair, JCI Insight, (2022). https://doi.org/10.1172/jci.insight.162392
+
 * K. Koizumi, M. Oku, S. Hayashi, A. Inujima, N. Shibahara, L. Chen, Y. Igarashi, K. Tobe, S. Saito, M. Kadowaki, and K. Aihara: Suppression of dynamical network biomarker signals at the predisease state (Mibyou) before metabolic syndrome in mice by a traditional Japanese medicine (Kampo formula) bofutsushosan, eCAM, 2020:9129134 (2020). https://doi.org/10.1155/2020/9129134
 (Corrigendum: https://doi.org/10.1155/2021/9760307)
 
