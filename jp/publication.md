@@ -27,8 +27,8 @@ G. Tanaka, M. Oku, and K. Aihara: Mathematical modelling of complex systems and 
 
 <!--
 
-* 奥 牧人: 対照群を用いない同期性揺らぎ遺伝子の抽出法, 情処研報, 2022-BIO-72(?):1-6 (2022).
-M. Oku: Extraction method of synchronously fluctuated genes without using a control group, IPSJ SIG Tech. Rep., 2022-BIO-72(?):1-6 (2022).
+* 奥 牧人: 対照群を用いない同期性揺らぎ遺伝子の抽出法, 情処研報, 2022-BIO-72(3):1-6 (2022).
+M. Oku: Extraction method of synchronously fluctuated genes without using a control group, IPSJ SIG Tech. Rep., 2022-BIO-72(3):1-6 (2022).
 
 -->
 
@@ -96,6 +96,8 @@ K. Aihara, Y. Hirata, and M. Oku: Complex life systems and big data analysis, JI
 <!--
 
 * 福原 志音, 伊藤 遼, 戸邉 一之, 奥 牧人, 四方 雅隆, 春木 孝之, 木村 巌, 永田 義毅, 山上 孝司, 上田 肇一: 機械学習による糖尿病発症予測の試み &ndash;BMIによるサブグループ化と予測精度&ndash; (ポスター発表), 第25回 情報論的学習理論ワークショップ (IBIS2022), 2022/11/21, つくば.
+
+* 四方 雅隆, 奥 牧人, 福原 志音, 伊藤 遼, 春木 孝之, 木村 巌, 上田 肇一, 寺元 剛, 中條 大輔, 山上 孝司, 永田 義毅, 戸邉 一之: 病型に着目した糖尿病発症時体重推移に関する検討：健康診断データを用いて, 第66回 日本糖尿病学会年次学術集会, 2023/05/11-13, 鹿児島.
 
 -->
 
