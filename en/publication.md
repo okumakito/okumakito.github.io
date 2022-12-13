@@ -47,11 +47,7 @@ Journal papers
 Conference papers
 -----------------
 
-<!--
-
-* M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation with skewness filtering, Proc. NOLTA'22 (2022).
-
--->
+* M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation with skewness filtering, Proc. NOLTA'22, pp. 99-102 (2022).
 
 * X. Shen, M. Morishita, J. Imura, M. Oku, and K. Aihara: Low-sample-size data-driven re-stabilization of gene network systems, Proc. ROCOND'22, pp. 241-246 (2022). https://doi.org/10.1016/j.ifacol.2022.09.353
 
