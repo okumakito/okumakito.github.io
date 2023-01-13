@@ -6,6 +6,10 @@ Note: Japanese publications are listed [**here**](../jp/#!publication.md)
 Journal papers
 --------------
 
+<!--
+M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation with skewness-based reject option, NOLTA, accepted.
+-->
+
 * T. Haruki, S. Yonezawa, K. Koizumi, Y. Yoshida, T.M. Watanabe, H. Fujita, Y. Oshima, M. Oku, A. Taketani, M. Yamazaki, T. Ichimura, M. Kadowaki, I. Kitajima, and S. Saito: Application of the dynamical network biomarker theory to Raman spectra, Biomolecules, 12(12):1730 (2022). https://doi.org/10.3390/biom12121730
 
 * S. Hayashi, C.K. Muraleedharan, M. Oku, S. Tomar, S.P. Hogan, M. Quiros, C.A. Parkos, and A. Nusrat: Intestinal epithelial BLT1 promotes mucosal repair, JCI Insight, 7(23):e162392 (2022). https://doi.org/10.1172/jci.insight.162392
