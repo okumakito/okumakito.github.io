@@ -7,7 +7,7 @@ Journal papers
 --------------
 
 <!--
-M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation with skewness-based reject option, NOLTA, accepted.
+M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation with skewness-based reject option, NOLTA, E14-N(2):? (2023).
 -->
 
 * T. Haruki, S. Yonezawa, K. Koizumi, Y. Yoshida, T.M. Watanabe, H. Fujita, Y. Oshima, M. Oku, A. Taketani, M. Yamazaki, T. Ichimura, M. Kadowaki, I. Kitajima, and S. Saito: Application of the dynamical network biomarker theory to Raman spectra, Biomolecules, 12(12):1730 (2022). https://doi.org/10.3390/biom12121730
