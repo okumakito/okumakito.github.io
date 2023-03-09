@@ -23,7 +23,7 @@ M. Oku: Estimation of the critical transition probability using quadratic polyno
 
 * K. Koizumi, M. Oku, S. Hayashi, A. Inujima, N. Shibahara, L. Chen, Y. Igarashi, K. Tobe, S. Saito, M. Kadowaki, and K. Aihara: Identifying pre-disease signals before metabolic syndrome in mice by dynamical network biomarkers, Sci. Rep., 9:8767 (2019). https://doi.org/10.1038/s41598-019-45119-w
 
-* M. Oku: Two novel methods for extracting synchronously fluctuated genes, TBIO, 12:9-16 (2019). https://doi.org/10.2197/ipsjtbio.12.9
+* M. Oku: Two novel methods for extracting synchronously fluctuated genes, IPSJ Trans. Bioinform., 12:9-16 (2019). https://doi.org/10.2197/ipsjtbio.12.9
 
 * M. Oku and K. Aihara: On the covariance matrix of the stationary distribution of a noisy dynamical system, NOLTA, 9(2):166-184 (2018). https://doi.org/10.1587/nolta.9.166
 
@@ -95,7 +95,7 @@ Conference papers
 Others
 ------
 
-* M. Oku: Branching embedding: A heuristic dimensionality reduction algorithm based on hierarchical clustering, arXiv, 1805.02161 (2018). https://arxiv.org/abs/1805.02161
+* M. Oku: Branching embedding: A heuristic dimensionality reduction algorithm based on hierarchical clustering, arXiv, 1805.02161 (2018). https://doi.org/10.48550/arXiv.1805.02161
 
 * K. Aihara, T. Yamada, and M. Oku: Chaotic neural networks and beyond, A. Adamatzky and G. Chen (eds.), 'Chaos, CNN, Memristors and Beyond,' World Scientific, pp. 259-270 (2013). https://doi.org/10.1142/9789814434805_0021
 
