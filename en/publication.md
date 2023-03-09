@@ -60,36 +60,52 @@ Conference papers
 -->
 
 * M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation with skewness filtering, Proc. NOLTA'22, pp. 99-102 (2022). https://doi.org/10.34385/proc.71.A3L-E-02
+(oral, 2022/12/12, online)
 
 * X. Shen, M. Morishita, J. Imura, M. Oku, and K. Aihara: Low-sample-size data-driven re-stabilization of gene network systems, Proc. ROCOND'22, pp. 241-246 (2022). https://doi.org/10.1016/j.ifacol.2022.09.353
+(oral, 2022/09/02, online)
 
 * M. Oku: Bubbloid algorithm: A simple method for generating bubble-like line drawings, Proc. IIAI-AAI'19, pp. 954-959 (2019). https://doi.org/10.1109/IIAI-AAI.2019.00191
+(oral, 2019/07/07, Toyama)
 
 * T. Matsumori, M. Oku, and K. Aihara: Relations between early-warning signals based on dynamical network markers and network structures, Proc. NOLTA'17, pp. 229-232 (2017). http://www.ieice.org/nolta/symposium/archive/2017/articles/5140.pdf
+(oral, 2017/12, Cancun)
 
 * M. Oku: Approximated probabilistic inference on a dynamic Bayesian network using a multistate neural network, Proc. NOLTA'13, pp. 374-377 (2013). (erratum: ancestral sampling -> logic sampling) https://doi.org/10.15248/proc.2.374
+(oral, 2013/09/11, Santa Fe, USA)
 
 * T. Termsaithong, M. Oku, and K. Aihara: Coherence patterns in neural fields at criticality, Proc. AROB'12, pp. 557-560 (2012).
+(oral, 2012/01/21, Beppu)
 
 * M. Oku and K. Aihara: Associative dynamics with structured relations among memories in a chaotic neural network, Proc. NOLTA'11, pp. 366-369 (2011). https://doi.org/10.34385/proc.45.B1L-D2
+(oral, 2011/09/06, Kobe)
 
 * M. Oku and K. Aihara: Traveling waves in locally connected chaotic neural networks and their phenomenological modeling, Proc. ICCN'11, pp. 213-219 (2011). https://doi.org/10.1007/978-94-007-4792-0_29
+(oral, 2011/06/11, Niseko)
 
 * W. Kobayashi, M. Oku, and K. Aihara: Signal transmission in multilayer asynchronous neural networks, Proc. AROB'11, pp. 334-337 (2011). https://alife-robotics.co.jp/members2011/icarob/data/papers/OS14/OS14-1.pdf
+(oral, 2011/01/29, Beppu)
 
 * M. Oku and K. Aihara: Associative dynamics of color images in a chaotic neural network, Proc. NOLTA'10, pp. 465-468 (2010). https://doi.org/10.34385/proc.44.C1L-B1
+(oral, 2010/09/08, Krakow)
 
 * M. Oku and K. Aihara: A meso-scopic model of the binding formation in the brain, Proc. NOLTA'09, pp. 604-607 (2009). https://doi.org/10.34385/proc.43.C2L-A5
+(oral, 2009/10/21, Sapporo)
 
 * M. Oku and K. Aihara: Multiple cell assemblies and multi-step computation in neural networks, Proc. AROB'09, pp. 506-509 (2009). https://alife-robotics.co.jp/members2009/icarob/Papers/OS9/OS9-1.pdf
+(oral, 2009/02/06, Beppu)
 
 * M. Oku and K. Aihara: Mathematical model of memory consolidation using alternate sampling between neocortex and hippocampus, Proc. NOLTA'08, pp. 269-272 (2008). https://doi.org/10.34385/proc.42.B2L-C3
+(oral, 2008/09/09, Budapest)
 
 * M. Oku and K. Aihara: Networked reinforcement learning, Proc. AROB'08, pp. 469-472 (2008). https://alife-robotics.co.jp/members2008/icarob/papers/OS11/OS11-1.pdf
+(oral, 2008/02/01, Beppu)
 
 * M. Oku and K. Aihara: A mathematical model of planning in the prefrontal cortex, Proc. AROB'07, pp. 557-560 (2007). https://alife-robotics.co.jp/members2007/icarob/Papers/OS3/OS3-3.pdf
+(oral, 2007/01/26, Beppu)
 
 * M. Oku, T. Shimizu, T. Kanno, and K. Furuta: Simulation of residents' evacuation in nuclear disaster, Proc. SICE'05, pp. 1925-1928 (2005).
+(oral, 2005/08/09, Okayama)
 
 
 Others

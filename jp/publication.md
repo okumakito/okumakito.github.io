@@ -27,36 +27,49 @@ G. Tanaka, M. Oku, and K. Aihara: Mathematical modelling of complex systems and 
 
 * 奥 牧人: 対照群を用いない同期性揺らぎ遺伝子の抽出法, 情処研報, 2022-BIO-72(3):1-6 (2022). http://id.nii.ac.jp/1001/00222463/
 M. Oku: Extraction method of synchronously fluctuated genes without using a control group, IPSJ SIG Tech. Rep., 2022-BIO-72(3):1-6 (2022).
+(第72回 バイオ情報学研究会, 口頭発表, 2022/11/29, 東京)
+Slide: https://speakerdeck.com/okumakito/oku-slide-20221129
 
 * 奥 牧人: KampoDBをより使いやすくするための大幅更新, 情処研報, 2022-BIO-69(14):1-6 (2022). http://id.nii.ac.jp/1001/00216816/
 M. Oku: A major update of KampoDB for better usability, IPSJ SIG Tech. Rep., 2022-BIO-69(14):1-6 (2022).
+(第69回 バイオ情報学研究会, 口頭発表, 2022/03/11, online)
+Slide: https://speakerdeck.com/okumakito/oku-slide-20220311
 
 * 奥 牧人: 同期性揺らぎ遺伝子の二段階抽出におけるパラメータ調整法, 情処研報, 2021-BIO-65(5):1-6 (2021). http://id.nii.ac.jp/1001/00209859/
 M. Oku: Parameter adjustment method in two-step extraction of synchronously fluctuated genes, IPSJ SIG Tech. Rep., 2021-BIO-65(5):1-6 (2021).
+(第65回 バイオ情報学研究会, 口頭発表, 2021/03/11, online)
 
 * 奥 牧人: フローサイトメトリーデータ解析ための方向制限付きアースムーバー距離の効率的な計算法, 情処研報, 2020-BIO-61(8):1-6 (2020). http://id.nii.ac.jp/1001/00203781/
 M. Oku: An efficient method for calculating earth mover's distance with direction restriction for flow cytometry data analysis, IPSJ SIG Tech. Rep., 2020-BIO-61(8):1-6 (2020).
+(第61回 バイオ情報学研究会, 口頭発表, 2020/03/13, online)
 
 * 村田 健哉, 春木 孝之, 吉田 泰彦, 奥 牧人, 小泉 桂一, 門脇 真: デング熱ウイルス感染経過データに対する動的ネットワークバイオマーカー解析の適用, 情処研報, 2020-BIO-61(2):1-6 (2020). http://id.nii.ac.jp/1001/00203775/
 K. Murata, T. Haruki, Y. Yoshida, M. Oku, K. Koizumi, M. Kadowaki: Application of dynamical network biomarker analysis to dengue fever virus infection data, IPSJ SIG Tech. Rep., 2020-BIO-61(2):1-6 (2020).
+(第61回 バイオ情報学研究会, 口頭発表, 2020/03/12, online)
 
 * 奥 牧人: KampoDBの結合シミュレーション結果の概説, 情処研報, 2019-BIO-59(1):1-6 (2019). http://id.nii.ac.jp/1001/00198992/
 M. Oku:  An overview of the docking simulation results in KampoDB, IPSJ SIG Tech. Rep., 2019-BIO-59(1):1-6 (2019).
+(第59回 バイオ情報学研究会, 口頭発表, 2019/09/08, 東京)
 
 * 奥 牧人: 二次多項式近似による臨界遷移確率の推定, 信学技報, 118(498):57-62 (2019). https://ci.nii.ac.jp/naid/40021865765
 M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation, IEICE Tech. Rep., 118(498):57-62 (2019).
+(非線形問題研究会, 口頭発表, 2019/03/15, 福井)
 
 * 奥 牧人: もう一つの主成分分析に基づく同期性揺らぎ遺伝子抽出法, 情処研報, 2019-BIO-57(2):1-6 (2019). http://id.nii.ac.jp/1001/00194900/
 M. Oku: An alternative method for extracting synchronously fluctuated genes based on principal component analysis, IPSJ SIG Tech. Rep., 2019-BIO-57(2):1-6 (2019).
+(第57回 バイオ情報学研究会, 口頭発表, 2019/03/08, 能美)
 
 * 奥 牧人: 同期性揺らぎ遺伝子の二つの新規抽出法, 情処研報, 2018-BIO-56(1):1-6 (2018). http://id.nii.ac.jp/1001/00192709/
 M. Oku: Two novel methods for extracting synchronously fluctuated genes, IPSJ SIG Tech. Rep., 2018-BIO-56(1):1-6 (2018).
+(第56回 バイオ情報学研究会, 口頭発表, 2018/12/14, 岡山)
 Slide: https://speakerdeck.com/okumakito/oku-slide-20181214
 
 * 石川 善一郎, 奥 牧人, 河野 崇: Webリスティング広告における基本広告データを用いたコンバージョン観測と予測, DEIM Forum 2017 論文集, P5-5 (2017). http://db-event.jpn.org/deim2017/papers/93.pdf
+(第9回 データ工学と情報マネジメントに関するフォーラム (DEIM2017), ポスター発表, 2017/03/06. 高山)
 
 * 奥 牧人, 岩山 幸治, 徳田 慶太, 鈴木 秀幸, 合原 一幸: 大規模カオスニューラルネットワークの並列シミュレーション, 信学技報, 109(269):55-59 (2009). https://ci.nii.ac.jp/naid/110007504849
 M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, and K. Aihara: Parallel simulation of a large-scale chaotic neural network, IEICE Tech. Rep., 109(269):55-59 (2009).
+(非線形問題研究会, 口頭発表, 2009/11/11, 屋久島)
 
 
 特許出願
