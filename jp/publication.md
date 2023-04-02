@@ -87,6 +87,12 @@ M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, and K. Aihara: Parallel simulation of 
 その他
 ------
 
+<!--
+
+* 奥 牧人, 山下 洋史, 岡本 有司, 合原 一幸: DNB理論とその応用, 生体の科学, 74(2):1-6 (2023).
+
+-->
+
 * 奥 牧人: 遺伝子発現量データ解析の基礎, 和漢研年報, 44:2-11 (2018). http://hdl.handle.net/10110/00019294
 
 * 合原 一幸, 平田 祥人, 奥 牧人: 複雑生命系とビッグデータ解析, 実験医学, 34(5):728-732 (2016). http://mol.medicalonline.jp/library/journal/abstract?GoodsID=ai4jigkb/2016/003405/012
