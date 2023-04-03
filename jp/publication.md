@@ -114,6 +114,8 @@ K. Aihara, Y. Hirata, and M. Oku: Complex life systems and big data analysis, JI
 
 -->
 
+* 林 周作, M. Quiros, 奥 牧人, C.A. Parkos, A. Nusrat: 腸管上皮BLT1は腸管粘膜の創傷治癒において重要な役割を担う (口頭発表), 第96回 日本薬理学会年会, 2022/12/02, 横浜. https://society.main.jp/jpw2022/timetable/program_3-1.html
+
 * 福原 志音, 伊藤 遼, 戸邉 一之, 奥 牧人, 四方 雅隆, 春木 孝之, 木村 巌, 永田 義毅, 山上 孝司, 上田 肇一: 機械学習による糖尿病発症予測の試み &ndash;BMIによるサブグループ化と予測精度&ndash; (ポスター発表), 第25回 情報論的学習理論ワークショップ (IBIS2022), 2022/11/21, つくば.
 
 * 奥 牧人: 家庭血圧測定による妊娠高血圧/妊娠高血圧腎症の発症予測 (口頭発表), 第62回 日本臨床化学会年次学術集会, 2022/10/01, 富山.
