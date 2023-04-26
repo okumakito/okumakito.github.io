@@ -6,6 +6,8 @@ Note: Japanese publications are listed [**here**](../jp/#!publication.md)
 Journal papers
 --------------
 
+* H. Yasukata, X. Shen, H. Sasahara, J. Imura, M. Oku, and K. Aihara: Design of input assignment and feedback gain for re-stabilizing undirected networks with high-dimension low-sample-size data, Int. J. Robust Nonlinear Control, published online. https://doi.org/10.1002/rnc.6720
+
 * M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation with skewness-based reject option, NOLTA, 14(2):242-253 (2023). https://doi.org/10.1587/nolta.14.242
 
 * T. Haruki, S. Yonezawa, K. Koizumi, Y. Yoshida, T.M. Watanabe, H. Fujita, Y. Oshima, M. Oku, A. Taketani, M. Yamazaki, T. Ichimura, M. Kadowaki, I. Kitajima, and S. Saito: Application of the dynamical network biomarker theory to Raman spectra, Biomolecules, 12(12):1730 (2022). https://doi.org/10.3390/biom12121730
