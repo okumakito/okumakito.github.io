@@ -6,6 +6,11 @@ Note: Japanese publications are listed [**here**](../jp/#!publication.md)
 Journal papers
 --------------
 
+
+* X. Shen, H. Sasahara, M. Morishita, J. Imura, M. Oku, K. Aihara: Model-free dominant pole placement for restabilizing high-dimensional network systems via small-sample-size data, IEEE Access, accepted.
+
+<!-- https://doi.org/10.1109/ACCESS.2023.3274530 -->
+
 * H. Yasukata, X. Shen, H. Sasahara, J. Imura, M. Oku, and K. Aihara: Design of input assignment and feedback gain for re-stabilizing undirected networks with high-dimension low-sample-size data, Int. J. Robust Nonlinear Control, published online. https://doi.org/10.1002/rnc.6720
 
 * M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation with skewness-based reject option, NOLTA, 14(2):242-253 (2023). https://doi.org/10.1587/nolta.14.242
@@ -51,13 +56,9 @@ Journal papers
 Conference papers
 -----------------
 
-<!--
+* Y. Saito, H. Sasahara, X. Shen, J. Pena Ramirez, J. Imura, M. Oku, K. Aihara: Pre-disease detection using dynamical network biomarkers in gene regulatory networks with cell-to-cell interaction, Proc. IFAC'23, accepted. (interactive, 2023/06/12, Yokohara)
 
-* Y. Saito, H. Sasahara, X. Shen, J. Pena Ramirez, J. Imura, M. Oku, K. Aihara: Pre-disease detection using dynamical network biomarkers in gene regulatory networks with cell-to-cell interaction, Proc. IFAC'23, accepted.
-
-* X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Data-driven re-stabilization of gene regulatory network towards early medical treatment, Proc. IFAC'23, accepted.
-
--->
+* X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Data-driven re-stabilization of gene regulatory network towards early medical treatment, Proc. IFAC'23, accepted. (oral, 2023/06/12, Yokohama)
 
 * M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation with skewness filtering, Proc. NOLTA'22, pp. 99-102 (2022). https://doi.org/10.34385/proc.71.A3L-E-02
 (oral, 2022/12/12, online)
