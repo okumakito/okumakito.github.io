@@ -54,10 +54,10 @@ Journal papers
 Conference papers
 -----------------
 
-* Y. Saito, H. Sasahara, X. Shen, J. Pena Ramirez, J. Imura, M. Oku, K. Aihara: Pre-disease detection using dynamical network biomarkers in gene regulatory networks with cell-to-cell interaction, Proc. IFAC'23, accepted.
+* Y. Saito, H. Sasahara, X. Shen, J. Pena Ramirez, J. Imura, M. Oku, K. Aihara: Pre-disease detection using dynamical network biomarkers in gene regulatory networks with cell-to-cell interaction, Proc. IFAC'23 (2023).
 (interactive, 2023/06/12, Yokohara)
 
-* X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Data-driven re-stabilization of gene regulatory network towards early medical treatment, Proc. IFAC'23, accepted.
+* X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Data-driven re-stabilization of gene regulatory network towards early medical treatment, Proc. IFAC'23 (2023).
 (oral, 2023/06/12, Yokohama)
 
 * M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation with skewness filtering, Proc. NOLTA'22, pp. 99-102 (2022). https://doi.org/10.34385/proc.71.A3L-E-02
