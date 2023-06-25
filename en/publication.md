@@ -60,6 +60,9 @@ Conference papers
 * X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Data-driven re-stabilization of gene regulatory network towards early medical treatment, Proc. IFAC'23, accepted.
 (oral, 2023/07/12, Yokohama)
 
+* H. Honoki, S. Fujisaka, Y. Watanabe, M. Oku, Y. Kondo, A. Nishimura, T. Kado, M. Bilal, A. Enkaku, A. Takikawa, D. Chujo, Y. Morinaga, K. Tobe: Identification of gut microbes that prevents metabolic syndrome in healthy Japanese adults, Proc. ADA'23, 1623-P (2023). https://doi.org/10.2337/db23-1623-P
+(poster, 2023/06/23-26, San Diego, USA)
+
 * M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation with skewness filtering, Proc. NOLTA'22, pp. 99-102 (2022). https://doi.org/10.34385/proc.71.A3L-E-02
 (oral, 2022/12/12, online)
 
