@@ -7,19 +7,19 @@ Note: 英文の発表リストは[**こちら**](../en/#!publication.md)
 -------------------
 
 * 三原 弘, 岸 裕幸, 足立 雄一, 清水 貴浩, 酒井 秀紀, 奥 牧人, 藤井 厚子: 地方大学医療系キャンパスでのオンライン授業導入報告, 医学教育, 51(3):255-257 (2020). https://doi.org/10.11307/mededjapan.51.3_255
-H. Mihara, H. Kishi, Y. Adachi, T. Shimizu, H. Sakai, M. Oku, and A. Fujii: How online classes were introduced to the medical school campus of a regional university, Igaku Kyoiku, 51(3):255-257 (2020).
+H. Mihara, H. Kishi, Y. Adachi, T. Shimizu, H. Sakai, M. Oku, A. Fujii: How online classes were introduced to the medical school campus of a regional university, Igaku Kyoiku, 51(3):255-257 (2020).
 
 * 中丸 智貴, 合原 一幸, 奥 牧人: 多層ニューラルネットワークのパラメータ初期化手法の修正, 生産研究, 68(3):261-264 (2016). https://doi.org/10.11188/seisankenkyu.68.261 
-T. Nakamaru, K. Aihara, and M. Oku: Modification of initialization technique for multilayer neural network, SEISAN KENKYU, 68(3):261-264 (2016).
+T. Nakamaru, K. Aihara, M. Oku: Modification of initialization technique for multilayer neural network, SEISAN KENKYU, 68(3):261-264 (2016).
 
 * 中川 拓麻, 奥 牧人, 合原 一幸: 動的ネットワークマーカーによるシステムの転移の予兆検出, 生産研究, 68(3):271-274 (2016). https://doi.org/10.11188/seisankenkyu.68.271
-T. Nakagawa, M. Oku, and K. Aihara: Early warning signals by dynamical network markers, SEISAN KENKYU, 68(3):271-274 (2016).
+T. Nakagawa, M. Oku, K. Aihara: Early warning signals by dynamical network markers, SEISAN KENKYU, 68(3):271-274 (2016).
 
 * 奥 牧人, 合原 一幸: 入力および出力に関する脳情報処理のベイズ的解釈と数理モデル化, 生産研究, 65(3):319-323 (2013). https://doi.org/10.11188/seisankenkyu.65.319
-M. Oku and K. Aihara: Bayesian interpretation and mathematical modeling of input- and output-related information processing in the brain, SEISAN KENKYU, 65(3):319-323 (2013).
+M. Oku, K. Aihara: Bayesian interpretation and mathematical modeling of input- and output-related information processing in the brain, SEISAN KENKYU, 65(3):319-323 (2013).
 
 * 田中 剛平, 奥 牧人, 合原 一幸: 複数系数理モデル学とシミュレーション, シミュレーション, 30(4):236-241 (2011). https://ci.nii.ac.jp/naid/110009327922
-G. Tanaka, M. Oku, and K. Aihara: Mathematical modelling of complex systems and simulation, J. Jpn. Soc. Sim. Tech., 30(4):236-241 (2011).
+G. Tanaka, M. Oku, K. Aihara: Mathematical modelling of complex systems and simulation, J. Jpn. Soc. Sim. Tech., 30(4):236-241 (2011).
 
 
 会議予稿、紀要等 (和文)
@@ -68,7 +68,7 @@ Slide: https://speakerdeck.com/okumakito/oku-slide-20181214
 (第9回 データ工学と情報マネジメントに関するフォーラム (DEIM2017), ポスター発表, 2017/03/06. 高山)
 
 * 奥 牧人, 岩山 幸治, 徳田 慶太, 鈴木 秀幸, 合原 一幸: 大規模カオスニューラルネットワークの並列シミュレーション, 信学技報, 109(269):55-59 (2009). https://ci.nii.ac.jp/naid/110007504849
-M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, and K. Aihara: Parallel simulation of a large-scale chaotic neural network, IEICE Tech. Rep., 109(269):55-59 (2009).
+M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, K. Aihara: Parallel simulation of a large-scale chaotic neural network, IEICE Tech. Rep., 109(269):55-59 (2009).
 (非線形問題研究会, 口頭発表, 2009/11/11, 屋久島)
 
 
@@ -92,7 +92,7 @@ M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, and K. Aihara: Parallel simulation of 
 * 奥 牧人: 遺伝子発現量データ解析の基礎, 和漢研年報, 44:2-11 (2018). http://hdl.handle.net/10110/00019294
 
 * 合原 一幸, 平田 祥人, 奥 牧人: 複雑生命系とビッグデータ解析, 実験医学, 34(5):728-732 (2016). http://mol.medicalonline.jp/library/journal/abstract?GoodsID=ai4jigkb/2016/003405/012
-K. Aihara, Y. Hirata, and M. Oku: Complex life systems and big data analysis, JIKKEN IGAKU, 34(5):728-732 (2016).
+K. Aihara, Y. Hirata, M. Oku: Complex life systems and big data analysis, JIKKEN IGAKU, 34(5):728-732 (2016).
 
 * 奥 牧人: FIRST合原最先端数理モデルプロジェクトの紹介, JSIAM Online Magazine, Article: D1401A (2014). http://jom.jsiam.org/11370
 
@@ -135,7 +135,7 @@ K. Aihara, Y. Hirata, and M. Oku: Complex life systems and big data analysis, JI
 * 奥 牧人, 合原 一幸: 動的ベイジアンネットワークとしての脳：感覚入力の解釈と運動出力の計画 (ポスター発表), 脳と心のメカニズム 第12回夏のワークショップ, 2011/08/21, 神戸.
 
 * 奥 牧人, 合原 一幸: ホップフィールドモデルと多層パーセプトロンを結合したモジュールの配列によるチューリング完全なセルオートマトンモデルのノイズ耐性を有する実現法 (ポスター発表), Neuro2010, 2010/09/03, 神戸. https://doi.org/10.1016/j.neures.2010.07.1433
-M. Oku and K. Aihara: Noise-robust realization of Turing-complete cellular automata by using an array of Hopfield models combined with multilayered perceptrons (poster), Neuro2010, 2010/09/03, Kobe, Japan.
+M. Oku, K. Aihara: Noise-robust realization of Turing-complete cellular automata by using an array of Hopfield models combined with multilayered perceptrons (poster), Neuro2010, 2010/09/03, Kobe, Japan.
 
 * 奥 牧人, 合原 一幸: 能動的な相関除去は多層神経回路における発火率符号の伝送を促進するか? (ポスター発表), 脳と心のメカニズム 第11回夏のワークショップ, 2010/07/29, 札幌.
 
