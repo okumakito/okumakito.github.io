@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>document</title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+<link type="text/css" rel="stylesheet" href="style/bootstrap.min_mod.css">
+<link type="text/css" rel="stylesheet" href="style/style_local.css">
+</head>
+<body>
+<h1 id="ポテンシャル上で転がる球のモデル-20230628">ポテンシャル上で転がる球のモデル (2023/06/28)</h1>
+<ul>
+<li><p>ポテンシャル: <span class="math inline">\(U=ax^2\)</span>, <span class="math inline">\(\nabla U=2ax\)</span></p></li>
+<li><p><span class="math inline">\(x\)</span> における斜面の角度: <span class="math inline">\(\theta=\arctan 2ax\)</span></p></li>
+<li><p>斜面方向の力: <span class="math inline">\(mg\sin\theta\)</span>, 法線方向の力: <span class="math inline">\(mg\cos\theta\)</span></p></li>
+<li><p>摩擦力 (<span class="math inline">\(\dot x\)</span> にも比例すると仮定): <span class="math inline">\(\mu\dot x mg\cos\theta\)</span></p></li>
+<li><p>運動方程式 <span class="math display">\[m\ddot x = (-mg\sin\theta - \mu\dot x mg\cos\theta)\cos\theta\]</span></p></li>
+<li><p><span class="math inline">\(\theta\approx 0\)</span> の場合、<span class="math inline">\(\cos\theta\approx 1\)</span>, <span class="math inline">\(\sin\theta\approx \tan\theta=2ax\)</span> より、 <span class="math display">\[m\ddot x \approx -2amgx - \mu mg\dot x\]</span></p></li>
+<li><p>これは、バネ定数を <span class="math inline">\(k=2amg\)</span>, ダンパー係数を <span class="math inline">\(c=\mu mg\)</span> とおいた場合のmass-spring-damper系に相当する。 <span class="math display">\[m\ddot x = -kx - c\dot x\]</span></p></li>
+<li><p>ポテンシャルが浅くなることは <span class="math inline">\(a\to 0\)</span> であり、これは <span class="math inline">\(k\to 0\)</span>, つまり、バネが弱くなることに対応する。</p></li>
+<li><p>行列表記 <span class="math display">\[\frac{\mathrm{d}}{\mathrm{d}t}
+\left(\begin{array}{c}x\\ \dot x\end{array}\right)
+=\left(\begin{array}{cc}0&amp;1\\-k/m&amp;-c/m\end{array}\right)
+\left(\begin{array}{c}x\\ \dot x\end{array}\right)\]</span></p></li>
+<li><p>固有値を計算 <span class="math display">\[|\lambda I-A|=\left|\begin{array}{cc}\lambda&amp;-1\\k/m&amp;\lambda+c/m\end{array}\right|
+=\lambda^2+\lambda c/m+k/m=0\]</span> <span class="math display">\[\lambda = \frac{-c\pm\sqrt{c^2-4mk}}{2m}\]</span></p></li>
+<li><p>バネ定数 <span class="math inline">\(k\)</span> が十分大きい場合、固有値は複素共役対になる。バネ定数を小さくしていくといずれも実数になり、最終的に片方が <span class="math inline">\(0\)</span> に達して不安定化する。</p></li>
+<li><p>早期警戒信号 (early warning signal) の観点からは、ノイズに駆動された振動の周期が長くなることが利用出来るかもしれない。</p></li>
+</ul>
+<h1 id="追記-一般の場合">(2023/06/29追記) 一般の場合</h1>
+<ul>
+<li><p>対象システム <span class="math display">\[\frac{\mathrm{d}}{\mathrm{d}t}
+\left(\begin{array}{c}x_1\\x_2\end{array}\right)
+=\left(\begin{array}{cc}a&amp;b\\c&amp;d\end{array}\right)
+\left(\begin{array}{c}x_1\\x_2\end{array}\right)\]</span></p></li>
+<li><p>固有値を計算 <span class="math display">\[|\lambda I-A|=\left|\begin{array}{cc}\lambda-a&amp;-b\\-c&amp;\lambda-d\end{array}\right|
+=\lambda^2-(a+d)\lambda+ad-bc=0\]</span> <span class="math display">\[\lambda = \frac{a+d\pm\sqrt{(a+d)^2-4(ad-bc)}}{2}\]</span></p></li>
+<li><p>正常状態で系が安定であり、かつ、<span class="math inline">\(\lambda\)</span> が複素共役とする。 <span class="math display">\[a+d&lt;0,\quad (a+d)^2-4(ad-bc) &lt; 0\]</span></p></li>
+<li><p>4つのパラメータ <span class="math inline">\(a,b,c,d\)</span> のうち、どれか1つだけが変化して系が不安定化する状況を考える。</p>
+<ol type="1">
+<li><p><span class="math inline">\(a\)</span> または <span class="math inline">\(d\)</span> が変化する場合、複素共役のまま虚軸に達する。また、虚部の絶対値は増加する。</p></li>
+<li><p><span class="math inline">\(b\)</span> または <span class="math inline">\(c\)</span> が変化する場合、固有値が衝突して実数になってから、一方が0に達する。</p></li>
+</ol></li>
+</ul>
+<p><img src="figs/fig.svg" width=80%></p>
+</body>
+</html>
