@@ -9,7 +9,7 @@ Journal papers
 
 * X. Shen, H. Sasahara, M. Morishita, J. Imura, M. Oku, K. Aihara: Model-free dominant pole placement for restabilizing high-dimensional network systems via small-sample-size data, IEEE Access, 11:45572-45585 (2023). https://doi.org/10.1109/ACCESS.2023.3274530
 
-* H. Yasukata, X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Design of input assignment and feedback gain for re-stabilizing undirected networks with high-dimension low-sample-size data, Int. J. Robust Nonlinear Control, published online. https://doi.org/10.1002/rnc.6720
+* H. Yasukata, X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Design of input assignment and feedback gain for re-stabilizing undirected networks with high-dimension low-sample-size data, Int. J. Robust Nonlinear Control, 33(12):6734-6753 (2023). https://doi.org/10.1002/rnc.6720
 
 * M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation with skewness-based reject option, NOLTA, 14(2):242-253 (2023). https://doi.org/10.1587/nolta.14.242
 
