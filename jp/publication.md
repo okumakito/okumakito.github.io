@@ -114,11 +114,7 @@ K. Aihara, Y. Hirata, M. Oku: Complex life systems and big data analysis, JIKKEN
 予稿なし発表
 ------------
 
-<!--
-
 * 伊藤 遼, 上田 肇一, 木村 巌, 奥 牧人, 春木 孝之, 永田 義毅, 山上 孝司, 戸邉 一之: エネルギー地形法を用いた健康診断データ解析 (口頭発表), 2023年度 電気・情報関係学会北陸支部連合大会 (JHES2023), 2023/09/02, online.
-
--->
 
 * 奥 牧人: 漢方処方のエネルギー地形解析 (口頭発表), 第40回 和漢医薬学会学術大会, 2023/08/27, 富山.
 Slide: https://speakerdeck.com/okumakito/oku-slide-20230827
