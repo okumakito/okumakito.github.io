@@ -55,7 +55,7 @@ Conference papers
 -----------------
 
 * Y. Saito, H. Sasahara, X. Shen, J. Pena Ramirez, J. Imura, M. Oku, K. Aihara: Pre-disease detection using dynamical network biomarkers in gene regulatory networks with cell-to-cell interaction, Proc. IFAC'23 (2023).
-(interactive, 2023/07/12, Yokohara)
+(interactive, 2023/07/12, Yokohama)
 
 * X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Data-driven re-stabilization of gene regulatory network towards early medical treatment, Proc. IFAC'23 (2023).
 (oral, 2023/07/12, Yokohama)

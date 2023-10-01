@@ -7,7 +7,8 @@ This is a personal page written by Makito Oku.
 Professional appointments
 -------------------------
 
-* 2017/10- Specially Appointed Associate Professor, Institute of Natural Medicine, University of Toyama
+* 2023/10- Specially Appointed Associate Professor, Research Center for Pre-disease Science, University of Toyama
+* 2017/10-2023/09 Specially Appointed Associate Professor, Institute of Natural Medicine, University of Toyama
 * 2012/11-2017/09 Research Associate, Institute of Industrial Science, The University of Tokyo
 * 2012/04-2012/10 Project Research Associate, Institute of Industrial Science, The University of Tokyo
 * 2011/10-2012/03 JSPS Research Fellow (PD), Institute of Industrial Science, The University of Tokyo
