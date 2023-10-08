@@ -24,8 +24,6 @@ Academic membership
 -------------------
 
 * Information Processing Society of Japan (IPSJ)
-* The Pharmaceutical Society of Japan (PSJ)
-* Medical and Pharmaceutical Society for WAKAN-YAKU
 * The Institute of Electronics, Information and Communication Engineers (IEICE)
 
 Award
