@@ -91,13 +91,15 @@ M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, K. Aihara: Parallel simulation of a la
 
 * 春木 孝之, 小泉 桂一, 米澤 翔汰, 奥 牧人, 大嶋 佑介, 林 周作, 渡邉 朋信, 門脇 真, 齋藤 滋: データ駆動型アプローチによる未病の解明, 基礎老化研究, in prep.
 
-* 赤木 一考, 小泉 桂一, 森下 正英，沈 迅，井村 順一, 奥 牧人, 門脇 真, 齋藤 滋: 数理学と生物実験の連携で解き明かすメタボリックシンドロームの未病に関する基礎研究, 糖尿病・内分泌代謝科, in prep.
-
 -->
+
+* 赤木 一考, 小泉 桂一, 森下 正英，沈 迅，井村 順一, 奥 牧人, 笹岡 利安, 戸邉 一之, 門脇 真, 齋藤 滋: 数理学と生物実験の連携によるメタボリックシンドロームの未病遺伝子の同定, 糖尿病・内分泌代謝科, 57(3):325-331 (2023). https://cir.nii.ac.jp/crid/1520297681104388736
+K. Akagi, K. Koizumi, M. Morishita, X. Shen, J. Imura, M. Oku, T. Sasaoka, K. Tobe, M. Kadowaki, S. Saito: Identifying pre-disease genes before metabolic syndrome by the collaborative approach between mathematical and biological sciences, Diabetology, endocrinology & metabolology, 57(3):325-331 (2023).
 
 * 奥 牧人: それ、未病じゃないですか&#xff1f;妊婦に見られる未病について, 安全衛生のひろば, 64(7):44 (2023).
 
 * 奥 牧人, 山下 洋史, 岡本 有司, 合原 一幸: DNB理論とその応用, 生体の科学, 74(2):96-101 (2023). https://doi.org/10.11477/mf.2425201651
+M. Oku, H. Yamashita, Y. Okamoto, K. Aihara: DNB theory and its applications, Seitai no Kagaku, 74(2):96-101 (2023). 
 
 * 奥 牧人: 遺伝子発現量データ解析の基礎, 和漢研年報, 44:2-11 (2018). http://hdl.handle.net/10110/00019294
 
