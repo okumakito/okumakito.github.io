@@ -44,5 +44,5 @@ IDs
 連絡先
 ------
 
-oku&commat;inm.u-toyama.ac.jp
+oku&commat;cts.u-toyama.ac.jp
 
