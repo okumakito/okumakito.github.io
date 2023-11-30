@@ -25,6 +25,10 @@ G. Tanaka, M. Oku, K. Aihara: Mathematical modelling of complex systems and simu
 会議予稿、紀要等 (和文)
 -----------------------
 
+* 奥 牧人: クラリネットプロット：バイオリンプロットに代わるscRNA-seqデータのゼロ過剰分布の表示法, 情処研報, 2023-BIO-76(6):1-6 (2023). http://id.nii.ac.jp/1001/00229418/
+M. Oku: Clarinet plots: Alternative to violin plots to display zero-inflated distribution of scRNA-seq data, IPSJ SIG Tech. Rep., 2023-BIO-76(6):1-6 (2023).
+(第76回 バイオ情報学研究会, 口頭発表, 2023/11/29, 東京)
+
 * 奥 牧人: 対照群を用いない同期性揺らぎ遺伝子の抽出法, 情処研報, 2022-BIO-72(3):1-6 (2022). http://id.nii.ac.jp/1001/00222463/
 M. Oku: Extraction method of synchronously fluctuated genes without using a control group, IPSJ SIG Tech. Rep., 2022-BIO-72(3):1-6 (2022).
 (第72回 バイオ情報学研究会, 口頭発表, 2022/11/29, 東京)
@@ -118,7 +122,7 @@ K. Aihara, Y. Hirata, M. Oku: Complex life systems and big data analysis, JIKKEN
 
 <!--
 
-* 四方 雅隆, 奥 牧人, 福原 志音, 伊藤 遼, 春木 孝之, 上田 肇一, 木村 巌, 寺元 剛, 中條 大輔, 岩田 実, 山上 孝司, 永田 義毅, 門脇 真, 戸邉 一之: 体重が減少して発症する2型糖尿病の特徴：富山県特定健診データを用いて (口頭発表), 第8回 日本糖尿病・生活習慣病ヒューマンデータ学会年次学術集会, 2023/12/1-2, 富山.
+* 四方 雅隆, 奥 牧人, 福原 志音, 伊藤 遼, 春木 孝之, 上田 肇一, 木村 巌, 寺元 剛, 中條 大輔, 岩田 実, 山上 孝司, 永田 義毅, 門脇 真, 戸邉 一之: 体重が減少して発症する2型糖尿病の特徴：富山県特定健診データを用いて (口頭発表), 第8回 日本糖尿病・生活習慣病ヒューマンデータ学会年次学術集会, 2023/12/01, 富山.
 
 -->
 
