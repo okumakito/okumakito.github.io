@@ -28,6 +28,7 @@ G. Tanaka, M. Oku, K. Aihara: Mathematical modelling of complex systems and simu
 * 奥 牧人: クラリネットプロット：バイオリンプロットに代わるscRNA-seqデータのゼロ過剰分布の表示法, 情処研報, 2023-BIO-76(6):1-6 (2023). http://id.nii.ac.jp/1001/00229418/
 M. Oku: Clarinet plots: Alternative to violin plots to display zero-inflated distribution of scRNA-seq data, IPSJ SIG Tech. Rep., 2023-BIO-76(6):1-6 (2023).
 (第76回 バイオ情報学研究会, 口頭発表, 2023/11/29, 東京)
+Slide: https://speakerdeck.com/okumakito/oku-slide-20231129
 
 * 奥 牧人: 対照群を用いない同期性揺らぎ遺伝子の抽出法, 情処研報, 2022-BIO-72(3):1-6 (2022). http://id.nii.ac.jp/1001/00222463/
 M. Oku: Extraction method of synchronously fluctuated genes without using a control group, IPSJ SIG Tech. Rep., 2022-BIO-72(3):1-6 (2022).
