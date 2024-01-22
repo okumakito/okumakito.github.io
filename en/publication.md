@@ -12,13 +12,13 @@ Journal papers
 
 * M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of subjects in which body weight loss precedes diabetes onset: Health checkup in Japan, Diabetol. Int. (in preparation)
 
-* S. Yonezawa, T. Haruki, K. Koizumi, A. Taketani, Y. Oshima, M. Oku, A. Wada, T. Sato, N. Masuda, J. Tahara, N. Fujisawa, S. Koshiyama, M. Kadowaki, I. Kitajima, S. Saito: Establishing monoclonal gammopathy of undetermined significance as an independent pre-disease state in a clinical diagnosis using Raman spectroscopy, the dynamical network biomarker theory, and an energy landscape analysis, Int. J. Mol. Sci. (in revision)
-
 * X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Re-stabilizing large-scale network systems using high-dimension low-sample-size data analysis, IEEE Trans. Emerg. Top. Comput. Intell. (under review)
 
 * R. Ito, K. Ueta, I. Kimura, M. Oku, T. Haruki, Y. Nagata, T. Yamagami, K. Tobe: (no title) (in preparation)
 
 -->
+
+* S. Yonezawa, T. Haruki, K. Koizumi, A. Taketani, Y. Oshima, M. Oku, A. Wada, T. Sato, N. Masuda, J. Tahara, N. Fujisawa, S. Koshiyama, M. Kadowaki, I. Kitajima, S. Saito: Establishing monoclonal gammopathy of undetermined significance as an independent pre-disease state in a clinical diagnosis using Raman spectroscopy, the dynamical network biomarker theory, and an energy landscape analysis, Int. J. Mol. Sci. (accepted).
 
 * X. Shen, H. Sasahara, M. Morishita, J. Imura, M. Oku, K. Aihara: Model-free dominant pole placement for restabilizing high-dimensional network systems via small-sample-size data, IEEE Access, 11:45572-45585 (2023). https://doi.org/10.1109/ACCESS.2023.3274530
 
