@@ -18,7 +18,7 @@ Journal papers
 
 -->
 
-* S. Yonezawa, T. Haruki, K. Koizumi, A. Taketani, Y. Oshima, M. Oku, A. Wada, T. Sato, N. Masuda, J. Tahara, N. Fujisawa, S. Koshiyama, M. Kadowaki, I. Kitajima, S. Saito: Establishing monoclonal gammopathy of undetermined significance as an independent pre-disease state in a clinical diagnosis using Raman spectroscopy, the dynamical network biomarker theory, and an energy landscape analysis, Int. J. Mol. Sci. (accepted).
+* S. Yonezawa, T. Haruki, K. Koizumi, A. Taketani, Y. Oshima, M. Oku, A. Wada, T. Sato, N. Masuda, J. Tahara, N. Fujisawa, S. Koshiyama, M. Kadowaki, I. Kitajima, S. Saito: Establishing monoclonal gammopathy of undetermined significance as an independent pre-disease state of Multiple Myeloma using Raman spectroscopy, dynamical network biomarker theory, and energy landscape analysis, Int. J. Mol. Sci., 25(3):1570 (2024). https://doi.org/10.3390/ijms25031570
 
 * X. Shen, H. Sasahara, M. Morishita, J. Imura, M. Oku, K. Aihara: Model-free dominant pole placement for restabilizing high-dimensional network systems via small-sample-size data, IEEE Access, 11:45572-45585 (2023). https://doi.org/10.1109/ACCESS.2023.3274530
 
