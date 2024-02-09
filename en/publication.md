@@ -133,6 +133,12 @@ Others
 Presentations without proceedings
 ---------------------------------
 
+<!--
+
+* M. Oku: Decrease in natural frequency as an overlooked early warning signal (poster), ISNSM'24, 2024/03/15, Tokyo, Japan.
+
+-->
+
 * H. Honoki, S. Fujisaka, Y. Watanabe, M. Oku, Y. Kondo, A. Nishimura, T. Kado, M. Bilal, A. Enkaku, A. Takikawa, D. Chujo, Y. Morinaga, K. Tobe: Identification of gut microbes that prevents metabolic syndrome in healthy Japanese adults (poster), ADA'23, 2023/06/23-26, San Diego. https://doi.org/10.2337/db23-1623-P
 
 * S. Ohno, H. Metoki, M. Oku, N. Iwama, A. Shiozaki, A. Nakashima, S. Saito: Prediction of hypertensive disorders of pregnancy based on home blood pressure monitoring (oral), ISSHP'21, 2021/09/15-28, online. https://doi.org/10.1016/j.preghy.2021.07.015
