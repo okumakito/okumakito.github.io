@@ -133,11 +133,11 @@ Others
 Presentations without proceedings
 ---------------------------------
 
-<!--
+* X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Theory of restabilisation of high-dimensional data-driven network systems in very early treatment (poster), ISNSM'24, 2024/03/15, Tokyo, Japan.
 
 * M. Oku: Decrease in natural frequency as an overlooked early warning signal (poster), ISNSM'24, 2024/03/15, Tokyo, Japan.
 
--->
+* K. Akagi, Y. Jin, M. Oku, J. Imura, K. Koizumi, S. Saito: Identification of the Mebyo genes for metabolic syndrome using the model organisms (poster), ISNSM'24, 2024/03/15, Tokyo, Japan.
 
 * H. Honoki, S. Fujisaka, Y. Watanabe, M. Oku, Y. Kondo, A. Nishimura, T. Kado, M. Bilal, A. Enkaku, A. Takikawa, D. Chujo, Y. Morinaga, K. Tobe: Identification of gut microbes that prevents metabolic syndrome in healthy Japanese adults (poster), ADA'23, 2023/06/23-26, San Diego. https://doi.org/10.2337/db23-1623-P
 
