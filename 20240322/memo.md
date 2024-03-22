@@ -21,14 +21,16 @@ Conventional earth mover's distance (EMD) is only based on horizontal transforma
 ## Conventional EMD (horizontal transformation only)
 
 * Definition
-$$\begin{align}D(P,Q)=&\min_{\{f_{ij}\}}\sum_{i,j}f_{ij}d_{ij}\\
+$$\begin{align}D(P,Q)=&\min_{\{f_{ij}\}}\sum_{i,j}f_{ij}d_{ij},\\
 &\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_j f_{ij}=p_i,\
 \sum_i f_{ij}=q_j.\end{align}$$
 * An equivalent representation that allows relay transportation
-$$\begin{align}D(P,Q)=&\min_{\{f_{ij}\}\setminus\{f_{ii}\}}\sum_{i,j,i\neq j}f_{ij}d_{ij}\\
+$$\begin{align}D(P,Q)=&\min_{\{f_{ij}\}\setminus\{f_{ii}\}}\sum_{i,j,i\neq j}f_{ij}d_{ij},\\
 &\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_{j,j\neq i}(f_{ij}-f_{ji})=p_i-q_i.\end{align}$$
 
 ## A generalized EMD (both horizontal and vertical transformation)
 
-$$\begin{align}\tilde D(P,Q)=&\min_{\{f_{ij}\}\setminus\{f_{ii}\},\{f_i\}}\left[\alpha\sum_{i,j,i\neq j}f_{ij}d_{ij}+(1-\alpha)\sum_i|f_i|\right]\\
-&\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_{j,j\neq i} (f_{ij}-f_{ji}-f_i)=p_i-q_i.\end{align}$$
+$$\begin{align}(\{f^*_{ij}\},\{f^*_i\})=&\underset{\{f_{ij}\}\setminus\{f_{ii}\},\{f_i\}}{\arg\min}\left[(1-\alpha)\sum_{i,j,i\neq j}f_{ij}d_{ij}+\alpha\sum_i|f_i|\right],\\
+&\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_{j,j\neq i} (f_{ij}-f_{ji}-f_i)=p_i-q_i,\\
+\tilde D(P,Q)=&\alpha\sum_{i,j,i\neq j}f^*_{ij}d_{ij}+(1-\alpha)\sum_i|f^*_i|.
+\end{align}$$

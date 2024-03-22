@@ -24,14 +24,16 @@
 </ul>
 <h2 id="conventional-emd-horizontal-transformation-only">Conventional EMD (horizontal transformation only)</h2>
 <ul>
-<li>Definition <span class="math display">\[\begin{align}D(P,Q)=&amp;\min_{\{f_{ij}\}}\sum_{i,j}f_{ij}d_{ij}\\
+<li>Definition <span class="math display">\[\begin{align}D(P,Q)=&amp;\min_{\{f_{ij}\}}\sum_{i,j}f_{ij}d_{ij},\\
 &amp;\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_j f_{ij}=p_i,\
 \sum_i f_{ij}=q_j.\end{align}\]</span></li>
-<li>An equivalent representation that allows relay transportation <span class="math display">\[\begin{align}D(P,Q)=&amp;\min_{\{f_{ij}\}\setminus\{f_{ii}\}}\sum_{i,j,i\neq j}f_{ij}d_{ij}\\
+<li>An equivalent representation that allows relay transportation <span class="math display">\[\begin{align}D(P,Q)=&amp;\min_{\{f_{ij}\}\setminus\{f_{ii}\}}\sum_{i,j,i\neq j}f_{ij}d_{ij},\\
 &amp;\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_{j,j\neq i}(f_{ij}-f_{ji})=p_i-q_i.\end{align}\]</span></li>
 </ul>
 <h2 id="a-generalized-emd-both-horizontal-and-vertical-transformation">A generalized EMD (both horizontal and vertical transformation)</h2>
-<p><span class="math display">\[\begin{align}\tilde D(P,Q)=&amp;\min_{\{f_{ij}\}\setminus\{f_{ii}\},\{f_i\}}\left[\alpha\sum_{i,j,i\neq j}f_{ij}d_{ij}+(1-\alpha)\sum_i|f_i|\right]\\
-&amp;\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_{j,j\neq i} (f_{ij}-f_{ji}-f_i)=p_i-q_i.\end{align}\]</span></p>
+<p><span class="math display">\[\begin{align}(\{f^*_{ij}\},\{f^*_i\})=&amp;\underset{\{f_{ij}\}\setminus\{f_{ii}\},\{f_i\}}{\arg\min}\left[(1-\alpha)\sum_{i,j,i\neq j}f_{ij}d_{ij}+\alpha\sum_i|f_i|\right],\\
+&amp;\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_{j,j\neq i} (f_{ij}-f_{ji}-f_i)=p_i-q_i,\\
+\tilde D(P,Q)=&amp;\alpha\sum_{i,j,i\neq j}f^*_{ij}d_{ij}+(1-\alpha)\sum_i|f^*_i|.
+\end{align}\]</span></p>
 </body>
 </html>
