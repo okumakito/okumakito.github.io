@@ -50,3 +50,5 @@ Notes
 * [Teams会議メモ (2021/10/19)](../20211019/)
 
 * [ポテンシャル上で転がる球のモデル (2023/06/28)](../20230628/memo.html)
+
+* [A generalized earth mover's distance with horizontal and vertical transformation (2024/03/22)](../20240322/memo.html)

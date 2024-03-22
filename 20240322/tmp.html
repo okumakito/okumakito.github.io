@@ -1,0 +1,23 @@
+<h1 id="a-generalized-earth-movers-distance-with-horizontal-and-vertical-transformation-20240322">A generalized earth mover’s distance with horizontal and vertical transformation (2024/03/22)</h1>
+<h2 id="motivations">Motivations</h2>
+<p>Conventional earth mover’s distance (EMD) is only based on horizontal transformation (transportation of mass from one place to another), in which differences in low frequency components of distribution shapes are emphasized. To make EMD more sensitive to differences in high frequency components, vertical transformation (local addition or deletion of mass) is also allowed, leading to a generalized EMD.</p>
+<h2 id="notations">Notations</h2>
+<ul>
+<li><p><span class="math inline">\(P, Q\)</span>: Two distributions to be compared.</p></li>
+<li><p><span class="math inline">\(p_i\)</span>, <span class="math inline">\(q_i\)</span>: probability mass at point <span class="math inline">\(i\)</span> for <span class="math inline">\(P\)</span> and <span class="math inline">\(Q\)</span>, respectively.</p></li>
+<li><p><span class="math inline">\(f_{ij}\)</span>: flow from point <span class="math inline">\(i\)</span> to point <span class="math inline">\(j\)</span>.</p></li>
+<li><p><span class="math inline">\(d_{ij}\)</span>: ground distance between point <span class="math inline">\(i\)</span> and point <span class="math inline">\(j\)</span>.</p></li>
+<li><p><span class="math inline">\(f_i\)</span>: addition (positive) or deletion (negative) at point <span class="math inline">\(i\)</span>.</p></li>
+<li><p><span class="math inline">\(\alpha\)</span>: a parameter for controlling the balance between horizontal and vertical transformation.</p></li>
+</ul>
+<h2 id="conventional-emd-horizontal-transformation-only">Conventional EMD (horizontal transformation only)</h2>
+<ul>
+<li>Definition <span class="math display">\[\begin{align}D(P,Q)=&amp;\min_{\{f_{ij}\}}\sum_{i,j}f_{ij}d_{ij}\\
+&amp;\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_j f_{ij}=p_i,\
+\sum_i f_{ij}=q_j.\end{align}\]</span></li>
+<li>An equivalent representation that allows relay transportation <span class="math display">\[\begin{align}D(P,Q)=&amp;\min_{\{f_{ij}\}\setminus\{f_{ii}\}}\sum_{i,j,i\neq j}f_{ij}d_{ij}\\
+&amp;\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_{j,j\neq i}(f_{ij}-f_{ji})=p_i-q_i.\end{align}\]</span></li>
+</ul>
+<h2 id="a-generalized-emd-both-horizontal-and-vertical-transformation">A generalized EMD (both horizontal and vertical transformation)</h2>
+<p><span class="math display">\[\begin{align}\tilde D(P,Q)=&amp;\min_{\{f_{ij}\}\setminus\{f_{ii}\},\{f_i\}}\left[\alpha\sum_{i,j,i\neq j}f_{ij}d_{ij}+(1-\alpha)\sum_i|f_i|\right]\\
+&amp;\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_{j,j\neq i} (f_{ij}-f_{ji}-f_i)=p_i-q_j.\end{align}\]</span></p>

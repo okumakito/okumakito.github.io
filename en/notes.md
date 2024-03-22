@@ -10,3 +10,5 @@ Notes
 * [A javascript implementation of mouse pointer for presentations (2018/09/28)](../20180928/demo.html)
 
 * [SFG calculator (2021/08/24)](../web_app/sfg.html)
+
+* [A generalized earth mover's distance with horizontal and vertical transformation (2024/03/22)](../20240322/memo.html)
