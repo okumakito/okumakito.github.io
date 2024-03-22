@@ -31,4 +31,4 @@ $$\begin{align}D(P,Q)=&\min_{\{f_{ij}\}\setminus\{f_{ii}\}}\sum_{i,j,i\neq j}f_{
 ## A generalized EMD (both horizontal and vertical transformation)
 
 $$\begin{align}\tilde D(P,Q)=&\min_{\{f_{ij}\}\setminus\{f_{ii}\},\{f_i\}}\left[\alpha\sum_{i,j,i\neq j}f_{ij}d_{ij}+(1-\alpha)\sum_i|f_i|\right]\\
-&\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_{j,j\neq i} (f_{ij}-f_{ji}-f_i)=p_i-q_j.\end{align}$$
+&\mathrm{subject\ to}\quad f_{ij}\geq 0,\ \sum_{j,j\neq i} (f_{ij}-f_{ji}-f_i)=p_i-q_i.\end{align}$$
