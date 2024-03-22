@@ -52,3 +52,5 @@ Notes
 * [ポテンシャル上で転がる球のモデル (2023/06/28)](../20230628/memo.html)
 
 * [A generalized earth mover's distance with horizontal and vertical transformation (2024/03/22)](../20240322/memo.html)
+
+* [ヒトを対象とした制御理論について考えたこと (2024/03/22)](../20240322_2/memo.html)
