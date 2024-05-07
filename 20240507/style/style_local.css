@@ -1,0 +1,22 @@
+body {width: 90%;margin: 0 auto;line-height:180%;}
+h1 {font-size: 130%;margin:2rem 0 1rem;}
+h2 {font-size: 120%;margin:2rem 0 1rem;}
+h3 {font-size: 110%;margin:2rem 0 1rem;}
+li li{padding-bottom:0.8rem;}
+th {
+    border-bottom: solid 1px #333;
+}
+td {
+    background-color:white;
+    border: solid 1px #fff;
+}
+table {
+    line-height:120%;
+    width:500px !important;
+    margin: 0 auto;
+    border-top: solid 2px #333;
+    border-bottom: solid 2px #333;
+}
+img {display: block;margin: auto;}
+img.inline {display: inline;}
+.eq{text-align:center;padding-bottom:2em;}

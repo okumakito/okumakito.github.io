@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>document</title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+<link type="text/css" rel="stylesheet" href="style/bootstrap.min_mod.css">
+<link type="text/css" rel="stylesheet" href="style/style_local.css">
+</head>
+<body>
+<h1 id="累積距離を用いた検定-20240507">累積距離を用いた検定 (2024/05/07)</h1>
+<h2 id="背景">背景</h2>
+<ul>
+<li><p>Kolmogorov-Smirnov検定 (以下、KS検定) は、分布の形を一切仮定せずに、2つの確率分布が異なることを示したいときによく用いられる。ただし、検出力がかなり低いという問題がある。</p></li>
+<li><p>KS検定は、比較したい2つの分布のそれぞれの累積分布の差の絶対値の上限を検定統計量として使う。</p></li>
+<li><p>一方、下記論文で累積距離が提案された。これは累積分布の差の2乗の面積などに基づく。</p>
+<ul>
+<li>Iwayama, Hirata, Aihara: Definition of distance for nonlinear time series analysis of marked point process data, Physics Letters A (2017). doi: 10.1016/j.physleta.2016.10.061.</li>
+</ul></li>
+<li><p>以下に累積距離を仮説検定に用いる場合の具体的な検定統計量とp値の計算式を書く。</p></li>
+</ul>
+<h2 id="準備">準備</h2>
+<ul>
+<li><p>確率変数 <span class="math inline">\(X\)</span> の累積分布関数を <span class="math inline">\(F_X(v)\)</span> と書き、生存関数を <span class="math inline">\(S_X(v)\)</span> と書く。 <span class="math display">\[\begin{align}
+F_X(v) &amp;= P(X\leq v),\\
+S_X(v) &amp;= 1 - F_X(v) = P(X&gt;v).\end{align}\]</span></p></li>
+<li><p>定義関数を <span class="math inline">\(I\)</span> を以下のように書く。 <span class="math display">\[\begin{align}
+I(v\geq c)&amp;=\left\{\begin{array}{ccc}1&amp;\mathrm{if}&amp;v\geq c,\\0&amp;\mathrm{if}&amp;v&lt;c,\end{array}\right.\\
+I(v&lt; c)&amp;=\left\{\begin{array}{ccc}1&amp;\mathrm{if}&amp;v&lt; c,\\0&amp;\mathrm{if}&amp;v\geq c.\end{array}\right.
+\end{align}\]</span></p></li>
+<li><p>比較したい2群を <span class="math inline">\(x=\{x_1,\ldots,x_n\}\)</span>, <span class="math inline">\(y=\{y_1,\ldots,y_m\}\)</span> と書く。</p></li>
+<li><p>経験累積分布と経験生存関数は定義関数を用いて以下のように展開出来る。 <span class="math display">\[\begin{align}
+F_X(v)&amp;=\frac{1}{n}\sum_{i=1}^n I(v\geq x_i),\\
+F_Y(v)&amp;=\frac{1}{m}\sum_{i=1}^m I(v\geq y_i),\\
+S_X(v)&amp;=\frac{1}{n}\sum_{i=1}^n I(v&lt; x_i),\\
+S_Y(v)&amp;=\frac{1}{m}\sum_{i=1}^m I(v&lt; y_i).    
+\end{align}\]</span></p></li>
+<li><p>全体の最小値と最大値を <span class="math inline">\(a=\min(x\cup y)\)</span>, <span class="math inline">\(b=\max(x\cup y)\)</span> と書く。</p></li>
+</ul>
+<h2 id="累積距離">累積距離</h2>
+<ul>
+<li><p>仮説検定ではマーク無し点過程の場合の累積距離を使う。 <span class="math display">\[D = \sqrt{\int_a^b\left(F_X(v)-F_Y(v)\right)^2dv+
+\int_a^b\left(S_X(v)-S_Y(v)\right)^2dv}.\]</span> ここで <span class="math inline">\((S_X(v)-S_Y(v))^2=(1-F_X(v)-1+F_Y(v))^2=(F_X(v)-F_Y(v))^2\)</span> だが、都合によりこのままにしておく。</p></li>
+<li><p>ルートの中身の第一項と第二項をそれぞれ展開する。 <span class="math display">\[\begin{align}
+\int_a^b(F_X(v)-F_Y(v))^2dv &amp;=
+\int_a^b F_X(v)^2dv+\int_a^b F_Y(v)^2dv-2\int_a^b F_X(v)F_Y(v)dv,\\
+\int_a^b(S_X(v)-S_Y(v))^2dv &amp;=
+\int_a^b S_X(v)^2dv+\int_a^b S_Y(v)^2dv-2\int_a^b S_X(v)S_Y(v)dv.
+\end{align}\]</span></p></li>
+<li><p>ひとまず上下の式のそれぞれ右辺第一項を展開する。 <span class="math display">\[\begin{align}
+\int_a^b F_X(v)^2dv&amp;=\int_a^b \left(\frac{1}{n}\sum_{i=1}^n I(v\geq x_i)\right)\left(\frac{1}{n}\sum_{j=1}^n I(v\geq x_j)\right)dv,\\
+&amp;=\frac{1}{n^2}\sum_{i=1}^n\sum_{j=1}^n\int_a^b I(v\geq x_i)I(v\geq x_j)dv,\\
+&amp;=\frac{1}{n^2}\sum_{i=1}^n\sum_{j=1}^n(b-\max(x_i,x_j)),\\
+&amp;=b-\frac{1}{n^2}\sum_{i=1}^n\sum_{j=1}^n\max(x_i,x_j),\\
+\int_a^b S_X(v)^2dv&amp;=\int_a^b \left(\frac{1}{n}\sum_{i=1}^n I(v&lt; x_i)\right)\left(\frac{1}{n}\sum_{j=1}^n I(v&lt; x_j)\right)dv,\\
+&amp;=\frac{1}{n^2}\sum_{i=1}^n\sum_{j=1}^n\int_a^b I(v&lt; x_i)I(v&lt; x_j)dv,\\
+&amp;=\frac{1}{n^2}\sum_{i=1}^n\sum_{j=1}^n(\min(x_i,x_j)-a),\\
+&amp;=-a+\frac{1}{n^2}\sum_{i=1}^n\sum_{j=1}^n\min(x_i,x_j).
+\end{align}\]</span></p></li>
+<li><p>残りの項も同様に計算する。 <span class="math display">\[\begin{align}
+\int_a^b F_Y(v)^2dv&amp;=b-\frac{1}{m^2}\sum_{i=1}^m\sum_{j=1}^m\max(y_i,y_j),\\
+\int_a^b F_X(v)F_Y(v)dv&amp;=b-\frac{1}{nm}\sum_{i=1}^n\sum_{j=1}^m\max(x_i,y_j),\\
+\int_a^b S_Y(v)^2dv&amp;=-a+\frac{1}{m^2}\sum_{i=1}^m\sum_{j=1}^m\min(y_i,y_j),\\
+\int_a^b S_X(v)S_Y(v)dv&amp;=-a+\frac{1}{nm}\sum_{i=1}^n\sum_{j=1}^m\min(x_i,y_j).
+\end{align}\]</span></p></li>
+<li><p>ここで、<span class="math inline">\(\max(v,w)-\min(v,w)=|v-w|\)</span> より、ルートの中身は以下になる。 <span class="math display">\[\begin{align}
+D^2&amp;=-\frac{1}{n^2}\sum_{i=1}^n\sum_{j=1}^n(\max(x_i,x_j)-\min(x_i,x_j))
+-\frac{1}{m^2}\sum_{i=1}^m\sum_{j=1}^m(\max(y_i,y_j)-\min(y_i,y_j))\\
+&amp;\quad +\frac{2}{nm}\sum_{i=1}^n\sum_{j=1}^m(\max(x_i,y_j)-\min(x_i,y_j)),\\
+&amp;=-\frac{1}{n^2}\sum_{i=1}^n\sum_{j=1}^n|x_i-x_j|
+-\frac{1}{m^2}\sum_{i=1}^m\sum_{j=1}^m|y_i-y_j|
++\frac{2}{nm}\sum_{i=1}^n\sum_{j=1}^m|x_i-y_j|,\\
+&amp;=2\langle|x_i-y_j|\rangle-\langle|x_i-x_j|\rangle-\langle|y_i-y_j|\rangle.
+\end{align}\]</span></p></li>
+<li><p>従って、累積距離は以下になる。 <span class="math display">\[D=\sqrt{2\langle|x_i-y_j|\rangle-\langle|x_i-x_j|\rangle-\langle|y_i-y_j|\rangle}.\]</span></p></li>
+<li><p>この統計量は、異なる群に属する要素間の平均距離が同じ群に属する要素間の平均距離よりどれだけ大きいかを表している。直観的にも分かりやすい。</p></li>
+</ul>
+<h1 id="p-値の計算"><span class="math inline">\(p\)</span> 値の計算</h1>
+<ul>
+<li><p>帰無仮説が正しい場合に検定統計量が従う分布を解析的に解けないため、並べ替え検定を使って <span class="math inline">\(p\)</span> 値を計算する。</p></li>
+<li><p><span class="math inline">\(x\)</span> と <span class="math inline">\(y\)</span> を結合した <span class="math inline">\(z=\{z_1,\ldots,z_{n+m}\}=\{x_1,\ldots,x_n,y_1,\ldots,y_m\}\)</span> を用意する。</p></li>
+<li><p>各要素が以下で計算される行列 <span class="math inline">\(U\)</span> を用意する。 <span class="math display">\[u_{ij} = |z_i-z_j|,\quad (i=1,\ldots,n+m;\ j=1,\ldots,n+m).\]</span></p></li>
+<li><p>行列 <span class="math inline">\(U\)</span> の行と列をそれぞれ <span class="math inline">\(n\)</span> 個と <span class="math inline">\(m\)</span> 個に分けるブロック行列を考える。 <span class="math display">\[
+U = \left[\begin{array}{cc}U_{11}&amp;U_{12}\\U_{21}&amp;U_{22}\end{array}\right].
+\]</span> ただし、<span class="math inline">\(U_{21}=U_{12}^T\)</span> である。</p></li>
+<li><p>行列 <span class="math inline">\(A\)</span> の全要素の平均を <span class="math inline">\(\langle A\rangle\)</span> と書くと、累積距離 <span class="math inline">\(D\)</span> は以下のように書ける。 <span class="math display">\[D=\sqrt{2\langle U_{12}\rangle-\langle U_{11}\rangle-\langle U_{22}\rangle}.\]</span></p></li>
+<li><p>以下を <span class="math inline">\(K\)</span> 回繰り返す (例えば1000回)。</p>
+<ul>
+<li><span class="math inline">\(1\)</span> から <span class="math inline">\(n+m\)</span> までの整数をランダムに並び替える。</li>
+<li>その順番に従い <span class="math inline">\(U\)</span> の行と列をそれぞれ並び替えた行列を <span class="math inline">\(U&#39;\)</span> とする。</li>
+<li><span class="math inline">\(U&#39;\)</span> を使って <span class="math inline">\(U\)</span> と同様に累積距離 <span class="math inline">\(D\)</span> を計算する。<span class="math inline">\(k\)</span> 回目の試行の結果を <span class="math inline">\(D_k\)</span> と書く。</li>
+</ul></li>
+<li><p>元データで計算した累積距離を <span class="math inline">\(D\)</span> として、<span class="math inline">\(p\)</span> 値を以下で計算する。 <span class="math display">\[p = \frac{1}{K}|\{D_k\mid D_k\geq D\}|.\]</span></p></li>
+</ul>
+<h2 id="数値計算">数値計算</h2>
+<ul>
+<li>少し調べた限り、累積距離を用いた検定 (累積距離検定) は、分布の位置、尺度、形状の違いを捉えることが出来て、KS検定より検出力が高い傾向があった。詳しい調査はまたいつか。</li>
+</ul>
+</body>
+</html>

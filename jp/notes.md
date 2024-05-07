@@ -54,3 +54,5 @@ Notes
 * [A generalized earth mover's distance with horizontal and vertical transformation (2024/03/22)](../20240322/memo.html)
 
 * [ヒトを対象とした制御理論について考えたこと (2024/03/22)](../20240322_2/memo.html)
+
+* [累積距離を用いた検定 (2024/05/07)](../20240507/memo.html)
