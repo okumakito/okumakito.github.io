@@ -8,8 +8,6 @@ Journal papers
 
 <!--
 
-* M. Oku: Clarinet plots: Alternative to violin plots to display zero-inflated distribution of scRNA-seq data, IPSJ Trans. Bioinform. (under review)
-
 * M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of subjects in which body weight loss precedes diabetes onset: Health checkup in Japan, Diabetol. Int. (in preparation)
 
 * X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Re-stabilizing large-scale network systems using high-dimension low-sample-size data analysis, IEEE Trans. Emerg. Top. Comput. Intell. (under review)
@@ -17,6 +15,8 @@ Journal papers
 * R. Ito, K. Ueta, I. Kimura, M. Oku, T. Haruki, Y. Nagata, T. Yamagami, K. Tobe: (no title) (in preparation)
 
 -->
+
+* M. Oku: Clarinet plots: Alternative to violin plots to display zero-inflated distribution of scRNA-seq data, IPSJ Trans. Bioinform. (accepted)
 
 * S. Yonezawa, T. Haruki, K. Koizumi, A. Taketani, Y. Oshima, M. Oku, A. Wada, T. Sato, N. Masuda, J. Tahara, N. Fujisawa, S. Koshiyama, M. Kadowaki, I. Kitajima, S. Saito: Establishing monoclonal gammopathy of undetermined significance as an independent pre-disease state of multiple myeloma using Raman spectroscopy, dynamical network biomarker theory, and energy landscape analysis, Int. J. Mol. Sci., 25(3):1570 (2024). https://doi.org/10.3390/ijms25031570
 

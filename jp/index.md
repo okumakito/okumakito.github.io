@@ -29,12 +29,7 @@ Home
 受賞
 ----
 
-<!--
-
 * 2024/05/09 SIGBIO優秀プレゼンテーション賞
-
--->
-
 * 2021/03/18 [山下記念研究賞](https://www.ipsj.or.jp/award/yamasita2020-detail.html#bio)
 * 2020/04/07 SIGBIO優秀プレゼンテーション賞
 * 2019/01/08 SIGBIO優秀プレゼンテーション賞
