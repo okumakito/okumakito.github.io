@@ -10,11 +10,11 @@ Journal papers
 
 * M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of subjects in which body weight loss precedes diabetes onset: Health checkup in Japan, Diabetol. Int. (in preparation)
 
-* X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Re-stabilizing large-scale network systems using high-dimension low-sample-size data analysis, IEEE Trans. Emerg. Top. Comput. Intell. (under review)
-
 * R. Ito, K. Ueta, I. Kimura, M. Oku, T. Haruki, Y. Nagata, T. Yamagami, K. Tobe: (no title) (in preparation)
 
 -->
+
+* X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Re-stabilizing large-scale network systems using high-dimension low-sample-size data analysis, IEEE Trans. Emerg. Top. Comput. Intell. (accepted)
 
 * M. Oku: Clarinet plots: Alternative to violin plots to display zero-inflated distribution of scRNA-seq data, IPSJ Trans. Bioinform. (accepted)
 
