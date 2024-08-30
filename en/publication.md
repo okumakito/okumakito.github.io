@@ -8,13 +8,15 @@ Journal papers
 
 <!--
 
-* M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of subjects in which body weight loss precedes diabetes onset: Health checkup in Japan, Diabetol. Int. (in preparation)
+* A. Nishimura, T. Kado, A. Nawaz, M. Bilal, T. Kuwano, Y. Watanabe, M.R. Aslam, Y. Igarashi, S. Fujisaka, H. Mori, K. Tobe, M. Matsumoto, Y. Onogi, M. Oku, M. Kadowaki: Identification of lipid-associated macrophages derived from adipose tissue-resident macrophages and CD206 as a regulator of lipid macropinocytosis (submitted).
 
-* R. Ito, K. Ueta, I. Kimura, M. Oku, T. Haruki, Y. Nagata, T. Yamagami, K. Tobe: (no title) (in preparation)
+* M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of subjects in which body weight loss precedes diabetes onset: Health checkup in Japan, Diabetol. Int. (under review).
+
+* R. Ito, K. Ueda, I. Kimura, M. Oku, T. Haruki, M. Shikata, T. Teramoto, D. Chujo, M. Iwata, Y. Nagata, T. Yamagami, K. Tobe, M. Kadowaki, S. Saito: Energy landscape analysis of specific health checkup data in Japan clarified multiple pathways to diabetes (in preparation).
 
 -->
 
-* M. Oku: Clarinet plots: Alternative to violin plots to display zero-inflated distribution of scRNA-seq data, IPSJ Trans. Bioinform. (accepted)
+* M. Oku: Clarinet plots: Alternative to violin plots to display zero-inflated distribution of scRNA-seq data, IPSJ Trans. Bioinform., 17:48-54 (2024). https://doi.org/10.2197/ipsjtbio.17.48
 
 * X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Re-stabilizing large-scale network systems using high-dimension low-sample-size data analysis, IEEE Trans. Emerg. Top. Comput. Intell. (2024). https://doi.org/10.1109/TETCI.2024.3442824
 
