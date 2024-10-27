@@ -1,0 +1,108 @@
+* {font-family: 'Hiragino Kaku Gothic ProN', meiryo, 'IPAPGothic', sans-serif;}
+body {margin: 0px;}
+
+ul, ol {margin: 0px; padding-left:15px;}
+li {
+    margin: 5px 0px;
+    line-height: 140%;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+strong {
+    color: #e31a1c;
+    border-bottom: solid;
+    border-color: #e31a1c;
+    border-width: 2px;
+}
+
+div#wrapper {
+    box-sizing: border-box;
+    width:841px;
+    height:1189px;
+    padding: 10px;
+    margin: auto; 
+    background-color: #ffffff;
+    /*
+    background-image:
+	repeating-linear-gradient(0deg, 
+				  #f0f0f0,
+				  #f0f0f0 1px,
+				  transparent 1px,
+				  transparent 50px),
+	repeating-linear-gradient(90deg,
+				  #f0f0f0,
+				  #f0f0f0 1px,
+				  transparent 1px,
+				  transparent 50px);
+     */
+}
+
+div#header {
+    padding: 0px 0px 5px;
+    text-align: left;
+    font-size: 50%;
+    color: #333333;
+}
+
+div#title {
+    box-sizing: border-box;
+    width:100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 80%;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #33a02c;
+    line-height:150%;
+}
+
+h1.title {
+    padding: 0px;
+    margin: 5px 0px 10px;
+    font-size: 170%;
+}
+
+div#left {
+    box-sizing: border-box;
+    width: 50%;
+    padding-right: 10px;
+    float: left;
+}
+
+div#right {
+    box-sizing: border-box;
+    width:50%;
+    padding-left: 10px;
+    float: right;
+}
+
+.block {
+    padding: 0px 10px 10px;
+    margin: 20px 0px 0px;
+    line-height:150%;
+    font-size: 70%;
+    color: #333333;
+    background-color: #ffffff;
+    /* background-color: transparent; */
+    border: 1px solid;
+    border-color: #33a02c;
+    text-align: justify;
+}
+
+.block h1 {
+    padding: 5px 10px;
+    margin: 0px -10px 10px;
+    font-size: 120%;
+    color: #ffffff;
+    background-color: #33a02c;
+}
+
+.caption{
+    text-align: center;
+}

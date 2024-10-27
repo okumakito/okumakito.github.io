@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>poster</title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="wrapper">
+<div id="header">2024/11/06 第27回 情報論的学習理論ワークショップ (IBIS2024) @ さいたま</div>
+<div id="title">
+  <h1 class="title">場の変形に基づく2次元離散分布間の最適輸送</h1>
+奥 牧人 (富山大学)
+</div> <!-- header -->
+
+<div id="left">
+
+<div class="block">
+<h1>要点</h1>
+<ul>
+  <li>分布から分布でなく <strong>場から場への変形</strong> に基づく <strong>最適輸送</strong> を提案</li>
+  <li>基本アイデアは元の分布を <strong>擬似拡散</strong> で <strong>一様分布</strong> と対応付けること</li>
+  <li>利点は離散分布でも <strong>変形の途中過程</strong> を可視化しやすいこと</li>
+</ul>
+</div>
+
+<div class="block" style="padding-bottom:0px">
+<h1>最適輸送</h1>
+分布から分布への変形でコスト (量&times;距離の総和) が最小のもの [1]
+\[
+\begin{align}
+D(P,Q)=&\min_{\{f_{ij}\}}\sum_{i,j}f_{ij}d_{ij}\\
+&\text{subject to }f_{ij}\geq 0,\ \sum_j f_{ij}=p_i,\ \sum_{i} f_{ij}=q_j.
+\end{align}
+\]
+
+</div>
+
+<div class="block">
+<h1>場の計算</h1>
+<ul>
+  <li>一様分布への擬似拡散をバブロイドアルゴリズムで計算</li>
+  <li>その逆変換を線形補間で計算</li>
+</ul>
+<img src="figs/fig01.png" width=95%>
+<div class="caption">図1. 場の計算例</div>
+</div>
+
+<div class="block">
+<h1>バブロイドアルゴリズム</h1>
+<ul>
+  <li>平面グラフを <strong>泡のような形</strong> に変換する手法 [2]</li>
+  <li>各領域の面積を目標値に近づけつつ、辺の長さをなるべく短くする</li>
+</ul>
+\[
+U=\sum_{f\in F}U_f,\quad U_f=(S_f-S^*_f)^2+\eta\sum_{(v,w)\in f}|p_w-p_v|^2.
+\]
+<img src="figs/fig02.jpg" width=55% style="margin-top:-10px">
+<div class="caption">図2. バブロイドアルゴリズムの使用例 (文献[2]より転載)</div>
+</div>
+
+
+</div> <!-- left -->
+<div id="right">
+
+<div class="block">
+<h1>結果 (人工データ)</h1>
+初期分布から目標分布への場の連続変形により中間状態を補間
+<img src="figs/fig03.png" width=95%>
+<div class="caption">図3. 提案手法の人工データへの適用結果</div>
+</div>
+
+<div class="block">
+<h1>結果 (実データ)</h1>
+フローサイトメトリーの実験で未測定の中間状態を補間
+<img src="figs/fig04.png" width=95%>
+<div class="caption">図4. 提案手法の実データ (FR-FCM-ZZCB) への適用結果</div>
+</div>
+
+<div class="block">
+<h1>補足など</h1>
+<img src="figs/figs.svg" width=33% style="float:right;padding-top:0px;">
+<ul>
+  <li>通常の最適輸送と必ずしも一致しない</li>
+  <li>拡散モデルの拡散との相違点
+    <ol>
+      <li>収束先がランダムノイズでなく一様分布</li>
+      <li>画素毎の変化でなく水平方向の移動</li>
+    </ol>
+  </li>
+</ul>
+</div>
+
+<div class="block">
+<h1>参考文献、謝辞</h1>
+<ol>
+<li>Rubner, et al., Int. J. Comput. Vis. (2000).</li>
+<li>M. Oku: Proc. IIAI-AAI (2019).</li>
+</ol>
+本研究はムーンショット型研究開発事業JPMJMS2021の助成を受けたものです。
+</div>
+
+</div> <!-- right -->
+</div> <!-- wrapper -->
+</body>
+</html>
