@@ -4,6 +4,7 @@
 [Publications](publication.md)
 [Notes](notes.md)
 [Lectures](lectures.md)
+[Movies](movies.md)
 [Language]()
 
   * [日本語](../jp)
