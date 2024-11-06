@@ -12,7 +12,7 @@ Journal papers
 
 * M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of subjects in which body weight loss precedes diabetes onset: Health checkup in Japan, Diabetol. Int. (under review).
 
-* R. Ito, K. Ueda, I. Kimura, M. Oku, T. Haruki, M. Shikata, T. Teramoto, D. Chujo, M. Iwata, Y. Nagata, T. Yamagami, K. Tobe, M. Kadowaki, S. Saito: Energy landscape analysis of specific health checkup data in Japan clarified multiple pathways to diabetes (in preparation).
+* R. Ito, M. Oku, I. Kimura, T. Haruki, M. Shikata, T. Teramoto, D. Chujo, M. Iwata, Y. Nagata, T. Yamagami, M. Kadowaki, K. Tobe, S. Saito, K. Ueda: Energy landscape analysis of specific health checkup data in Japan clarified multiple pathways to diabetes (in preparation).
 
 -->
 
