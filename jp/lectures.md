@@ -42,7 +42,7 @@ Lectures
 データサイエンスの世界
 ----------------------
 
-オムニバス形式、T3火曜5限、学部1年生対象、約50名、[講義資料](https://speakerdeck.com/okumakito/oku-slide-20221115)
+オムニバス形式、後期火曜5限、学部1年生対象、約50名、[講義資料](https://speakerdeck.com/okumakito/oku-slide-20221115)
 
 * 2022年度 第07回 (2022/11/15) 一部担当
 

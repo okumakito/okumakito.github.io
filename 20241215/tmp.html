@@ -1,0 +1,44 @@
+<h1 id="katz-et-al.-1978-の近似式の導出-20241215">Katz, et al. (1978) の近似式の導出 (2024/12/15)</h1>
+<h2 id="背景と目的">背景と目的</h2>
+<ul>
+<li>陽性尤度比 (positive likelihood ratio, PLR, LR+) と陰性尤度比 (negative likelihood ratio, NLR, LR-) の信頼区間の近似式が <a href="https://doi.org/10.2307/2530610">Katz, et al. (1978)</a> で提案されている。</li>
+<li>この論文のMethod Cの導出が書いていなかったのでここに載せる。</li>
+</ul>
+<h2 id="katzの近似式">Katzの近似式</h2>
+<ul>
+<li>陽性尤度比と陰性尤度比は、混同行列の要素をTP (true positive), FN (false negative), FP (false positive), TN (true negative) として以下で定義される。 <span class="math display">\[\begin{align}
+PLR&amp;=\frac{TP/(TP+FN)}{FP/(FP+TN)},\\
+NLR&amp;=\frac{FN/(TP+FN)}{TN/(FP+TN)}.\end{align}\]</span></li>
+<li>どちらも、二項分布に従う2つの独立な確率変数 <span class="math inline">\(X_1\sim B(n_1,p_1)\)</span>, <span class="math inline">\(X_2\sim B(n_2,p_2)\)</span>, <span class="math inline">\(X_1 \perp\!\!\!\perp X_2\)</span> を使って以下の形で表せる。 <span class="math display">\[T=\frac{X_1/n_1}{X_2/n_2}.\]</span></li>
+<li>Katzの論文のMethod Cでは以下の正規分布近似を使う。ただし、小文字は対応する確率変数の観測値とする。 <span class="math display">\[\begin{align}\log T &amp;= \log\frac{X_1}{n_1} - \log\frac{X_2}{n_2},\\
+\log\frac{X_1}{n_1} &amp;\sim N(\log\frac{x_1}{n_1}, \frac{1}{x_1}-\frac{1}{n_1}),\\
+\log\frac{X_2}{n_2} &amp;\sim N(\log\frac{x_2}{n_2}, \frac{1}{x_2}-\frac{1}{n_2}),\\
+\log T &amp;\sim N (\log\frac{x_1}{n_1} - \log\frac{x_2}{n_2}, \frac{1}{x_1}-\frac{1}{n_1} + \frac{1}{x_2}-\frac{1}{n_2}).\\
+\end{align}\]</span></li>
+<li>あとは正規分布の信頼区間を求めて指数関数で変換すれば <span class="math inline">\(T\)</span> の信頼区間になる。</li>
+<li>平均はともかく分散が分かりづらいので次節で説明する。</li>
+</ul>
+<div style="page-break-after:always;">
+
+</div>
+<h2 id="近似式の導出">近似式の導出</h2>
+<ul>
+<li>対数を取る前の式の分母と分子に対して同じ形の正規分布近似を使うので、以下では片方だけ考える。</li>
+<li>改めて、二項分布に従う確率変数 <span class="math inline">\(X\sim B(n,p)\)</span> を考える。</li>
+<li>さて、関数 <span class="math inline">\(f(z) = \log z\)</span> を <span class="math inline">\(z=a\)</span> のまわりでTaylor展開すると以下になる。 <span class="math display">\[\begin{align}f(z) &amp;= f(a) + (z-a)f&#39;(a) + \cdots,\\
+\log z&amp;=\log a + (z-a)\frac{1}{a} + \cdots.
+\end{align}\]</span></li>
+<li>ここに <span class="math inline">\(z=X/n\)</span>, <span class="math inline">\(a=p\)</span> を代入して1次の項で打ち切ると以下になる。 <span class="math display">\[\log\frac{X}{n} \simeq \log p + (\frac{X}{n}-p)\frac{1}{p}=
+\log p-1+\frac{X}{np}.\]</span></li>
+<li>つまり、対数関数を <span class="math inline">\(X/n=p\)</span> における接線で線形近似したことになる。当然、<span class="math inline">\(X/n\approx p\)</span> でなければ成り立たないので、<span class="math inline">\(n\)</span> は十分大きい必要がある。</li>
+<li>平均値は以下になる。 <span class="math display">\[E\left[\log\frac{X}{n}\right] \simeq E\left[\log p-1+\frac{X}{np}\right] = \log p.\]</span></li>
+<li>実際には真の <span class="math inline">\(p\)</span> の値は分からないので、推定値 <span class="math inline">\(\hat p=x/n\)</span> を <span class="math inline">\(p\)</span> に代入すると以下のようにKatzの式が出てくる。 <span class="math display">\[E\left[\log\frac{X}{n}\right] \simeq \log\frac{x}{n}.\]</span></li>
+<li>同様に分散を計算すると以下のようになる。 <span class="math display">\[V\left[\log\frac{X}{n}\right] \simeq V\left[\log p-1+\frac{X}{np}\right]
+= \frac{np(1-p)}{(np)^2} = \frac{1-p}{np}.\]</span></li>
+<li>ここに <span class="math inline">\(p \simeq \hat p=x/n\)</span> を代入すると以下のようにKatzの式が出てくる。 <span class="math display">\[V\left[\log\frac{X}{n}\right] \simeq \frac{1-x/n}{n\cdot(x/n)}
+= \frac{1}{x} - \frac{1}{n}.\]</span></li>
+</ul>
+<h2 id="補足など">補足など</h2>
+<ul>
+<li>対数を取ることで分布の概形が正規分布に近くなる訳ではない。元々正規分布に十分近いことを仮定しており、その線形変換をしただけである。</li>
+</ul>
