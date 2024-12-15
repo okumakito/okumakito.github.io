@@ -23,9 +23,9 @@ PLR&amp;=\frac{TP/(TP+FN)}{FP/(FP+TN)},\\
 NLR&amp;=\frac{FN/(TP+FN)}{TN/(FP+TN)}.\end{align}\]</span></li>
 <li>どちらも、二項分布に従う2つの独立な確率変数 <span class="math inline">\(X_1\sim B(n_1,p_1)\)</span>, <span class="math inline">\(X_2\sim B(n_2,p_2)\)</span>, <span class="math inline">\(X_1 \perp\!\!\!\perp X_2\)</span> を使って以下の形で表せる。 <span class="math display">\[T=\frac{X_1/n_1}{X_2/n_2}.\]</span></li>
 <li>Katzの論文のMethod Cでは以下の正規分布近似を使う。ただし、小文字は対応する確率変数の観測値とする。 <span class="math display">\[\begin{align}\log T &amp;= \log\frac{X_1}{n_1} - \log\frac{X_2}{n_2},\\
-\log\frac{X_1}{n_1} &amp;\sim N(\log\frac{x_1}{n_1}, \frac{1}{x_1}-\frac{1}{n_1}),\\
-\log\frac{X_2}{n_2} &amp;\sim N(\log\frac{x_2}{n_2}, \frac{1}{x_2}-\frac{1}{n_2}),\\
-\log T &amp;\sim N (\log\frac{x_1}{n_1} - \log\frac{x_2}{n_2}, \frac{1}{x_1}-\frac{1}{n_1} + \frac{1}{x_2}-\frac{1}{n_2}).\\
+\log\frac{X_1}{n_1} &amp;\sim N\left(\log\frac{x_1}{n_1}, \frac{1}{x_1}-\frac{1}{n_1}\right),\\
+\log\frac{X_2}{n_2} &amp;\sim N\left(\log\frac{x_2}{n_2}, \frac{1}{x_2}-\frac{1}{n_2}\right),\\
+\log T &amp;\sim N\left(\log\frac{x_1}{n_1} - \log\frac{x_2}{n_2}, \frac{1}{x_1}-\frac{1}{n_1} + \frac{1}{x_2}-\frac{1}{n_2}\right).\\
 \end{align}\]</span></li>
 <li>あとは正規分布の信頼区間を求めて指数関数で変換すれば <span class="math inline">\(T\)</span> の信頼区間になる。</li>
 <li>平均はともかく分散が分かりづらいので次節で説明する。</li>
@@ -40,7 +40,7 @@ NLR&amp;=\frac{FN/(TP+FN)}{TN/(FP+TN)}.\end{align}\]</span></li>
 <li>さて、関数 <span class="math inline">\(f(z) = \log z\)</span> を <span class="math inline">\(z=a\)</span> のまわりでTaylor展開すると以下になる。 <span class="math display">\[\begin{align}f(z) &amp;= f(a) + (z-a)f&#39;(a) + \cdots,\\
 \log z&amp;=\log a + (z-a)\frac{1}{a} + \cdots.
 \end{align}\]</span></li>
-<li>ここに <span class="math inline">\(z=X/n\)</span>, <span class="math inline">\(a=p\)</span> を代入して1次の項で打ち切ると以下になる。 <span class="math display">\[\log\frac{X}{n} \simeq \log p + (\frac{X}{n}-p)\frac{1}{p}=
+<li>ここに <span class="math inline">\(z=X/n\)</span>, <span class="math inline">\(a=p\)</span> を代入して1次の項で打ち切ると以下になる。 <span class="math display">\[\log\frac{X}{n} \simeq \log p + \left(\frac{X}{n}-p\right)\frac{1}{p}=
 \log p-1+\frac{X}{np}.\]</span></li>
 <li>つまり、対数関数を <span class="math inline">\(X/n=p\)</span> における接線で線形近似したことになる。当然、<span class="math inline">\(X/n\approx p\)</span> でなければ成り立たないので、<span class="math inline">\(n\)</span> は十分大きい必要がある。</li>
 <li>平均値は以下になる。 <span class="math display">\[E\left[\log\frac{X}{n}\right] \simeq E\left[\log p-1+\frac{X}{np}\right] = \log p.\]</span></li>

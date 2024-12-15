@@ -15,9 +15,9 @@
   $$T=\frac{X_1/n_1}{X_2/n_2}.$$
 * Katzの論文のMethod Cでは以下の正規分布近似を使う。ただし、小文字は対応する確率変数の観測値とする。
   \begin{align}\log T &= \log\frac{X_1}{n_1} - \log\frac{X_2}{n_2},\\
-  \log\frac{X_1}{n_1} &\sim N(\log\frac{x_1}{n_1}, \frac{1}{x_1}-\frac{1}{n_1}),\\
-  \log\frac{X_2}{n_2} &\sim N(\log\frac{x_2}{n_2}, \frac{1}{x_2}-\frac{1}{n_2}),\\
-  \log T &\sim N (\log\frac{x_1}{n_1} - \log\frac{x_2}{n_2}, \frac{1}{x_1}-\frac{1}{n_1} + \frac{1}{x_2}-\frac{1}{n_2}).\\
+  \log\frac{X_1}{n_1} &\sim N\left(\log\frac{x_1}{n_1}, \frac{1}{x_1}-\frac{1}{n_1}\right),\\
+  \log\frac{X_2}{n_2} &\sim N\left(\log\frac{x_2}{n_2}, \frac{1}{x_2}-\frac{1}{n_2}\right),\\
+  \log T &\sim N\left(\log\frac{x_1}{n_1} - \log\frac{x_2}{n_2}, \frac{1}{x_1}-\frac{1}{n_1} + \frac{1}{x_2}-\frac{1}{n_2}\right).\\
   \end{align}
 * あとは正規分布の信頼区間を求めて指数関数で変換すれば $T$ の信頼区間になる。
 * 平均はともかく分散が分かりづらいので次節で説明する。
@@ -32,7 +32,7 @@
   \log z&=\log a + (z-a)\frac{1}{a} + \cdots.
   \end{align}
 * ここに $z=X/n$, $a=p$ を代入して1次の項で打ち切ると以下になる。
-  $$\log\frac{X}{n} \simeq \log p + (\frac{X}{n}-p)\frac{1}{p}=
+  $$\log\frac{X}{n} \simeq \log p + \left(\frac{X}{n}-p\right)\frac{1}{p}=
   \log p-1+\frac{X}{np}.$$
 * つまり、対数関数を $X/n=p$ における接線で線形近似したことになる。当然、$X/n\approx p$ でなければ成り立たないので、$n$ は十分大きい必要がある。
 * 平均値は以下になる。
