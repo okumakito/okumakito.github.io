@@ -10,9 +10,11 @@ Journal papers
 
 * A. Nishimura, T. Kado, A. Nawaz, M. Bilal, T. Kuwano, Y. Watanabe, M.R. Aslam, M. Memoona, N.Q. Phuong, L.D. Anh, Y. Igarashi, Y. Onogi, T. Wada, T. Sasaoka, M. Matsumoto, K. Ikuta, M. Oku, M. Kadowaki, S. Fujisaka, H. Mori, K. Tobe: Adipose tissue-resident macrophages remodelling in response to obesity and CD206 as a lipid macropinocytosis regulator (submitted).
 
-* M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of subjects in which body weight loss precedes diabetes onset: Health checkup in Japan, Diabetol. Int. (under review).
+* M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of subjects in which body weight loss precedes diabetes onset: Health checkup in Japan (in preparation).
 
-* R. Ito, M. Oku, I. Kimura, T. Haruki, M. Shikata, T. Teramoto, D. Chujo, M. Iwata, Y. Nagata, T. Yamagami, M. Kadowaki, K. Tobe, S. Saito, K. Ueda: Energy landscape analysis of specific health checkup data in Japan clarified multiple pathways to diabetes (in preparation).
+* R. Ito, M. Oku, I. Kimura, T. Haruki, M. Shikata, T. Teramoto, D. Chujo, M. Iwata, S. Fujisaka, Y. Nagata, T. Yamagami, M. Kadowaki, K. Tobe, S. Saito, K. Ueda: Energy landscape analysis of health checkup data clarified multiple pathways to diabetes development in obese and non-obese subjects (in preparation).
+
+* K. Akagi, Y.-J. Jin, K. Koizumi, M. Oku, K. Ito, X. Shen, J. Imura, K. Aihara, S. Saito: Integration of dynamical network biomarkers, control theory and Drosophila model identifies Vasa/DDX4 as the potential therapeutic targets for metabolic syndrome (in preparation).
 
 -->
 
