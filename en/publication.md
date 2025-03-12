@@ -14,9 +14,9 @@ Journal papers
 
 * R. Ito, M. Oku, I. Kimura, T. Haruki, M. Shikata, T. Teramoto, D. Chujo, M. Iwata, S. Fujisaka, Y. Nagata, T. Yamagami, M. Kadowaki, K. Tobe, S. Saito, K. Ueda: Energy landscape analysis of health checkup data clarified multiple pathways to diabetes development in obese and non-obese subjects (in preparation).
 
-* K. Akagi, Y.-J. Jin, K. Koizumi, M. Oku, K. Ito, X. Shen, J. Imura, K. Aihara, S. Saito: Integration of dynamical network biomarkers, control theory and Drosophila model identifies Vasa/DDX4 as the potential therapeutic targets for metabolic syndrome (in preparation).
-
 -->
+
+* K. Akagi, Y.-J. Jin, K. Koizumi, M. Oku, K. Ito, X. Shen, J. Imura, K. Aihara, S. Saito: Integration of dynamical network biomarkers, control theory and Drosophila model identifies Vasa/DDX4 as the potential therapeutic targets for metabolic syndrome, Cells, 14(6):415 (2025). https://doi.org/10.3390/cells14060415
 
 * M. Oku: Clarinet plots: Alternative to violin plots to display zero-inflated distribution of scRNA-seq data, IPSJ Trans. Bioinform., 17:48-54 (2024). https://doi.org/10.2197/ipsjtbio.17.48
 

@@ -98,6 +98,16 @@ M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, K. Aihara: Parallel simulation of a la
 その他
 ------
 
+<!--
+
+* 奥 牧人, 小泉 桂一, 門脇 真, 齋藤 滋: 未病の医科学, Medical Science Digest (in press).
+M. Oku, K. Koizumi, M. Kadowaki, S. Saito: Medical science for pre-diseases, Medical Science Digest (in press).
+
+* 奥 牧人: 未病研究と数理工学, 医学のあゆみ (in press).
+M. Oku: Pre-disease science and mathematical engineering, Journal of Clinical and Experimental Medicine (in press).
+
+-->
+
 * 春木 孝之, 小泉 桂一, 米澤 翔汰, 奥 牧人, 大嶋 佑介, 林 周作, 渡邉 朋信, 門脇 真, 齋藤 滋: データ駆動型アプローチによる未病の解明, 基礎老化研究, 47(3):35-41 (2023). https://www.jsbmg.jp/members/pdf/BG47-3/47-3-7.pdf
 
 * 赤木 一考, 小泉 桂一, 森下 正英，沈 迅，井村 順一, 奥 牧人, 笹岡 利安, 戸邉 一之, 門脇 真, 齋藤 滋: 数理学と生物実験の連携によるメタボリックシンドロームの未病遺伝子の同定, 糖尿病・内分泌代謝科, 57(3):325-331 (2023). https://cir.nii.ac.jp/crid/1520297681104388736
