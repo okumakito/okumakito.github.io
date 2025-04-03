@@ -20,7 +20,7 @@ Journal papers
 
 * M. Oku: Clarinet plots: Alternative to violin plots to display zero-inflated distribution of scRNA-seq data, IPSJ Trans. Bioinform., 17:48-54 (2024). https://doi.org/10.2197/ipsjtbio.17.48
 
-* X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Re-stabilizing large-scale network systems using high-dimension low-sample-size data analysis, IEEE Trans. Emerg. Top. Comput. Intell. (2024). https://doi.org/10.1109/TETCI.2024.3442824
+* X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Re-stabilizing large-scale network systems using high-dimension low-sample-size data analysis, IEEE Trans. Emerg. Top. Comput. Intell., 9(2):1638-1649 (2024). https://doi.org/10.1109/TETCI.2024.3442824
 
 * S. Yonezawa, T. Haruki, K. Koizumi, A. Taketani, Y. Oshima, M. Oku, A. Wada, T. Sato, N. Masuda, J. Tahara, N. Fujisawa, S. Koshiyama, M. Kadowaki, I. Kitajima, S. Saito: Establishing monoclonal gammopathy of undetermined significance as an independent pre-disease state of multiple myeloma using Raman spectroscopy, dynamical network biomarker theory, and energy landscape analysis, Int. J. Mol. Sci., 25(3):1570 (2024). https://doi.org/10.3390/ijms25031570
 
