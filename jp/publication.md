@@ -103,8 +103,8 @@ M. Oku, K. Iwayama, K. Tokuda, H. Suzuki, K. Aihara: Parallel simulation of a la
 * 奥 牧人, 小泉 桂一, 門脇 真, 齋藤 滋: 未病の医科学, Medical Science Digest (in press).
 M. Oku, K. Koizumi, M. Kadowaki, S. Saito: Medical science for pre-diseases, Medical Science Digest (in press).
 
-* 奥 牧人: 未病研究と数理工学, 医学のあゆみ (in press).
-M. Oku: Pre-disease science and mathematical engineering, Journal of Clinical and Experimental Medicine (in press).
+* 奥 牧人: 未病研究と数理工学, 医学のあゆみ, 294(2): (2025) (in press).
+M. Oku: Pre-disease science and mathematical engineering, Journal of Clinical and Experimental Medicine, 294(2): (2025) (in press).
 
 -->
 
