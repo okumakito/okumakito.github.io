@@ -8,7 +8,7 @@ Journal papers
 
 <!--
 
-* A. Nishimura, T. Kado, A. Nawaz, M. Bilal, T. Kuwano, Y. Watanabe, M.R. Aslam, M. Memoona, N.Q. Phuong, L.D. Anh, Y. Igarashi, Y. Onogi, T. Wada, T. Sasaoka, M. Matsumoto, K. Ikuta, M. Oku, M. Kadowaki, S. Fujisaka, H. Mori, K. Tobe: Adipose tissue-resident macrophages remodelling in response to obesity and CD206 as a lipid macropinocytosis regulator (submitted).
+* A. Nishimura, T. Kado, A. Nawaz, M. Bilal, T. Kuwano, Y. Watanabe, M.R. Aslam, M. Memoona, N.Q. Phuong, L.D. Anh, Y. Igarashi, Y. Onogi, T. Wada, T. Sasaoka, M. Matsumoto, K. Ikuta, M. Oku, M. Kadowaki, S. Fujisaka, H. Mori, M. Kato, K. Tobe: Early-phase dynamics of adipose tissue-resident macrophages in response to obesity (submitted).
 
 * M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of subjects in which body weight loss precedes diabetes onset: Health checkup in Japan (submitted).
 
@@ -128,6 +128,8 @@ Conference papers
 
 Others
 ------
+
+* M. Oku, S. Ohno, H. Metoki, E. Arai, M. Ito, A. Shiozaki, A. Nakashima, N. Iwama, R. Tsuchida, S. Yoneda, N. Yoneda, S. Tsuda, M. Satoh, T. Murakami, S. Tanigawara, K. Hoshi, K. Tanaka, M. Yamada, S. Saito: Machine-learning prediction of hypertensive disorders of pregnancy based on home blood pressure monitoring, medRxiv, 2025.05.28.25328541 (2025). https://doi.org/10.1101/2025.05.28.25328541
 
 * M. Oku: Branching embedding: A heuristic dimensionality reduction algorithm based on hierarchical clustering, arXiv, 1805.02161 (2018). https://doi.org/10.48550/arXiv.1805.02161
 
