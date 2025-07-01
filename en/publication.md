@@ -139,7 +139,7 @@ Others
 Presentations without proceedings
 ---------------------------------
 
-* S. Hayashi, M. Oku, S. Kato, M. Saito, K. Imaizumi, J. Imura, M. Kadowaki, K. Aihara: A novel approach to elucidating the pathogenesis of inflammatory bowel disease using mathematical models (oral), Digestive Disease Week 2025, 2025/05/03-06, San Diego.
+* S. Hayashi, M. Oku, S. Kato, M. Saito, K. Imaizumi, J. Imura, M. Kadowaki, K. Aihara: A novel approach to elucidating the pathogenesis of inflammatory bowel disease using mathematical models (oral), Digestive Disease Week 2025, 2025/05/06, San Diego.
 
 * X. Shen, H. Sasahara, J. Imura, M. Oku, K. Aihara: Theory of restabilisation of high-dimensional data-driven network systems in very early treatment (poster), ISNSM'24, 2024/03/15, Tokyo, Japan.
 
