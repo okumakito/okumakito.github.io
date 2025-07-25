@@ -12,6 +12,12 @@ Journal papers
 
 * M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of subjects in which body weight loss precedes diabetes onset: Health checkup in Japan (submitted).
 
+* M. Kokubo, I. Kimura, M. Oku, K. Tobe, Y. Nagata, K. Ueda: Orthogonality-guided feature selection for energy landscape analysis of health transitions (submitted).
+
+* M. Oku: Designing efficient interventions for pre-disease states using control theory (submitted).
+
+* M. Oku, A. Inujima, K. Koizumi, K. Akagi, S. Fujisaka, T. Wada, Y. Onogi, T. Sasaoka, K. Tobe, M. Kadowaki, X. Shen, J. Imura, K. Aihara, S. Saito: Dynamical network biomarker analysis using multi-organ RNA sequencing in metabolic syndrome model mice (submitted).
+
 -->
 
 * R. Ito, M. Oku, I. Kimura, T. Haruki, M. Shikata, T. Teramoto, D. Chujo, M. Iwata, S. Fujisaka, Y. Nagata, T. Yamagami, M. Kadowaki, K. Tobe, S. Saito, K. Ueda: Energy landscape analysis of health checkup data clarified multiple pathways to diabetes development in obese and non-obese subjects, Front. Endocrinol., 16:1576431 (2025). https://doi.org/10.3389/fendo.2025.1576431
@@ -128,6 +134,8 @@ Conference papers
 
 Others
 ------
+
+* M. Oku: Designing efficient interventions for pre-disease states using control theory, arXiv, 2507.18269 (2025). https://doi.org/10.48550/arXiv.2507.18269
 
 * M. Oku, S. Ohno, H. Metoki, E. Arai, M. Ito, A. Shiozaki, A. Nakashima, N. Iwama, R. Tsuchida, S. Yoneda, N. Yoneda, S. Tsuda, M. Satoh, T. Murakami, S. Tanigawara, K. Hoshi, K. Tanaka, M. Yamada, S. Saito: Machine-learning prediction of hypertensive disorders of pregnancy based on home blood pressure monitoring, medRxiv, 2025.05.28.25328541 (2025). https://doi.org/10.1101/2025.05.28.25328541
 
