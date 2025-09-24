@@ -10,8 +10,6 @@ Journal papers
 
 * A. Nishimura, T. Kado, A. Nawaz, M. Bilal, T. Kuwano, Y. Watanabe, M.R. Aslam, M. Memoona, N.Q. Phuong, L.D. Anh, Y. Igarashi, Y. Onogi, T. Wada, T. Sasaoka, M. Matsumoto, K. Ikuta, M. Oku, M. Kadowaki, S. Fujisaka, H. Mori, M. Kato, K. Tobe: Early-phase dynamics of adipose tissue-resident macrophages in response to obesity (submitted).
 
-* M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of subjects in which body weight loss precedes diabetes onset: Health checkup in Japan (submitted).
-
 * M. Kokubo, I. Kimura, M. Oku, K. Tobe, Y. Nagata, K. Ueda: Orthogonality-guided feature selection for energy landscape analysis of health transitions (submitted).
 
 * M. Oku: Designing efficient interventions for pre-disease states using control theory (submitted).
@@ -19,6 +17,8 @@ Journal papers
 * M. Oku, A. Inujima, K. Koizumi, K. Akagi, S. Fujisaka, T. Wada, Y. Onogi, T. Sasaoka, K. Tobe, M. Kadowaki, X. Shen, J. Imura, K. Aihara, S. Saito: Dynamical network biomarker analysis using multi-organ RNA sequencing in metabolic syndrome model mice (submitted).
 
 -->
+
+* M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of individuals in whom body weight loss precedes diabetes onset: A retrospective, observational, longitudinal cohort study based on health checkup in Japan, Endocr. J. (2025). https://doi.org/10.1507/endocrj.EJ25-0230
 
 * R. Ito, M. Oku, I. Kimura, T. Haruki, M. Shikata, T. Teramoto, D. Chujo, M. Iwata, S. Fujisaka, Y. Nagata, T. Yamagami, M. Kadowaki, K. Tobe, S. Saito, K. Ueda: Energy landscape analysis of health checkup data clarified multiple pathways to diabetes development in obese and non-obese subjects, Front. Endocrinol., 16:1576431 (2025). https://doi.org/10.3389/fendo.2025.1576431
 
