@@ -137,7 +137,7 @@ Others
 
 * M. Oku: Designing efficient interventions for pre-disease states using control theory, arXiv, 2507.18269 (2025). https://doi.org/10.48550/arXiv.2507.18269
 
-* M. Oku, S. Ohno, H. Metoki, E. Arai, M. Ito, A. Shiozaki, A. Nakashima, N. Iwama, R. Tsuchida, S. Yoneda, N. Yoneda, S. Tsuda, M. Satoh, T. Murakami, S. Tanigawara, K. Hoshi, K. Tanaka, M. Yamada, S. Saito: Machine-learning prediction of hypertensive disorders of pregnancy based on home blood pressure monitoring, medRxiv, 2025.05.28.25328541 (2025). https://doi.org/10.1101/2025.05.28.25328541
+* M. Oku, S. Ohno, H. Metoki, E. Arai, M. Ito, A. Shiozaki, A. Nakashima, N. Iwama, R. Tsuchida, S. Yoneda, N. Yoneda, S. Tsuda, M. Satoh, T. Murakami, S. Tanigawara, K. Hoshi, K. Tanaka, M. Yamada, S. Saito: Prediction model of hypertensive disorders of pregnancy based on home blood pressure monitoring, medRxiv, 2025.05.28.25328541 (2025). https://doi.org/10.1101/2025.05.28.25328541
 
 * M. Oku: Branching embedding: A heuristic dimensionality reduction algorithm based on hierarchical clustering, arXiv, 1805.02161 (2018). https://doi.org/10.48550/arXiv.1805.02161
 
