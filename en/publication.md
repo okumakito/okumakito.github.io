@@ -10,11 +10,11 @@ Journal papers
 
 * A. Nishimura, T. Kado, A. Nawaz, M. Bilal, T. Kuwano, Y. Watanabe, M.R. Aslam, M. Memoona, N.Q. Phuong, L.D. Anh, Y. Igarashi, Y. Onogi, T. Wada, T. Sasaoka, M. Matsumoto, K. Ikuta, M. Oku, M. Kadowaki, S. Fujisaka, H. Mori, M. Kato, K. Tobe: Early-phase dynamics of adipose tissue-resident macrophages in response to obesity (submitted).
 
-* M. Kokubo, I. Kimura, M. Oku, K. Tobe, Y. Nagata, K. Ueda: Orthogonality-guided feature selection for energy landscape analysis of health transitions (submitted).
+* M. Kokubo, I. Kimura, M. Oku, K. Tobe, Y. Nagata, K. Ueda: Orthogonality-guided feature selection for energy landscape analysis of health transitions (accepted).
 
-* M. Oku: Designing efficient interventions for pre-disease states using control theory (submitted).
+* M. Oku: Designing efficient interventions for pre-disease states using control theory (accepted).
 
-* M. Oku, A. Inujima, K. Koizumi, K. Akagi, S. Fujisaka, T. Wada, Y. Onogi, T. Sasaoka, K. Tobe, M. Kadowaki, X. Shen, J. Imura, K. Aihara, S. Saito: Dynamical network biomarker analysis using multi-organ RNA sequencing in metabolic syndrome model mice (submitted).
+* M. Oku, A. Inujima, K. Koizumi, K. Akagi, S. Fujisaka, T. Wada, Y. Onogi, T. Sasaoka, K. Tobe, M. Kadowaki, X. Shen, J. Imura, K. Aihara, S. Saito: Dynamical network biomarker analysis using multi-organ RNA sequencing in metabolic syndrome model mice (accepted).
 
 -->
 
