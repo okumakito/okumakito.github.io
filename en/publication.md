@@ -8,13 +8,15 @@ Journal papers
 
 <!--
 
+* S. Hayashi, Y. Ogawa, N. Wakabayashi, K. Tokuyama, M. Oku, T. Yamamoto, S. Kato, A. Nusrat, M. Kadowaki: Targeting fatty acid synthase with berberine promotes IL-10 production in macrophages and prevents relapse in a murine colitis model (in preparation).
+
 * A. Nishimura, T. Kado, A. Nawaz, M. Bilal, T. Kuwano, Y. Watanabe, M.R. Aslam, M. Memoona, N.Q. Phuong, L.D. Anh, Y. Igarashi, Y. Onogi, T. Wada, T. Sasaoka, M. Matsumoto, K. Ikuta, M. Oku, M. Kadowaki, S. Fujisaka, H. Mori, M. Kato, K. Tobe: Early-phase dynamics of adipose tissue-resident macrophages in response to obesity (submitted).
 
-* M. Kokubo, I. Kimura, M. Oku, K. Tobe, Y. Nagata, K. Ueda: Orthogonality-guided feature selection for energy landscape analysis of health transitions (accepted).
+* M. Kokubo, I. Kimura, M. Oku, K. Tobe, Y. Nagata, K. Ueda: Orthogonality-guided feature selection for energy landscape analysis of health transitions, NOLTA, E17-N(1) (2026).
 
-* M. Oku: Designing efficient interventions for pre-disease states using control theory (accepted).
+* M. Oku: Designing efficient interventions for pre-disease states using control theory, E17-N(1) (2026).
 
-* M. Oku, A. Inujima, K. Koizumi, K. Akagi, S. Fujisaka, T. Wada, Y. Onogi, T. Sasaoka, K. Tobe, M. Kadowaki, X. Shen, J. Imura, K. Aihara, S. Saito: Dynamical network biomarker analysis using multi-organ RNA sequencing in metabolic syndrome model mice (accepted).
+* M. Oku, A. Inujima, K. Koizumi, K. Akagi, S. Fujisaka, T. Wada, Y. Onogi, T. Sasaoka, K. Tobe, M. Kadowaki, X. Shen, J. Imura, K. Aihara, S. Saito: Dynamical network biomarker analysis using multi-organ RNA sequencing in metabolic syndrome model mice, E17-N(1) (2026).
 
 -->
 

@@ -3,9 +3,6 @@
 [Home](index.md)
 [Publications](publication.md)
 [Notes](notes.md)
-[Movies](../movies.html)
-[Language]()
-
-  * [日本語](../jp)
-  * [English](../en)
+[Miscs](miscs.md)
+[日本語](../jp)
 
