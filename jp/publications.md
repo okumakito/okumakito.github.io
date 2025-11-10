@@ -1,7 +1,7 @@
 Publications
 ============
 
-Note: 英文の発表リストは[**こちら**](../en/#!publication.md)
+Note: 英文の発表リストは[**こちら**](../en/#!publications.md)
 
 学術雑誌論文 (和文)
 -------------------
