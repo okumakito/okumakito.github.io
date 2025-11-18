@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [二項分布と負の二項分布の違いを一枚の図で表してみる (2025/11/18)](https://qiita.com/okumakito/items/341457900cd1b179f3ff)
+
 * [A4で学会発表のA0ポスターを作るコツ (2025/11/03)](https://qiita.com/okumakito/items/e98c9834515611361df8)
 
 * [numpyで全てのペアを取得する方法 (2025/10/22)](https://qiita.com/okumakito/items/f249fe6f94883f8b0f0c)
