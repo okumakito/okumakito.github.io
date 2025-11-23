@@ -149,11 +149,7 @@ Others
 Presentations without proceedings
 ---------------------------------
 
-<!--
-
 * M.Oku: A graph layout method for visualizing pre-disease states (poster), ICNSM'25, 2025/11/19, Tokyo. Japan.
-
--->
 
 * S. Hayashi, M. Oku, S. Kato, M. Saito, K. Imaizumi, J. Imura, M. Kadowaki, K. Aihara: A novel approach to elucidating the pathogenesis of inflammatory bowel disease using mathematical models (oral), Digestive Disease Week 2025, 2025/05/06, San Diego.
 
