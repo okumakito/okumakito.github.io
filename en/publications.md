@@ -14,9 +14,9 @@ Journal papers
 
 * M. Kokubo, I. Kimura, M. Oku, K. Tobe, Y. Nagata, K. Ueda: Orthogonality-guided feature selection for energy landscape analysis of health transitions, NOLTA, E17-N(1) (2026).
 
-* M. Oku: Designing efficient interventions for pre-disease states using control theory, E17-N(1) (2026).
+* M. Oku: Designing efficient interventions for pre-disease states using control theory, NOLTA, E17-N(1) (2026).
 
-* M. Oku, A. Inujima, K. Koizumi, K. Akagi, S. Fujisaka, T. Wada, Y. Onogi, T. Sasaoka, K. Tobe, M. Kadowaki, X. Shen, J. Imura, K. Aihara, S. Saito: Dynamical network biomarker analysis using multi-organ RNA sequencing in metabolic syndrome model mice, E17-N(1) (2026).
+* M. Oku, A. Inujima, K. Koizumi, K. Akagi, S. Fujisaka, T. Wada, Y. Onogi, T. Sasaoka, K. Tobe, M. Kadowaki, X. Shen, J. Imura, K. Aihara, S. Saito: Dynamical network biomarker analysis using multi-organ RNA sequencing in metabolic syndrome model mice, NOLTA, E17-N(1) (2026).
 
 -->
 
