@@ -12,13 +12,13 @@ Journal papers
 
 * A. Nishimura, T. Kado, A. Nawaz, M. Bilal, T. Kuwano, Y. Watanabe, M.R. Aslam, M. Memoona, N.Q. Phuong, L.D. Anh, Y. Igarashi, Y. Onogi, T. Wada, T. Sasaoka, M. Matsumoto, K. Ikuta, M. Oku, M. Kadowaki, S. Fujisaka, H. Mori, M. Kato, K. Tobe: Early-phase dynamics of adipose tissue-resident macrophages in response to obesity (submitted).
 
-* M. Kokubo, I. Kimura, M. Oku, K. Tobe, Y. Nagata, K. Ueda: Orthogonality-guided feature selection for energy landscape analysis of health transitions, NOLTA, E17-N(1) (2026).
-
-* M. Oku: Designing efficient interventions for pre-disease states using control theory, NOLTA, E17-N(1) (2026).
-
-* M. Oku, A. Inujima, K. Koizumi, K. Akagi, S. Fujisaka, T. Wada, Y. Onogi, T. Sasaoka, K. Tobe, M. Kadowaki, X. Shen, J. Imura, K. Aihara, S. Saito: Dynamical network biomarker analysis using multi-organ RNA sequencing in metabolic syndrome model mice, NOLTA, E17-N(1) (2026).
-
 -->
+
+* M. Kokubo, I. Kimura, M. Oku, K. Tobe, Y. Nagata, K. Ueda: Orthogonality-guided feature selection for energy landscape analysis of health transitions, NOLTA, 17(1):211-227 (2026). https://doi.org/10.1587/nolta.17.211
+
+* M. Oku, A. Inujima, K. Koizumi, K. Akagi, S. Fujisaka, T. Wada, Y. Onogi, T. Sasaoka, K. Tobe, M. Kadowaki, X. Shen, J. Imura, K. Aihara, S. Saito: Dynamical network biomarker analysis using multi-organ RNA sequencing in metabolic syndrome model mice, NOLTA, 17(1):186-210 (2026). https://doi.org/10.1587/nolta.17.186
+
+* M. Oku: Designing efficient interventions for pre-disease states using control theory, NOLTA, 17(1):156-185 (2026). https://doi.org/10.1587/nolta.17.156
 
 * M. Shikata, M. Oku, S. Fukuhara, R. Ito, T. Haruki, K. Ueda, I. Kimura, T. Teramoto, D. Chujo, M. Iwata, T. Yamagami, Y. Nagata, M. Kadowaki, K. Tobe: Characterization of individuals in whom body weight loss precedes diabetes onset: A retrospective, observational, longitudinal cohort study based on health checkup in Japan, Endocr. J. (2025). https://doi.org/10.1507/endocrj.EJ25-0230
 
