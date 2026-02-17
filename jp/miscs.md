@@ -95,6 +95,8 @@ GitHub
 Speaker Deck
 ------------
 
+* [富山県の健康診断データを用いたエネルギー地形解析の続報の紹介 (2026/02/09)](https://speakerdeck.com/okumakito/oku-slide-20260209)
+
 * [幾つかのデータ解析手法の紹介 (2024/08/02)](https://speakerdeck.com/okumakito/20240802-slide)
 
 * [クラリネットプロット: バイオリンプロットに代わるscRNA-seqデータのゼロ過剰分布の表示法 (2023/11/29)](https://speakerdeck.com/okumakito/oku-slide-20231129)
