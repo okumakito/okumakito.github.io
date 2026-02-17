@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [ZoomをUbuntuで使うときの注意 (2026/02/17)](https://qiita.com/okumakito/items/39fbd6cbd0b7a92d9999)
+
 * [二項分布と負の二項分布の違いを一枚の図で表してみる (2025/11/18)](https://qiita.com/okumakito/items/341457900cd1b179f3ff)
 
 * [A4で学会発表のA0ポスターを作るコツ (2025/11/03)](https://qiita.com/okumakito/items/e98c9834515611361df8)
