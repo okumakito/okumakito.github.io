@@ -8,6 +8,8 @@ Journal papers
 
 <!--
 
+* K. Kumagae, T. Nakakuki (M. Oku?, J. Imura?): Predicting and preventing pathological oscillations: Ultra-early disease detection and intervention in antithetic integral feedback motifs (in prepation).
+
 * S. Hayashi, Y. Ogawa, N. Wakabayashi, K. Tokuyama, M. Oku, T. Yamamoto, S. Kato, A. Nusrat, M. Kadowaki: Targeting fatty acid synthase with berberine promotes IL-10 production in macrophages and prevents relapse in a murine colitis model (in preparation).
 
 * A. Nishimura, T. Kado, A. Nawaz, M. Bilal, T. Kuwano, Y. Watanabe, M.R. Aslam, M. Memoona, N.Q. Phuong, L.D. Anh, Y. Igarashi, Y. Onogi, T. Wada, T. Sasaoka, M. Matsumoto, K. Ikuta, M. Oku, M. Kadowaki, S. Fujisaka, H. Mori, M. Kato, K. Tobe: Early-phase dynamics of adipose tissue-resident macrophages in response to obesity (submitted).
@@ -138,6 +140,12 @@ Conference papers
 
 Others
 ------
+
+<!--
+
+* S. Shimmura, M. Oku, Y. Nagata, T. Yamagami, S. Fujisaka, T. Wada, T. Sasaoka, Y. Onogi, H. Honoki, T. Kado, A. Nishimura, M. Bilal, M. Sekine, K. Tobe: Multiple pathways to metabolic syndrome identified by hierarchical clustering of Japanese longitudinal health checkup data, medRxiv (2026). (in preparation)
+
+-->
 
 * M. Oku: Designing efficient interventions for pre-disease states using control theory, arXiv, 2507.18269 (2025). https://doi.org/10.48550/arXiv.2507.18269
 
