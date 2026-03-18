@@ -141,11 +141,7 @@ Conference papers
 Others
 ------
 
-<!--
-
-* S. Shimmura, M. Oku, Y. Nagata, T. Yamagami, S. Fujisaka, T. Wada, T. Sasaoka, Y. Onogi, H. Honoki, T. Kado, A. Nishimura, M. Bilal, M. Sekine, K. Tobe: Multiple pathways to metabolic syndrome identified by hierarchical clustering of Japanese longitudinal health checkup data, medRxiv (2026). (in preparation)
-
--->
+* S. Shimmura, M. Oku, Y. Nagata, T. Yamagami, S. Fujisaka, T. Wada, T. Sasaoka, Y. Onogi, H. Honoki, T. Kado, A. Nishimura, M. Bilal, M. Sekine, K. Tobe: Multiple pathways to metabolic syndrome identified by hierarchical clustering of Japanese longitudinal health checkup data, medRxiv, 2026.03.06.26347135 (2026). https://doi.org/10.64898/2026.03.06.26347135
 
 * M. Oku: Designing efficient interventions for pre-disease states using control theory, arXiv, 2507.18269 (2025). https://doi.org/10.48550/arXiv.2507.18269
 

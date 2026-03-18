@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [Pythonで連続変数のモードを計算する方法 (2026/03/18)](https://qiita.com/okumakito/items/45b2aeae5525f5151444)
+
 * [ZoomをUbuntuで使うときの注意 (2026/02/17)](https://qiita.com/okumakito/items/39fbd6cbd0b7a92d9999)
 
 * [二項分布と負の二項分布の違いを一枚の図で表してみる (2025/11/18)](https://qiita.com/okumakito/items/341457900cd1b179f3ff)
