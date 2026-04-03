@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [RECODEの簡単な説明 (2026/03/25)](https://qiita.com/okumakito/items/5942e57d462fd6cc4786)
+
 * [Pythonで連続変数のモードを計算する方法 (2026/03/18)](https://qiita.com/okumakito/items/45b2aeae5525f5151444)
 
 * [ZoomをUbuntuで使うときの注意 (2026/02/17)](https://qiita.com/okumakito/items/39fbd6cbd0b7a92d9999)
