@@ -8,7 +8,7 @@ Journal papers
 
 <!--
 
-* K. Kumagae, T. Nakakuki (M. Oku?, J. Imura?): Predicting and preventing pathological oscillations: Ultra-early disease detection and intervention in antithetic integral feedback motifs (in prepation).
+* K. Kumagae, T. Nakakuki, M. Oku, J. Imura: Predicting and preventing pathological oscillations: Ultra-early disease detection and intervention in antithetic integral feedback motifs (in preparation).
 
 * S. Hayashi, Y. Ogawa, N. Wakabayashi, K. Tokuyama, M. Oku, T. Yamamoto, S. Kato, A. Nusrat, M. Kadowaki: Targeting fatty acid synthase with berberine promotes IL-10 production in macrophages and prevents relapse in a murine colitis model (in preparation).
 
