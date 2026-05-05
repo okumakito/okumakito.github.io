@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [カーネル密度推定をヒストグラムの畳み込みで近似する方法 (2026/05/04)](https://qiita.com/okumakito/items/4a75dbb9429cf7d28bd5)
+
 * [RECODEの簡単な説明 (2026/03/25)](https://qiita.com/okumakito/items/5942e57d462fd6cc4786)
 
 * [Pythonで連続変数のモードを計算する方法 (2026/03/18)](https://qiita.com/okumakito/items/45b2aeae5525f5151444)
