@@ -1,6 +1,6 @@
 # A brief explanation of relation between quantile function and mean (2026/05/15)
 
-[gimmick: math]()
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 Given a continuous random variable \\(X\\) and its quantile function \\(Q(y)\\) with \\(y\in[0,1]\\), the following relation is known:
 
