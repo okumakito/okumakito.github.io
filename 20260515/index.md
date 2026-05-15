@@ -25,8 +25,8 @@ A brief explanation is given below.
   $$E[X] = \int_{-\infty}^\infty x f(x) dx.$$
 
 * Variable transformation: If \\(X\\) is transformed as \\(x=g(y)\\) and \\(y=h(x)\\) where \\(g\\) is monotonic and \\(h=g^{-1}\\), the mean becomes as follows:
-  $$\begin{align}E[X] &= \int_0^1 g(y) f(g(y)) |g'(y)|dy,\\\\
-  &=\int_0^1 g(y) f(g(y)) \frac{1}{|h'(g(y))|}dy.\end{align}$$
+  $$\begin{align}E[X] &= \int g(y) f(g(y)) |g'(y)|dy,\\\\
+  &=\int g(y) f(g(y)) \frac{1}{|h'(g(y))|}dy.\end{align}$$
   Intuitively, \\(|dx/dy|=|g'(y)|\\) can be seen as \\(dx=|g'(y)|dy\\). Similarly, \\(|dy/dx|=|h'(x)|\\) can be seen as \\(dy=|h'(x)|dx=|h'(g(y))|dx\\).
 
 ### Explanation
@@ -38,4 +38,4 @@ A brief explanation is given below.
 * Since \\(F'(x)=f(x)\\) and \\(f(x)\geq 0\ (\forall x)\\), we get:
   $$E[X]=\int_0^1Q(y)dy.$$
 
-* Note that if there are regions with \\(f(x)=0\\), \\(F(x)\\) is constant within each region, and \\(Q(y)\\) has discrete changes there. However, such discontinuity doesn't affect the integral of \\(Q(y)\\).
+* Note that if there are regions with \\(f(x)=0\\), \\(F(x)\\) is constant within each region, and \\(Q(y)\\) has discrete changes there. However, such discontinuity doesn't affect the integral of \\(Q(y)\\) and can be ignored.
