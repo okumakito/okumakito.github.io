@@ -1,6 +1,8 @@
 Notes
 =====
 
+* [A brief explanation of relation between quantile function and mean (2026/05/15)](../20260515/)
+
 * [ムーンショット合原プロジェクトの論文一覧 (2026/02/27)](../20260227/)
 
 * [Katz, et al. (1978) の近似式の導出 (2024/12/15)](../20241215/memo.html)

@@ -1,6 +1,8 @@
 Notes
 =====
 
+* [A brief explanation of relation between quantile function and mean (2026/05/15)](../20260515/)
+
 * [A generalized earth mover's distance with horizontal and vertical transformation (2024/03/22)](../20240322/memo.html)
 
 * [SFG calculator (2021/08/24)](../web_app/sfg.html)
