@@ -10,11 +10,11 @@ Journal papers
 
 * K. Kumagae, T. Nakakuki, M. Oku, J. Imura, K. Aihara: Predicting and preventing pathological oscillations: Ultra-early disease detection and intervention in antithetic integral feedback motifs (in preparation).
 
-* S. Hayashi, Y. Ogawa, N. Wakabayashi, K. Tokuyama, M. Oku, T. Yamamoto, S. Kato, A. Nusrat, M. Kadowaki: Targeting fatty acid synthase with berberine promotes IL-10 production in macrophages and prevents relapse in a murine colitis model, FASEB J. (accepted). https://doi.org/10.1096/fj.202504287R
-
 * A. Nishimura, T. Kado, A. Nawaz, M. Bilal, T. Kuwano, Y. Watanabe, M.R. Aslam, M. Memoona, N.Q. Phuong, L.D. Anh, Y. Igarashi, Y. Onogi, T. Wada, T. Sasaoka, M. Matsumoto, K. Ikuta, M. Oku, M. Kadowaki, S. Fujisaka, H. Mori, M. Kato, K. Tobe: Early-phase dynamics of adipose tissue-resident macrophages in response to obesity (in preparation).
 
 -->
+
+* S. Hayashi, Y. Ogawa, N. Wakabayashi, K. Tokuyama, M. Oku, T. Yamamoto, S. Kato, A. Nusrat, M. Kadowaki: Targeting fatty acid synthase with berberine promotes IL-10 production in macrophages and prevents relapse in a murine colitis model, FASEB J., 40(11):e72014 (2026). https://doi.org/10.1096/fj.202504287R
 
 * M. Oku, S. Ohno, H. Metoki, E. Arai, M. Ito, A. Shiozaki, A. Nakashima, N. Iwama, R. Tsuchida, S. Yoneda, N. Yoneda, S. Tsuda, M. Satoh, T. Murakami, S. Tanigawara, K. Hoshi, K. Tanaka, M. Yamada, S. Saito: Prediction model of hypertensive disorders of pregnancy based on home blood pressure monitoring, J. Am. Heart Assoc., 15(5):e047093 (2026). https://doi.org/10.1161/JAHA.125.047093
 
