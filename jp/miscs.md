@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [フィッシャー情報量の直感的な説明 (2026/06/05)](https://qiita.com/okumakito/items/4aace3b1a36887922302)
+
 * [中央絶対偏差と順位を用いた外れ値に強い主成分分析 (2026/05/05)](https://qiita.com/okumakito/items/7b38db19cb4cb0be435a)
 
 * [カーネル密度推定をヒストグラムの畳み込みで近似する方法 (2026/05/04)](https://qiita.com/okumakito/items/4a75dbb9429cf7d28bd5)
