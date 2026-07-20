@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [Pythonでk近傍密度推定により散布図の点に色を付ける方法 (2026/07/20)](https://qiita.com/okumakito/items/71d57507888545ac0991)
+
 * [フィッシャー情報量の直感的な説明 (2026/06/05)](https://qiita.com/okumakito/items/4aace3b1a36887922302)
 
 * [中央絶対偏差と順位を用いた外れ値に強い主成分分析 (2026/05/05)](https://qiita.com/okumakito/items/7b38db19cb4cb0be435a)
