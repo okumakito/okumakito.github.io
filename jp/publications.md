@@ -25,34 +25,34 @@ G. Tanaka, M. Oku, K. Aihara: Mathematical modelling of complex systems and simu
 会議予稿、紀要等 (和文)
 -----------------------
 
-* 奥 牧人: クラリネットプロット：バイオリンプロットに代わるscRNA-seqデータのゼロ過剰分布の表示法, 情処研報, 2023-BIO-76(6):1-6 (2023). http://id.nii.ac.jp/1001/00229418/
+* 奥 牧人: クラリネットプロット：バイオリンプロットに代わるscRNA-seqデータのゼロ過剰分布の表示法, 情処研報, 2023-BIO-76(6):1-6 (2023). https://ipsj.ixsq.nii.ac.jp/records/229528
 M. Oku: Clarinet plots: Alternative to violin plots to display zero-inflated distribution of scRNA-seq data, IPSJ SIG Tech. Rep., 2023-BIO-76(6):1-6 (2023).
 (第76回 バイオ情報学研究会, 口頭発表, 2023/11/29, 東京)
 Slide: https://speakerdeck.com/okumakito/oku-slide-20231129
 
-* 奥 牧人: 対照群を用いない同期性揺らぎ遺伝子の抽出法, 情処研報, 2022-BIO-72(3):1-6 (2022). http://id.nii.ac.jp/1001/00222463/
+* 奥 牧人: 対照群を用いない同期性揺らぎ遺伝子の抽出法, 情処研報, 2022-BIO-72(3):1-6 (2022). https://ipsj.ixsq.nii.ac.jp/records/222572
 M. Oku: Extraction method of synchronously fluctuated genes without using a control group, IPSJ SIG Tech. Rep., 2022-BIO-72(3):1-6 (2022).
 (第72回 バイオ情報学研究会, 口頭発表, 2022/11/29, 東京)
 Slide: https://speakerdeck.com/okumakito/oku-slide-20221129
 
-* 奥 牧人: KampoDBをより使いやすくするための大幅更新, 情処研報, 2022-BIO-69(14):1-6 (2022). http://id.nii.ac.jp/1001/00216816/
+* 奥 牧人: KampoDBをより使いやすくするための大幅更新, 情処研報, 2022-BIO-69(14):1-6 (2022). https://ipsj.ixsq.nii.ac.jp/records/216924
 M. Oku: A major update of KampoDB for better usability, IPSJ SIG Tech. Rep., 2022-BIO-69(14):1-6 (2022).
 (第69回 バイオ情報学研究会, 口頭発表, 2022/03/11, online)
 Slide: https://speakerdeck.com/okumakito/oku-slide-20220311
 
-* 奥 牧人: 同期性揺らぎ遺伝子の二段階抽出におけるパラメータ調整法, 情処研報, 2021-BIO-65(5):1-6 (2021). http://id.nii.ac.jp/1001/00209859/
+* 奥 牧人: 同期性揺らぎ遺伝子の二段階抽出におけるパラメータ調整法, 情処研報, 2021-BIO-65(5):1-6 (2021). https://ipsj.ixsq.nii.ac.jp/records/209961
 M. Oku: Parameter adjustment method in two-step extraction of synchronously fluctuated genes, IPSJ SIG Tech. Rep., 2021-BIO-65(5):1-6 (2021).
 (第65回 バイオ情報学研究会, 口頭発表, 2021/03/11, online)
 
-* 奥 牧人: フローサイトメトリーデータ解析ための方向制限付きアースムーバー距離の効率的な計算法, 情処研報, 2020-BIO-61(8):1-6 (2020). http://id.nii.ac.jp/1001/00203781/
+* 奥 牧人: フローサイトメトリーデータ解析ための方向制限付きアースムーバー距離の効率的な計算法, 情処研報, 2020-BIO-61(8):1-6 (2020). https://ipsj.ixsq.nii.ac.jp/records/203876
 M. Oku: An efficient method for calculating earth mover's distance with direction restriction for flow cytometry data analysis, IPSJ SIG Tech. Rep., 2020-BIO-61(8):1-6 (2020).
 (第61回 バイオ情報学研究会, 口頭発表, 2020/03/13, online)
 
-* 村田 健哉, 春木 孝之, 吉田 泰彦, 奥 牧人, 小泉 桂一, 門脇 真: デング熱ウイルス感染経過データに対する動的ネットワークバイオマーカー解析の適用, 情処研報, 2020-BIO-61(2):1-6 (2020). http://id.nii.ac.jp/1001/00203775/
+* 村田 健哉, 春木 孝之, 吉田 泰彦, 奥 牧人, 小泉 桂一, 門脇 真: デング熱ウイルス感染経過データに対する動的ネットワークバイオマーカー解析の適用, 情処研報, 2020-BIO-61(2):1-6 (2020). https://ipsj.ixsq.nii.ac.jp/records/203870
 K. Murata, T. Haruki, Y. Yoshida, M. Oku, K. Koizumi, M. Kadowaki: Application of dynamical network biomarker analysis to dengue fever virus infection data, IPSJ SIG Tech. Rep., 2020-BIO-61(2):1-6 (2020).
 (第61回 バイオ情報学研究会, 口頭発表, 2020/03/12, online)
 
-* 奥 牧人: KampoDBの結合シミュレーション結果の概説, 情処研報, 2019-BIO-59(1):1-6 (2019). http://id.nii.ac.jp/1001/00198992/
+* 奥 牧人: KampoDBの結合シミュレーション結果の概説, 情処研報, 2019-BIO-59(1):1-6 (2019). https://ipsj.ixsq.nii.ac.jp/records/199082
 M. Oku:  An overview of the docking simulation results in KampoDB, IPSJ SIG Tech. Rep., 2019-BIO-59(1):1-6 (2019).
 (第59回 バイオ情報学研究会, 口頭発表, 2019/09/08, 東京)
 
@@ -60,11 +60,11 @@ M. Oku:  An overview of the docking simulation results in KampoDB, IPSJ SIG Tech
 M. Oku: Estimation of the critical transition probability using quadratic polynomial approximation, IEICE Tech. Rep., 118(498):57-62 (2019).
 (非線形問題研究会, 口頭発表, 2019/03/15, 福井)
 
-* 奥 牧人: もう一つの主成分分析に基づく同期性揺らぎ遺伝子抽出法, 情処研報, 2019-BIO-57(2):1-6 (2019). http://id.nii.ac.jp/1001/00194900/
+* 奥 牧人: もう一つの主成分分析に基づく同期性揺らぎ遺伝子抽出法, 情処研報, 2019-BIO-57(2):1-6 (2019). https://ipsj.ixsq.nii.ac.jp/records/194989
 M. Oku: An alternative method for extracting synchronously fluctuated genes based on principal component analysis, IPSJ SIG Tech. Rep., 2019-BIO-57(2):1-6 (2019).
 (第57回 バイオ情報学研究会, 口頭発表, 2019/03/08, 能美)
 
-* 奥 牧人: 同期性揺らぎ遺伝子の二つの新規抽出法, 情処研報, 2018-BIO-56(1):1-6 (2018). http://id.nii.ac.jp/1001/00192709/
+* 奥 牧人: 同期性揺らぎ遺伝子の二つの新規抽出法, 情処研報, 2018-BIO-56(1):1-6 (2018). https://ipsj.ixsq.nii.ac.jp/records/192798
 M. Oku: Two novel methods for extracting synchronously fluctuated genes, IPSJ SIG Tech. Rep., 2018-BIO-56(1):1-6 (2018).
 (第56回 バイオ情報学研究会, 口頭発表, 2018/12/14, 岡山)
 Slide: https://speakerdeck.com/okumakito/oku-slide-20181214
