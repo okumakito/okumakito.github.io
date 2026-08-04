@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [Brunner-Munzel検定 (2026/08/04)](https://qiita.com/okumakito/items/b8e7d15283a1fe13ed92)
+
 * [Decision Curve AnalysisとROC曲線の対応関係 (2026/07/30)](https://qiita.com/okumakito/items/0d037f6a1ddc6fcb7956)
 
 * [縞模様だけのバイオリン図の描画方法 (2026/07/24)](https://qiita.com/okumakito/items/7a71a9ecd12da03ed9cb)
