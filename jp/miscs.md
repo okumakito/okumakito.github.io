@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [Sch&uuml;&uuml;rhuis-Konietschke-Brunner検定の紹介 (2026/09/25)](https://qiita.com/okumakito/items/74888add4d2f2dcb5f9f)
+
 * [Brunner-Munzel検定 (2026/08/04)](https://qiita.com/okumakito/items/b8e7d15283a1fe13ed92)
 
 * [Decision Curve AnalysisとROC曲線の対応関係 (2026/07/30)](https://qiita.com/okumakito/items/0d037f6a1ddc6fcb7956)
