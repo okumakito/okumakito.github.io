@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [中心極限定理が適用可能な標本サイズの推定法 (2026/10/01)](https://qiita.com/okumakito/items/dc2b00eb8de57a30ea36)
+
 * [Sch&uuml;&uuml;rhuis-Konietschke-Brunner検定の紹介 (2026/09/25)](https://qiita.com/okumakito/items/74888add4d2f2dcb5f9f)
 
 * [Brunner-Munzel検定 (2026/08/04)](https://qiita.com/okumakito/items/b8e7d15283a1fe13ed92)
