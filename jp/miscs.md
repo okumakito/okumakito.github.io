@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [データが少ないときの二標本検定の偽陽性率の比較 (2026/10/09)](https://qiita.com/okumakito/items/5b8482e8257a18dbf97a)
+
 * [中心極限定理が適用可能な標本サイズの推定法 (2026/10/01)](https://qiita.com/okumakito/items/dc2b00eb8de57a30ea36)
 
 * [Sch&uuml;&uuml;rhuis-Konietschke-Brunner検定の紹介 (2026/09/25)](https://qiita.com/okumakito/items/74888add4d2f2dcb5f9f)
