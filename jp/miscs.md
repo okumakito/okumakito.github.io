@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [中央値検定で有意差が付くパターン (2026/10/13)](https://qiita.com/okumakito/items/a27263289ee877873e18)
+
 * [データが少ないときの二標本検定の偽陽性率の比較 (2026/10/09)](https://qiita.com/okumakito/items/5b8482e8257a18dbf97a)
 
 * [中心極限定理が適用可能な標本サイズの推定法 (2026/10/01)](https://qiita.com/okumakito/items/dc2b00eb8de57a30ea36)
