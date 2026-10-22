@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [n=2でt検定を使うとどうなるか (2026/10/22)](https://qiita.com/okumakito/items/77edd2ecb98aa6771df3)
+
 * [中央値検定で有意差が付くパターン (2026/10/13)](https://qiita.com/okumakito/items/a27263289ee877873e18)
 
 * [データが少ないときの二標本検定の偽陽性率の比較 (2026/10/09)](https://qiita.com/okumakito/items/5b8482e8257a18dbf97a)
