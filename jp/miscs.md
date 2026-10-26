@@ -4,6 +4,8 @@ Miscs
 Qiita
 -----
 
+* [Zimmerman (1994) の追試など (2026/10/26)](https://qiita.com/okumakito/items/bdb7bc8aa38d915a1d67)
+
 * [n=2でt検定を使うとどうなるか (2026/10/22)](https://qiita.com/okumakito/items/77edd2ecb98aa6771df3)
 
 * [中央値検定で有意差が付くパターン (2026/10/13)](https://qiita.com/okumakito/items/a27263289ee877873e18)
