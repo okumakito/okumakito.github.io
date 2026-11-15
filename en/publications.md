@@ -8,6 +8,8 @@ Journal papers
 
 <!--
 
+* M. Yokoyama, Y. Watanabe, H. Honoki, M. Oku, M.R. Aslam, S. Inagawa, Y. Morinaga, M.T. Hoai, P. Chimaobi, S. Watanabe, H. Hatta, T. Kado, A. Nishimura, M. Bilal, S. Jabbar, H. Niimi, T. Nakagawa, I. Usui, K. Hirabayashi, M. Kato, K. Tobe, S. Fujisaka: Alistipes indistinctus prevents obesity by suppressing intestinal CD36 in high-fat diet-fed mice (in preparation).
+
 * K. Kumagae, T. Nakakuki, M. Oku, J. Imura, K. Aihara: Predicting and preventing pathological oscillations: Ultra-early disease detection and intervention in antithetic integral feedback motifs (in preparation).
 
 * A. Nishimura, T. Kado, A. Nawaz, M. Bilal, T. Kuwano, Y. Watanabe, M.R. Aslam, M. Memoona, N.Q. Phuong, L.D. Anh, Y. Igarashi, Y. Onogi, T. Wada, T. Sasaoka, M. Matsumoto, K. Ikuta, M. Oku, M. Kadowaki, S. Fujisaka, H. Mori, M. Kato, K. Tobe: Early-phase dynamics of pre-existing adipose tissue macrophages in response to obesity (in preparation).
