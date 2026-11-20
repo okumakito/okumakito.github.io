@@ -93,6 +93,8 @@ Qiita
 YouTube
 -------
 
+* [場の最適輸送デモ (2026/11/20)](https://youtu.be/ZIcytxBQAeQ)
+
 * [optimal transport (2024/10/29)](https://youtu.be/MCxQH1sMnbk)
 
 * [クラリネットプロットの紹介 (統計学) (2024/08/30)](https://youtu.be/Ms8Djb-FiIU)
